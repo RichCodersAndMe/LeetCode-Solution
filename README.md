@@ -14,3 +14,4 @@
 | [746](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | [js](./Algorithms/js/MinCostClimbingStairs/MinCostClimbingStairs.js) | Easy |
 | [788](https://leetcode.com/problems/rotated-digits/) | [Rotated Digits](https://leetcode.com/problems/rotated-digits/) | [js](./Algorithms/js/RotatedDigits/RotatedDigits.js) | Easy |
 | [226](https://leetcode.com/problems/invert-binary-tree/) | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [js](./Algorithms/js/InvertBinaryTree/InvertBinaryTree.js) | Easy |
+| [783](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) | [js](./Algorithms/js/MinimumDistanceBetweenBSTNodes/MinimumDistanceBetweenBSTNodes.js) | Easy |
