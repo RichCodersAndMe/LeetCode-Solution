@@ -19,3 +19,4 @@
 | [733](https://leetcode.com/problems/flood-fill/) | [Flood Fill](https://leetcode.com/problems/flood-fill/) | [js](./Algorithms/js/FloodFill/FloodFill.js) | Easy |
 | [728](https://leetcode.com/problems/self-dividing-numbers/) | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | [js](./Algorithms/js/SelfDividingNumbers/SelfDividingNumbers.js) | Easy |
 | [724](https://leetcode.com/problems/find-pivot-index/) | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [js] (./Algorithms/js/FindPivotIndex/FindPivotIndex.js) | Easy |
+| [720](https://leetcode.com/problems/longest-word-in-dictionary/) | [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/) | [js](./Algorithms/js/LongestWordInDictionary/LongestWordInDictionary.js) | Easy |
