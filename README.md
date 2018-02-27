@@ -18,3 +18,4 @@
 | [744](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | [js](./Algorithms/js/FindSmallestLetterGreaterThanTarget) | Easy |
 | [733](https://leetcode.com/problems/flood-fill/) | [Flood Fill](https://leetcode.com/problems/flood-fill/) | [js](./Algorithms/js/FloodFill/FloodFill.js) | Easy |
 | [728](https://leetcode.com/problems/self-dividing-numbers/) | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | [js](./Algorithms/js/SelfDividingNumbers/SelfDividingNumbers.js) | Easy |
+| [724](https://leetcode.com/problems/find-pivot-index/) | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [js] (./Algorithms/js/FindPivotIndex/FindPivotIndex.js) | Easy |
