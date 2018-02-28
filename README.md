@@ -20,4 +20,5 @@
 | [728](https://leetcode.com/problems/self-dividing-numbers/) | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | [js](./Algorithms/js/SelfDividingNumbers/SelfDividingNumbers.js) | Easy |
 | [724](https://leetcode.com/problems/find-pivot-index/) | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [js] (./Algorithms/js/FindPivotIndex/FindPivotIndex.js) | Easy |
 | [720](https://leetcode.com/problems/longest-word-in-dictionary/) | [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/) | [js](./Algorithms/js/LongestWordInDictionary/LongestWordInDictionary.js) | Easy |
-| [717](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | [1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | [js]() | Easy |
+| [717](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | [1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | [js](./Algorithms/js/OneBitAndTwoBitCharacters/OneBitAndTwoBitCharacters.js) | Easy |
+| [697](https://leetcode.com/problems/degree-of-an-array/) | [Degree of an Array](https://leetcode.com/problems/degree-of-an-array/) | [js](./Algorithms/js/DegreeOfAnArray/DegreeOfAnArray.js) | Easy |
