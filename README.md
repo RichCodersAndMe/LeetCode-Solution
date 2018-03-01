@@ -24,3 +24,4 @@
 | [697](https://leetcode.com/problems/degree-of-an-array/) | [Degree of an Array](https://leetcode.com/problems/degree-of-an-array/) | [js](./Algorithms/js/DegreeOfAnArray/DegreeOfAnArray.js) | Easy |
 | [696](https://leetcode.com/problems/count-binary-substrings/) | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | [js](./Algorithms/js/CountBinarySubstrings/CountBinarySubstrings.js) | Easy |
 | [695](https://leetcode.com/problems/max-area-of-island/) | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [js](./Algorithms/js/MaxAreaOfIsland/MaxAreaOfIsland.js) | Easy |
+| [693](https://leetcode.com/problems/binary-number-with-alternating-bits/) | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) | [js](./Algorithms/js/BinaryNumberWithAlternatingBits/BinaryNumberWithAlternatingBits.js) | Easy |
