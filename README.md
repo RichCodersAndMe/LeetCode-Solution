@@ -22,4 +22,5 @@
 | [720](https://leetcode.com/problems/longest-word-in-dictionary/) | [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/) | [js](./Algorithms/js/LongestWordInDictionary/LongestWordInDictionary.js) | Easy |
 | [717](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | [1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | [js](./Algorithms/js/OneBitAndTwoBitCharacters/OneBitAndTwoBitCharacters.js) | Easy |
 | [697](https://leetcode.com/problems/degree-of-an-array/) | [Degree of an Array](https://leetcode.com/problems/degree-of-an-array/) | [js](./Algorithms/js/DegreeOfAnArray/DegreeOfAnArray.js) | Easy |
-| [696](https://leetcode.com/problems/count-binary-substrings/) | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | [js](./Algorithms/js/CountBinarySubstrings/CountBinarySubstrings.js) | Easy | 
+| [696](https://leetcode.com/problems/count-binary-substrings/) | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | [js](./Algorithms/js/CountBinarySubstrings/CountBinarySubstrings.js) | Easy |
+| [695](https://leetcode.com/problems/max-area-of-island/) | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [js](./Algorithms/js/MaxAreaOfIsland/MaxAreaOfIsland.js) | Easy |
