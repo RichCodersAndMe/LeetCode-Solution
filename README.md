@@ -25,3 +25,4 @@
 | [696](https://leetcode.com/problems/count-binary-substrings/) | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | [js](./Algorithms/js/CountBinarySubstrings/CountBinarySubstrings.js) | Easy |
 | [695](https://leetcode.com/problems/max-area-of-island/) | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [js](./Algorithms/js/MaxAreaOfIsland/MaxAreaOfIsland.js) | Easy |
 | [693](https://leetcode.com/problems/binary-number-with-alternating-bits/) | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) | [js](./Algorithms/js/BinaryNumberWithAlternatingBits/BinaryNumberWithAlternatingBits.js) | Easy |
+| [687](https://leetcode.com/problems/longest-univalue-path/) | [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/) | [js](./Algorithms/js/LongestUnivaluePath/LongestUnivaluePath.js) | Easy |
