@@ -30,3 +30,4 @@
 | [796](https://leetcode.com/problems/rotate-string/) | [Rotate String](https://leetcode.com/problems/rotate-string/) | [js](./Algorithms/js/RotateString/RotateString.js) | Easy |
 | [682](https://leetcode.com/problems/baseball-game/) | [Baseball Game](https://leetcode.com/problems/baseball-game/) | [js](./Algorithms/js/BaseballGame/BaseballGame.js) | Easy |
 | [680](https://leetcode.com/problems/valid-palindrome-ii/) | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | [js](./Algorithms/js/ValidPalindromeII/ValidPalindromeII.js) | Easy |
+| [674](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | [js](./Algorithms/js/LongestContinuousIncreasingSubsequence/LongestContinuousIncreasingSubsequence/LongestContinuousIncreasingSubsequence.js) | Easy |
