@@ -34,3 +34,4 @@
 | [671](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/) | [Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/) | [js](./Algorithms/js/SecondMinimumNodeInABinaryTree/SecondMinimumABinaryTree.js) | Easy |
 | [669](https://leetcode.com/problems/trim-a-binary-search-tree/) | [Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/) | [js](./Algorithms/js/TrimABinarySearchTree/TrimABinarySearchTree.js) | Easy |
 | [665](https://leetcode.com/problems/non-decreasing-array/) | [Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/) | [js](./NondecreasingArray/NondecreasingArray.js) | Easy |
+| [661](https://leetcode.com/problems/image-smoother/) | [Image Smoother](https://leetcode.com/problems/image-smoother/) | [js](./Algorithms/js/ImageSmoother/ImageSmoother.js) | Easy |
