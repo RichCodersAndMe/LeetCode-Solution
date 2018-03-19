@@ -38,3 +38,4 @@
 | [657](https://leetcode.com/problems/judge-route-circle/) | [Judge Route Circle](https://leetcode.com/problems/judge-route-circle/) | [js](./Algorithms/js/JudgeRouteCircle/JudgeRouteCircle.js) | Easy |
 | [653](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | [js](./Algorithms/js/TwoSumIVInputIsABST/TwoSumIVInputIsABST.js) | Easy |
 | [645](https://leetcode.com/problems/set-mismatch/) | [Set Mismatch](https://leetcode.com/problems/set-mismatch/) | [js](./Algorithms/js/SetMismatch/SetMismatch.js) | Easy |
+| [643](https://leetcode.com/problems/maximum-average-subarray-i/) | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | [js](./Algorithms/js/MaximumAverageSubarrayI/MaximumAverageSubarrayI.js) | Easy |
