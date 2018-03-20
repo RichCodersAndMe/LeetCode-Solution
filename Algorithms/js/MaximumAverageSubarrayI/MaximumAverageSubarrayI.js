@@ -36,3 +36,24 @@ var findMaxAverage = function(nums, k) {
     
     return ans;
 };
+
+/**
+ * @param {number[]} nums
+ * @param {number} k
+ * @return {number}
+ */
+var findMaxAverage = function(nums, k) {
+    var length = nums.length, i, sum = 0, ans;
+
+    for (i = 0; i < k; i++) {
+        sum += nums[i];
+    }
+    ans = sum;
+    for (i = k; i < length; i++) {
+        sum += nums[i] - nums[i - k];
+        ans = Math.max(ans, sum);
+    }
+    ans /= k;
+
+    return ans;
+};
