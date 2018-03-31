@@ -13,7 +13,7 @@
 ## [Easy](https://leetcode.com/problemset/all/?difficulty=Easy)题解
 | #    | 题解                                                         | C/C++ | Python | JavaScript | Java |
 | ---- | ------------------------------------------------------------ | ----- | ------ | ---------- | ---- |
-| [771](711-question)  | [Jewels and Stones](771-tips) |       |        |            |      |
+| [771](771-question)  | [Jewels and Stones](771-tips) |       |        |            |      |
 
 ## [Medium](https://leetcode.com/problemset/all/?difficulty=Medium)题解
 
