@@ -28,4 +28,4 @@
 
 [771-question]: https://leetcode.com/problems/jewels-and-stones
 
-[771-tips]: ./res/tips/771/README.md
+[771-tips]: ./tips/771/README.md
