@@ -1,4 +1,4 @@
-# <img src="./src/res/img/logo.gif" alt="PAT-Solution" width="80" height="80" align="bottom"/>LeetCode-Solution
+# <img src="./src/res/img/logo.gif" alt="LeetCode-Solution" width="80" height="80" align="bottom"/>LeetCode-Solution
 本仓库为LeetCode练习题题解记录，会持续更新各种语言的题解。同时也欢迎使用各种语言的同好♂们加入此项目，为开源贡献力量。
 
 > [LeetCode](https://leetcode.com/)  
