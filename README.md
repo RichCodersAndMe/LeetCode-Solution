@@ -13,7 +13,8 @@
 ## [Easy](https://leetcode.com/problemset/all/?difficulty=Easy)题解
 | #    | 题解                                                         | C/C++ | Python | JavaScript | Java |
 | ---- | ------------------------------------------------------------ | ----- | ------ | ---------- | ---- |
-| [771][771-question]  | [Jewels and Stones][771-tips] |       |        |            |      |
+| [771][771-question]  | [Jewels and Stones][771-tips] |       |        |            | [✅][771-java] |
+| [804](804-question) | [Unique Morse Code Words][804-tips] | | | | [✅][804-java] |
 
 ## [Medium](https://leetcode.com/problemset/all/?difficulty=Medium)题解
 
@@ -27,5 +28,10 @@
 [logo]: ./res/img/logo.gif
 
 [771-question]: https://leetcode.com/problems/jewels-and-stones
+[804-question]: https://leetcode.com/problems/unique-morse-code-words/description/
 
 [771-tips]: ./tips/771/README.md
+[804-tips]: ./tips/804/README.md
+
+[771-java]: ./src/_771/Solution.java
+[804-java]: ./src/_804/Solution.java
