@@ -11,8 +11,8 @@
 - [贡献者名单](#贡献者名单)
 
 ## [Easy](https://leetcode.com/problemset/all/?difficulty=Easy)题解
-| #    | 题解                                                | kotlin        | JavaScript | Java |
-| ---- | -------------------------------------------------- | -------------- | --------- | ---------- |
+| #    | 题解                                                | kotlin        | JavaScript |     Java      |
+| :----: | ------------------------------------------------ | :------------: | :-------: | :------------: |
 | [1][1-question]  | [Two Sum][1-tips]                      | [✅][1-kotlin] |           | [✅][1-java]   |
 | [771][771-question]  | [Jewels and Stones][771-tips]      |                |           | [✅][771-java] |
 | [804][804-question] | [Unique Morse Code Words][804-tips] |                |           | [✅][804-java] |
