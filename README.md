@@ -14,7 +14,7 @@
 | #    | 题解                                                         | C/C++ | Python | JavaScript | Java |
 | ---- | ------------------------------------------------------------ | ----- | ------ | ---------- | ---- |
 | [771][771-question]  | [Jewels and Stones][771-tips] |       |        |            | [✅][771-java] |
-| [804](804-question) | [Unique Morse Code Words][804-tips] | | | | [✅][804-java] |
+| [804][804-question] | [Unique Morse Code Words][804-tips] | | | | [✅][804-java] |
 
 ## [Medium](https://leetcode.com/problemset/all/?difficulty=Medium)题解
 
