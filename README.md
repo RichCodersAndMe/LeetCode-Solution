@@ -11,10 +11,11 @@
 - [贡献者名单](#贡献者名单)
 
 ## [Easy](https://leetcode.com/problemset/all/?difficulty=Easy)题解
-| #    | 题解                                                         | C/C++ | Python | JavaScript | Java |
-| ---- | ------------------------------------------------------------ | ----- | ------ | ---------- | ---- |
-| [771][771-question]  | [Jewels and Stones][771-tips] |       |        |            | [✅][771-java] |
-| [804][804-question] | [Unique Morse Code Words][804-tips] | | | | [✅][804-java] |
+| #    | 题解                                                | kotlin        | JavaScript | Java |
+| ---- | -------------------------------------------------- | -------------- | --------- | ---------- |
+| [1][1-question]  | [Two Sum][1-tips]                      | [✅][1-kotlin] |           | [✅][1-java]   |
+| [771][771-question]  | [Jewels and Stones][771-tips]      |                |           | [✅][771-java] |
+| [804][804-question] | [Unique Morse Code Words][804-tips] |                |           | [✅][804-java] |
 
 ## [Medium](https://leetcode.com/problemset/all/?difficulty=Medium)题解
 
@@ -27,11 +28,16 @@
 
 [logo]: ./res/img/logo.gif
 
-[771-question]: https://leetcode.com/problems/jewels-and-stones
+[1-question]: https://leetcode.com/problems/two-sum/description/
+[771-question]: https://leetcode.com/problems/jewels-and-stones/description/
 [804-question]: https://leetcode.com/problems/unique-morse-code-words/description/
 
+[1-tips]: ./tips/1/README.md
 [771-tips]: ./tips/771/README.md
 [804-tips]: ./tips/804/README.md
 
+[1-kotlin]: ./src/_1/kotlin/Solution.kt
+
+[1-java]: ./src/_1/Solution.java
 [771-java]: ./src/_771/Solution.java
 [804-java]: ./src/_804/Solution.java

@@ -1,3 +1,5 @@
+package _771;
+
 public class Solution {
     public int numJewelsInStones(String J, String S) {
         int sum = 0;
