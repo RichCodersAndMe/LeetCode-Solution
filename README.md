@@ -16,6 +16,7 @@
 | [1][1-question]     | [Two Sum][1-tips]                      | [✅][1-kotlin] |           | [✅][1-java]   |
 | [771][771-question] | [Jewels and Stones][771-tips]          |                |           | [✅][771-java] |
 | [804][804-question] | [Unique Morse Code Words][804-tips]    |                |           | [✅][804-java] |
+| [728][728-question] | [Self Dividing Numbers][728-tips] | | | [✅][728-java] |
 
 ## [Medium](https://leetcode.com/problemset/all/?difficulty=Medium)题解
 |         题目         | 题解                                   | kotlin        | JavaScript |     Java      |
@@ -36,11 +37,13 @@
 [2-question]: https://leetcode.com/problems/add-two-numbers/description/
 [771-question]: https://leetcode.com/problems/jewels-and-stones/description/
 [804-question]: https://leetcode.com/problems/unique-morse-code-words/description/
+[728-question]: https://leetcode.com/problems/self-dividing-numbers/description/
 
 [1-tips]: ./tips/1/README.md
 [2-tips]: ./tips/2/README.md
 [771-tips]: ./tips/771/README.md
 [804-tips]: ./tips/804/README.md
+[728-tips]: ./tips/728/README.md
 
 [1-kotlin]: ./src/_1/kotlin/Solution.kt
 [2-kotlin]: ./src/_2/kotlin/Solution.kt
@@ -49,3 +52,4 @@
 [2-java]: ./src/_2/Solution.java
 [771-java]: ./src/_771/Solution.java
 [804-java]: ./src/_804/Solution.java
+[728-java]: ./src/_728/Solution.java
