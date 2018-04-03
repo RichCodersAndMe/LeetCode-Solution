@@ -135,6 +135,7 @@
 [744-tips]: ./tips/744/README.md
 [746-tips]: ./tips/746/README.md
 [747-tips]: ./tips/747/README.md
+[762-tips]: ./tips/762/README.md
 [766-tips]: ./tips/766/README.md
 [771-tips]: ./tips/771/README.md
 [783-tips]: ./tips/783/README.md
