@@ -45,9 +45,9 @@ class Solution {
 
 ## 结语
 
-如果你同我一样热爱数据结构、算法、LeetCode，可以关注我 GitHub 上的 LeetCode 题解：[awesome-java-leetcode][ajl]
+如果你同我一样热爱数据结构、算法、LeetCode，可以关注我 GitHub 上的 LeetCode 题解：[LeetCode-Solution][ls]
 
 
 
 [title]: https://leetcode.com/problems/powx-n
-[ajl]: https://github.com/Blankj/awesome-java-leetcode
+[ls]: https://github.com/SDE603/LeetCode-Solution

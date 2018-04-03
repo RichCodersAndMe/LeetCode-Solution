@@ -1,4 +1,4 @@
-package com.blankj.easy._053;
+package _053;
 
 /**
  * <pre>

@@ -1,6 +1,6 @@
-package com.blankj.easy._021;
+package _021;
 
-import com.blankj.structure.ListNode;
+import structure.ListNode;
 
 /**
  * <pre>

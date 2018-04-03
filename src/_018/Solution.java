@@ -1,10 +1,6 @@
-package com.blankj.medium._018;
+package _018;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 /**
  * <pre>

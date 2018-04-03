@@ -3,7 +3,7 @@
 
 > [LeetCode](https://leetcode.com/) is the best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews.
 
-如果想知道更多公司 LeetCode 面试题，可以参看 [Companies.md][companies]。
+如果想知道各大公司 LeetCode 面试题，可以参看 [Companies.md][companies]。
 
 附上[@Blankj](https://github.com/Blankj)的镇楼诗：
 
@@ -15,9 +15,10 @@
 > 科举为国取士，LeetCode 为 Google 筛码工，各取所需也。  
 
 ## 目录
-- [Easy题解](#Easy)
-- [Medium题解](#Medium)
-- [Hard题解](#Hard)
+- [Easy](#Easy)
+- [Medium](#Medium)
+- [Hard](#Hard)
+- [库维护须知](#库维护须知)
 - [贡献者名单](#贡献者名单)
 
 ## [Easy](https://leetcode.com/problemset/all/?difficulty=Easy)
@@ -131,78 +132,81 @@
 | [057][057-question] | [Insert Interval][057-tips]                                | Array, Sort                                       | [✅][057-java] |              |                 |
 | [068][068-question] | [Text Justification][068-tips]                             | String                                            | [✅][068-java] |              |                 |
 
+## 库维护须知
+[库维护须知.md](./库维护须知.md)
+
 ## 贡献者名单
 排名不分先后
 - 感谢[@Mukyu](https://github.com/Mukyu), 提供**Java**题解。
 - 感谢[@Wang-YS](https://github.com/Wang-YS), 提供**JavaScrip**代码。
-- 感谢[@WangXin](https://github.com/relish-wang), 提供**kotlin**代码及文档整理。
-- 感谢[@Blankj](https://github.com/Blankj), 提供**Java**题解、**镇楼诗**及文档整理。
+- 感谢[@Blankj](https://github.com/Blankj), 提供**Java**题解、**镇楼诗**及文档编写规范。
+- 感谢[@WangXin](https://github.com/relish-wang), 提供**kotlin**代码、文档整理及库维护规范。
 
 [companies]: ./Companies.md
 
 [001-question]: https://leetcode.com/problems/two-sum/description/
 [002-question]: https://leetcode.com/problems/add-two-numbers/description/
-[003-question]: TODO
-[004-question]: TODO
-[005-question]: TODO
-[006-question]: TODO
-[007-question]: TODO
-[008-question]: TODO
-[009-question]: TODO
-[010-question]: TODO
-[011-question]: TODO
-[012-question]: TODO
-[013-question]: TODO
-[014-question]: TODO
-[015-question]: TODO
-[016-question]: TODO
-[017-question]: TODO
-[018-question]: TODO
-[019-question]: TODO
-[020-question]: TODO
-[021-question]: TODO
-[022-question]: TODO
-[023-question]: TODO
-[024-question]: TODO
-[025-question]: TODO
-[026-question]: TODO
-[027-question]: TODO
-[028-question]: TODO
-[029-question]: TODO
-[030-question]: TODO
-[033-question]: TODO
-[035-question]: TODO
-[038-question]: TODO
-[043-question]: TODO
-[044-question]: TODO
-[049-question]: TODO
-[050-question]: TODO
-[053-question]: TODO
-[056-question]: TODO
-[057-question]: TODO
-[058-question]: TODO
-[066-question]: TODO
-[067-question]: TODO
-[068-question]: TODO
-[069-question]: TODO
-[070-question]: TODO
-[083-question]: TODO
-[088-question]: TODO
-[100-question]: TODO
-[101-question]: TODO
-[104-question]: TODO
-[107-question]: TODO
-[108-question]: TODO
-[110-question]: TODO
-[111-question]: TODO
-[112-question]: TODO
-[118-question]: TODO
-[119-question]: TODO
-[121-question]: TODO
-[122-question]: TODO
+[003-question]: https://leetcode.com/problems/longest-substring-without-repeating-characters/
+[004-question]: https://leetcode.com/problems/median-of-two-sorted-arrays/
+[005-question]: https://leetcode.com/problems/longest-palindromic-substring/
+[006-question]: https://leetcode.com/problems/zigzag-conversion/
+[007-question]: https://leetcode.com/problems/reverse-integer/
+[008-question]: https://leetcode.com/problems/string-to-integer-atoi/description/
+[009-question]: https://leetcode.com/problems/palindrome-number/
+[010-question]: https://leetcode.com/problems/regular-expression-matching/
+[011-question]: https://leetcode.com/problems/container-with-most-water/
+[012-question]: https://leetcode.com/problems/integer-to-roman/
+[013-question]: https://leetcode.com/problems/roman-to-integer/
+[014-question]: https://leetcode.com/problems/longest-common-prefix/
+[015-question]: https://leetcode.com/problems/3sum/description/
+[016-question]: https://leetcode.com/problems/3sum-closest/
+[017-question]: https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/
+[018-question]: https://leetcode.com/problems/4sum/
+[019-question]: https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
+[020-question]: https://leetcode.com/problems/valid-parentheses/description/
+[021-question]: https://leetcode.com/problems/merge-two-sorted-lists/
+[022-question]: https://leetcode.com/problems/generate-parentheses/
+[023-question]: https://leetcode.com/problems/merge-k-sorted-lists/
+[024-question]: https://leetcode.com/problems/swap-nodes-in-pairs/
+[025-question]: https://leetcode.com/problems/reverse-nodes-in-k-group/
+[026-question]: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+[027-question]: https://leetcode.com/problems/remove-element/
+[028-question]: https://leetcode.com/problems/implement-strstr/
+[029-question]: https://leetcode.com/problems/divide-two-integers/description/
+[030-question]: https://leetcode.com/problems/substring-with-concatenation-of-all-words/
+[033-question]: https://leetcode.com/problems/search-in-rotated-sorted-array/description/
+[035-question]: https://leetcode.com/problems/search-insert-position/description/
+[038-question]: https://leetcode.com/problems/count-and-say/
+[043-question]: https://leetcode.com/problems/multiply-strings/
+[044-question]: https://leetcode.com/problems/wildcard-matching/
+[049-question]: https://leetcode.com/problems/group-anagrams/
+[050-question]: https://leetcode.com/problems/powx-n/
+[053-question]: https://leetcode.com/problems/maximum-subarray/
+[056-question]: https://leetcode.com/problems/merge-intervals/
+[057-question]: https://leetcode.com/problems/insert-interval/
+[058-question]: https://leetcode.com/problems/length-of-last-word/
+[066-question]: https://leetcode.com/problems/plus-one/
+[067-question]: https://leetcode.com/problems/add-binary/
+[068-question]: https://leetcode.com/problems/text-justification/
+[069-question]: https://leetcode.com/problems/sqrtx/description/
+[070-question]: https://leetcode.com/problems/climbing-stairs/
+[083-question]: https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+[088-question]: https://leetcode.com/problems/merge-sorted-array/
+[100-question]: https://leetcode.com/problems/same-tree/
+[101-question]: https://leetcode.com/problems/symmetric-tree/
+[104-question]: https://leetcode.com/problems/maximum-depth-of-binary-tree/
+[107-question]: https://leetcode.com/problems/binary-tree-level-order-traversal-ii/
+[108-question]: https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
+[110-question]: https://leetcode.com/problems/balanced-binary-tree/
+[111-question]: https://leetcode.com/problems/minimum-depth-of-binary-tree/description/
+[112-question]: https://leetcode.com/problems/path-sum/description/
+[118-question]: https://leetcode.com/problems/pascals-triangle/
+[119-question]: https://leetcode.com/problems/pascals-triangle-ii/
+[121-question]: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
+[122-question]: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/
 [226-question]: https://leetcode.com/problems/invert-binary-tree/
-[543-question]: TODO
-[554-question]: TODO
+[543-question]: https://leetcode.com/problems/diameter-of-binary-tree/
+[554-question]: https://leetcode.com/problems/brick-wall/description/
 [561-question]: https://leetcode.com/problems/array-partition-i/
 [643-question]: https://leetcode.com/problems/maximum-average-subarray-i/
 [645-question]: https://leetcode.com/problems/set-mismatch/

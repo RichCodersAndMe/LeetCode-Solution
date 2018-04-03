@@ -1,4 +1,4 @@
-package com.blankj.easy._121;
+package _121;
 
 
 /**

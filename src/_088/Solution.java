@@ -1,4 +1,4 @@
-package com.blankj.easy._088;
+package _088;
 
 import java.util.Arrays;
 

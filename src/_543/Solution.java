@@ -1,7 +1,7 @@
-package com.blankj.easy._543;
+package _543;
 
 
-import com.blankj.structure.TreeNode;
+import structure.TreeNode;
 
 /**
  * <pre>

@@ -1,4 +1,4 @@
-package com.blankj.medium._029;
+package _029;
 
 /**
  * <pre>

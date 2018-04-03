@@ -1,6 +1,6 @@
-package com.blankj.medium._056;
+package _056;
 
-import com.blankj.structure.Interval;
+import structure.Interval;
 
 import java.util.ArrayList;
 import java.util.Comparator;

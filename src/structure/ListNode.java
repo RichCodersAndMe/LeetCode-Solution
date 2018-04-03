@@ -1,4 +1,4 @@
-package com.blankj.structure;
+package structure;
 
 /**
  * <pre>

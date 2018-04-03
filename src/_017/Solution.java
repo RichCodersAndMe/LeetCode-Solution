@@ -1,4 +1,4 @@
-package com.blankj.medium._017;
+package _017;
 
 import java.util.Collections;
 import java.util.LinkedList;

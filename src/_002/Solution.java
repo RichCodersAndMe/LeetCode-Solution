@@ -1,6 +1,6 @@
-package com.blankj.medium._002;
+package _002;
 
-import com.blankj.structure.ListNode;
+import structure.ListNode;
 
 /**
  * <pre>
@@ -11,6 +11,41 @@ import com.blankj.structure.ListNode;
  * </pre>
  */
 public class Solution {
+    
+//    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+//        ListNode firstNode = null;
+//        ListNode prev = null;
+//
+//        int co = 0;
+//        while (l1 != null || l2 != null) {
+//            int val1 = l1 == null ? 0 : l1.val;
+//            int val2 = l2 == null ? 0 : l2.val;
+//
+//            int val = val1 + val2 + co;
+//            if (val >= 10) {
+//                val %= 10;
+//                co = 1;
+//            } else {
+//                co = 0;
+//            }
+//            if (firstNode == null) {
+//                firstNode = new ListNode(val);
+//                prev = firstNode;
+//            } else {
+//                ListNode newNode = new ListNode(val);
+//                prev.next = newNode;
+//                prev = newNode;
+//            }
+//
+//            l1 = l1 == null ? null : l1.next;
+//            l2 = l2 == null ? null : l2.next;
+//        }
+//        if (co == 1) {
+//            prev.next = new ListNode(1);
+//        }
+//        return firstNode;
+//    }
+    
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode node = new ListNode(0);
         ListNode n1 = l1, n2 = l2, t = node;

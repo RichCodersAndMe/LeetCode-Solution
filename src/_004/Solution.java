@@ -1,4 +1,4 @@
-package com.blankj.hard._004;
+package _004;
 
 /**
  * <pre>

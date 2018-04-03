@@ -1,4 +1,4 @@
-package com.blankj.easy._013;
+package _013;
 
 import java.util.HashMap;
 import java.util.Map;
