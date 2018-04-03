@@ -18,7 +18,7 @@
 | [744](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | [js](./Algorithms/js/FindSmallestLetterGreaterThanTarget) | Easy |
 | [733](https://leetcode.com/problems/flood-fill/) | [Flood Fill](https://leetcode.com/problems/flood-fill/) | [js](./Algorithms/js/FloodFill/FloodFill.js) | Easy |
 | [728](https://leetcode.com/problems/self-dividing-numbers/) | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | [js](./Algorithms/js/SelfDividingNumbers/SelfDividingNumbers.js) | Easy |
-| [724](https://leetcode.com/problems/find-pivot-index/) | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [js] (./Algorithms/js/FindPivotIndex/FindPivotIndex.js) | Easy |
+| [724](https://leetcode.com/problems/find-pivot-index/) | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [js](./Algorithms/js/FindPivotIndex/FindPivotIndex.js) | Easy |
 | [720](https://leetcode.com/problems/longest-word-in-dictionary/) | [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/) | [js](./Algorithms/js/LongestWordInDictionary/LongestWordInDictionary.js) | Easy |
 | [717](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | [1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | [js](./Algorithms/js/OneBitAndTwoBitCharacters/OneBitAndTwoBitCharacters.js) | Easy |
 | [697](https://leetcode.com/problems/degree-of-an-array/) | [Degree of an Array](https://leetcode.com/problems/degree-of-an-array/) | [js](./Algorithms/js/DegreeOfAnArray/DegreeOfAnArray.js) | Easy |
@@ -39,3 +39,4 @@
 | [653](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | [js](./Algorithms/js/TwoSumIVInputIsABST/TwoSumIVInputIsABST.js) | Easy |
 | [645](https://leetcode.com/problems/set-mismatch/) | [Set Mismatch](https://leetcode.com/problems/set-mismatch/) | [js](./Algorithms/js/SetMismatch/SetMismatch.js) | Easy |
 | [643](https://leetcode.com/problems/maximum-average-subarray-i/) | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | [js](./Algorithms/js/MaximumAverageSubarrayI/MaximumAverageSubarrayI.js) | Easy |
+| [806](https://leetcode.com/problems/number-of-lines-to-write-string/) | [Number of Lines To Write String](https://leetcode.com/problems/number-of-lines-to-write-string/) | [js](./Algorithms/js/NumberOfLinesToWriteString/NumberOfLinesToWriteString.js) | Easy |
