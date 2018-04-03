@@ -17,7 +17,6 @@ return [0, 1].
 
 二次循环即可。
 
-
 ### kotlin
 ```kotlin
 class Solution {
