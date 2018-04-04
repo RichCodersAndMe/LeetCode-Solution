@@ -1,46 +1,55 @@
-[xxxx][title]
+[Invert Binary Tree][title]
 
 ## Description
-// 抄题目
 
-
-**Example:**
+Invert a binary tree.
 
 ```
-// 抄Example
+     4
+   /   \
+  2     7
+ / \   / \
+1   3 6   9
 ```
 
-**Note:**
-// Note
+to
 
-**Tags:** // tags
+```
+     4
+   /   \
+  7     2
+ / \   / \
+9   6 3   1
+```
 
+**Trivia:**
+This problem was inspired by this original tweet by Max Howell:
 
-## 思路 1
-// 贴一些关键代码,说一些解题思路
-// (同一种语言可以写多种思路，与某种语言思路相同的另一种语言的思路无须赘述，但可以把代码贴在后面) 
+> Google: 90% of our engineers use the software you wrote (Homebrew), but you can’t invert a binary tree on a whiteboard so f*** off.
+
+**Tags:** 
+[tree](https://leetcode.com/tag/tree/)
+
+## 思路
+反转二叉树。通过前序遍历，依次调换每个节点的两个子节点即可。
 ```java
+public TreeNode invertTree(TreeNode root) {
+	if (root == null || (root.left == null && root.right == null)) {
+		return root;
+	}
 
-```
-```javascript
+	TreeNode tmpNode = root.left;
+	root.left = invertTree(root.right);
+	root.right = invertTree(tmpNode);
 
-```
-
-## 思路 2
-// 贴一些关键代码,说一些解题思路
-```java
-
-```
-
-## 思路 3
-// 贴一些关键代码,说一些解题思路
-```kotlin
-
+	return root;
+}
 ```
 
 ## 结语
-   
+
 如果你同我们一样热爱数据结构、算法、LeetCode，可以关注我们 GitHub 上的 LeetCode 题解：[LeetCode-Solution][ls]
 
-[title]: https://leetcode.com/problems/xxxx
+[title]: https://leetcode.com/problems/invert-binary-tree/description/
 [ls]: https://github.com/SDE603/LeetCode-Solution
+

@@ -22,70 +22,70 @@
 - [贡献者名单](#贡献者名单)
 
 ## [Easy](https://leetcode.com/problemset/all/?difficulty=Easy)
-|         题目         | 题解                                                         | Tag                                            |     Java       | JavaScript   | kotlin           | 
+|         题目         | 题解                                                         | Tag                                            |     Java       | JavaScript   | kotlin           |
 | :-----------------: | ------------------------------------------------------------ | :--------------------------------------------: | :------------- |:-----------: | :---------------:|
-| [001][001-question] | [Two Sum][001-tips]                                          | Array, Hash Table                              | [✅][001-java] | [✅][001-js] | [✅][001-kotlin] |   
-| [007][007-question] | [Reverse Integer][007-tips]                                  | Math                                           | [✅][007-java] |              |                  |   
-| [009][009-question] | [Palindrome Number][009-tips]                                | Math                                           | [✅][009-java] |              |                  |   
-| [013][013-question] | [Roman to Integer][013-tips]                                 | Math, String                                   | [✅][013-java] |              |                  |   
-| [014][014-question] | [Longest Common Prefix][014-tips]                            | String                                         | [✅][014-java] |              |                  |   
-| [020][020-question] | [Valid Parentheses][020-tips]                                | Stack, String                                  | [✅][020-java] |              |                  |   
-| [021][021-question] | [Merge Two Sorted Lists][021-tips]                           | Linked List                                    | [✅][021-java] |              |                  |   
-| [026][026-question] | [Remove Duplicates from Sorted Array][026-tips]              | Array, Two Pointers                            | [✅][026-java] |              |                  |   
-| [027][027-question] | [Remove Element][027-tips]                                   | Array, Two Pointers                            | [✅][027-java] |              |                  |   
-| [028][028-question] | [Implement strStr()][028-tips]                               | Two Pointers, String                           | [✅][028-java] |              |                  |   
-| [035][035-question] | [Search Insert Position][035-tips]                           | String                                         | [✅][035-java] |              |                  |   
-| [038][038-question] | [Count and Say][038-tips]                                    | String                                         | [✅][038-java] |              |                  |   
-| [053][053-question] | [Maximum Subarray][053-tips]                                 | Array, Divide and Conquer, Dynamic Programming | [✅][053-java] |              |                  |   
-| [058][058-question] | [Length of Last Word][058-tips]                              | String                                         | [✅][058-java] |              |                  |   
-| [066][066-question] | [Plus One][066-tips]                                         | Array, Math                                    | [✅][066-java] |              |                  |   
-| [067][067-question] | [Add Binary][067-tips]                                       | Math, String                                   | [✅][067-java] |              |                  |   
-| [069][069-question] | [Sqrt(x)][069-tips]                                          | Binary Search, Math                            | [✅][069-java] |              |                  |   
-| [070][070-question] | [Climbing Stairs][070-tips]                                  | Dynamic Programming                            | [✅][070-java] |              |                  |   
-| [083][083-question] | [Remove Duplicates from Sorted List][083-tips]               | Linked List                                    | [✅][083-java] |              |                  |   
-| [088][088-question] | [Merge Sorted Array][088-tips]                               | Array, Two Pointers                            | [✅][088-java] |              |                  |   
-| [100][100-question] | [Same Tree][100-tips]                                        | Tree, Depth-first Search                       | [✅][100-java] |              |                  |   
-| [101][101-question] | [Symmetric Tree][101-tips]                                   | Tree, Depth-first Search, Breadth-first Search | [✅][101-java] |              |                  |   
-| [104][104-question] | [Maximum Depth of Binary Tree][104-tips]                     | Tree, Depth-first Search                       | [✅][104-java] |              |                  |   
-| [107][107-question] | [Binary Tree Level Order Traversal II][107-tips]             | Tree, Depth-first Search                       | [✅][107-java] |              |                  |   
-| [108][108-question] | [Convert Sorted Array to Binary Search Tree][108-tips]       | Tree, Depth-first Search                       | [✅][108-java] |              |                  |   
-| [110][110-question] | [Balanced Binary Tree][110-tips]                             | Tree, Depth-first Search                       | [✅][110-java] |              |                  |   
-| [111][111-question] | [Minimum Depth of Binary Tree][111-tips]                     | Tree, Depth-first Search, Breadth-first Search | [✅][111-java] |              |                  |   
-| [112][112-question] | [Path Sum][112-tips]                                         | Tree, Depth-first Search                       | [✅][112-java] |              |                  |   
-| [118][118-question] | [Pascal's Triangle][118-tips]                                | Array                                          | [✅][118-java] |              |                  |   
-| [119][119-question] | [Pascal's Triangle II][119-tips]                             | Array                                          | [✅][119-java] |              |                  |   
-| [121][121-question] | [Best Time to Buy and Sell Stock][121-tips]                  | Array, Dynamic Programmin                      | [✅][121-java] |              |                  |   
-| [122][122-question] | [Best Time to Buy and Sell Stock II][122-tips]               | Array, Greedy                                  | [✅][122-java] |              |                  |   
-| [226][226-question] | [Invert Binary Tree][226-tips]                               |                                                |                | [✅][226-js] |                  | 
-| [543][543-question] | [Diameter of Binary Tree][543-tips]                          | Tree                                           | [✅][543-java] |              |                  |   
-| [561][561-question] | [Array Partition I][561-tips]                                |                                                |                | [✅][561-js] |                  | 
-| [643][643-question] | [Maximum Average Subarray I][643-tips]                       |                                                |                | [✅][643-js] |                  | 
-| [645][645-question] | [Set Mismatch][645-tips]                                     |                                                |                | [✅][645-js] |                  | 
-| [653][653-question] | [Two Sum IV - Input is a BST][653-tips]                      |                                                |                | [✅][653-js] |                  | 
-| [657][657-question] | [Judge Route Circle][657-tips]                               |                                                |                | [✅][657-js] |                  | 
-| [661][661-question] | [Image Smoother][661-tips]                                   |                                                |                | [✅][661-js] |                  | 
-| [665][665-question] | [Non-decreasing Array][665-tips]                             |                                                |                | [✅][665-js] |                  | 
-| [669][669-question] | [Trim a Binary Search Tree][669-tips]                        |                                                |                | [✅][669-js] |                  | 
-| [671][671-question] | [Second Minimum Node In a Binary Tree][671-tips]             |                                                |                | [✅][671-js] |                  | 
-| [674][674-question] | [Longest Continuous Increasing Subsequence][674-tips]        |                                                |                | [✅][674-js] |                  | 
-| [680][680-question] | [Valid Palindrome II][680-tips]                              |                                                |                | [✅][680-js] |                  | 
-| [682][682-question] | [Baseball Game][682-tips]                                    |                                                |                | [✅][682-js] |                  | 
-| [686][686-question] | [Repeated String Match][686-tips]                            |                                                |                | [✅][686-js] |                  | 
-| [687][687-question] | [Longest Univalue Path][687-tips]                            |                                                |                | [✅][687-js] |                  | 
-| [693][693-question] | [Binary Number with Alternating Bits][693-tips]              |                                                |                | [✅][693-js] |                  | 
-| [695][695-question] | [Max Area of Island][695-tips]                               |                                                |                | [✅][695-js] |                  | 
-| [696][696-question] | [Count Binary Substrings][696-tips]                          |                                                |                | [✅][696-js] |                  | 
-| [697][697-question] | [Degree of an Array][697-tips]                               |                                                |                | [✅][697-js] |                  | 
-| [717][717-question] | [1-bit and 2-bit Characters][717-tips]                       |                                                |                | [✅][717-js] |                  | 
-| [720][720-question] | [Longest Word in Dictionary][720-tips]                       |                                                |                | [✅][720-js] |                  | 
-| [724][724-question] | [Find Pivot Index][724-tips]                                 |                                                |                | [✅][724-js] |                  | 
-| [728][728-question] | [Self Dividing Numbers][728-tips]                            |                                                | [✅][728-java] | [✅][728-js] |                  | 
-| [733][733-question] | [Flood Fill][733-tips]                                       |                                                |                | [✅][733-js] |                  | 
-| [744][744-question] | [Find Smallest Letter Greater Than Target][744-tips]         |                                                |                | [✅][744-js] |                  | 
-| [746][746-question] | [Min Cost Climbing Stairs][746-tips]                         |                                                |                | [✅][746-js] |                  | 
-| [747][747-question] | [Largest Number At Least Twice of Others][747-tips]          |                                                |                | [✅][747-js] |                  | 
-| [762][762-question] | [Prime Number of Set Bits in Binary Representation][762-tips]|                                                |                | [✅][762-js] |                  | 
-| [766][766-question] | [Toeplitz Matrix][766-tips]                                  |                                                |                | [✅][766-js] |                  | 
+| [001][001-question] | [Two Sum][001-tips]                                          | Array, Hash Table                              | [✅][001-java] | [✅][001-js] | [✅][001-kotlin] |
+| [007][007-question] | [Reverse Integer][007-tips]                                  | Math                                           | [✅][007-java] |              |                  |
+| [009][009-question] | [Palindrome Number][009-tips]                                | Math                                           | [✅][009-java] |              |                  |
+| [013][013-question] | [Roman to Integer][013-tips]                                 | Math, String                                   | [✅][013-java] |              |                  |
+| [014][014-question] | [Longest Common Prefix][014-tips]                            | String                                         | [✅][014-java] |              |                  |
+| [020][020-question] | [Valid Parentheses][020-tips]                                | Stack, String                                  | [✅][020-java] |              |                  |
+| [021][021-question] | [Merge Two Sorted Lists][021-tips]                           | Linked List                                    | [✅][021-java] |              |                  |
+| [026][026-question] | [Remove Duplicates from Sorted Array][026-tips]              | Array, Two Pointers                            | [✅][026-java] |              |                  |
+| [027][027-question] | [Remove Element][027-tips]                                   | Array, Two Pointers                            | [✅][027-java] |              |                  |
+| [028][028-question] | [Implement strStr()][028-tips]                               | Two Pointers, String                           | [✅][028-java] |              |                  |
+| [035][035-question] | [Search Insert Position][035-tips]                           | String                                         | [✅][035-java] |              |                  |
+| [038][038-question] | [Count and Say][038-tips]                                    | String                                         | [✅][038-java] |              |                  |
+| [053][053-question] | [Maximum Subarray][053-tips]                                 | Array, Divide and Conquer, Dynamic Programming | [✅][053-java] |              |                  |
+| [058][058-question] | [Length of Last Word][058-tips]                              | String                                         | [✅][058-java] |              |                  |
+| [066][066-question] | [Plus One][066-tips]                                         | Array, Math                                    | [✅][066-java] |              |                  |
+| [067][067-question] | [Add Binary][067-tips]                                       | Math, String                                   | [✅][067-java] |              |                  |
+| [069][069-question] | [Sqrt(x)][069-tips]                                          | Binary Search, Math                            | [✅][069-java] |              |                  |
+| [070][070-question] | [Climbing Stairs][070-tips]                                  | Dynamic Programming                            | [✅][070-java] |              |                  |
+| [083][083-question] | [Remove Duplicates from Sorted List][083-tips]               | Linked List                                    | [✅][083-java] |              |                  |
+| [088][088-question] | [Merge Sorted Array][088-tips]                               | Array, Two Pointers                            | [✅][088-java] |              |                  |
+| [100][100-question] | [Same Tree][100-tips]                                        | Tree, Depth-first Search                       | [✅][100-java] |              |                  |
+| [101][101-question] | [Symmetric Tree][101-tips]                                   | Tree, Depth-first Search, Breadth-first Search | [✅][101-java] |              |                  |
+| [104][104-question] | [Maximum Depth of Binary Tree][104-tips]                     | Tree, Depth-first Search                       | [✅][104-java] |              |                  |
+| [107][107-question] | [Binary Tree Level Order Traversal II][107-tips]             | Tree, Depth-first Search                       | [✅][107-java] |              |                  |
+| [108][108-question] | [Convert Sorted Array to Binary Search Tree][108-tips]       | Tree, Depth-first Search                       | [✅][108-java] |              |                  |
+| [110][110-question] | [Balanced Binary Tree][110-tips]                             | Tree, Depth-first Search                       | [✅][110-java] |              |                  |
+| [111][111-question] | [Minimum Depth of Binary Tree][111-tips]                     | Tree, Depth-first Search, Breadth-first Search | [✅][111-java] |              |                  |
+| [112][112-question] | [Path Sum][112-tips]                                         | Tree, Depth-first Search                       | [✅][112-java] |              |                  |
+| [118][118-question] | [Pascal's Triangle][118-tips]                                | Array                                          | [✅][118-java] |              |                  |
+| [119][119-question] | [Pascal's Triangle II][119-tips]                             | Array                                          | [✅][119-java] |              |                  |
+| [121][121-question] | [Best Time to Buy and Sell Stock][121-tips]                  | Array, Dynamic Programmin                      | [✅][121-java] |              |                  |
+| [122][122-question] | [Best Time to Buy and Sell Stock II][122-tips]               | Array, Greedy                                  | [✅][122-java] |              |                  |
+| [226][226-question] | [Invert Binary Tree][226-tips]                               | Tree | [✅][226-java] | [✅][226-js] |                  |
+| [543][543-question] | [Diameter of Binary Tree][543-tips]                          | Tree                                           | [✅][543-java] |              |                  |
+| [561][561-question] | [Array Partition I][561-tips]                                |                                                |                | [✅][561-js] |                  |
+| [643][643-question] | [Maximum Average Subarray I][643-tips]                       |                                                |                | [✅][643-js] |                  |
+| [645][645-question] | [Set Mismatch][645-tips]                                     |                                                |                | [✅][645-js] |                  |
+| [653][653-question] | [Two Sum IV - Input is a BST][653-tips]                      |                                                |                | [✅][653-js] |                  |
+| [657][657-question] | [Judge Route Circle][657-tips]                               |                                                |                | [✅][657-js] |                  |
+| [661][661-question] | [Image Smoother][661-tips]                                   |                                                |                | [✅][661-js] |                  |
+| [665][665-question] | [Non-decreasing Array][665-tips]                             |                                                |                | [✅][665-js] |                  |
+| [669][669-question] | [Trim a Binary Search Tree][669-tips]                        |                                                |                | [✅][669-js] |                  |
+| [671][671-question] | [Second Minimum Node In a Binary Tree][671-tips]             |                                                |                | [✅][671-js] |                  |
+| [674][674-question] | [Longest Continuous Increasing Subsequence][674-tips]        |                                                |                | [✅][674-js] |                  |
+| [680][680-question] | [Valid Palindrome II][680-tips]                              |                                                |                | [✅][680-js] |                  |
+| [682][682-question] | [Baseball Game][682-tips]                                    |                                                |                | [✅][682-js] |                  |
+| [686][686-question] | [Repeated String Match][686-tips]                            |                                                |                | [✅][686-js] |                  |
+| [687][687-question] | [Longest Univalue Path][687-tips]                            |                                                |                | [✅][687-js] |                  |
+| [693][693-question] | [Binary Number with Alternating Bits][693-tips]              |                                                |                | [✅][693-js] |                  |
+| [695][695-question] | [Max Area of Island][695-tips]                               |                                                |                | [✅][695-js] |                  |
+| [696][696-question] | [Count Binary Substrings][696-tips]                          |                                                |                | [✅][696-js] |                  |
+| [697][697-question] | [Degree of an Array][697-tips]                               |                                                |                | [✅][697-js] |                  |
+| [717][717-question] | [1-bit and 2-bit Characters][717-tips]                       |                                                |                | [✅][717-js] |                  |
+| [720][720-question] | [Longest Word in Dictionary][720-tips]                       |                                                |                | [✅][720-js] |                  |
+| [724][724-question] | [Find Pivot Index][724-tips]                                 |                                                |                | [✅][724-js] |                  |
+| [728][728-question] | [Self Dividing Numbers][728-tips]                            |                                                | [✅][728-java] | [✅][728-js] |                  |
+| [733][733-question] | [Flood Fill][733-tips]                                       |                                                |                | [✅][733-js] |                  |
+| [744][744-question] | [Find Smallest Letter Greater Than Target][744-tips]         |                                                |                | [✅][744-js] |                  |
+| [746][746-question] | [Min Cost Climbing Stairs][746-tips]                         |                                                |                | [✅][746-js] |                  |
+| [747][747-question] | [Largest Number At Least Twice of Others][747-tips]          |                                                |                | [✅][747-js] |                  |
+| [762][762-question] | [Prime Number of Set Bits in Binary Representation][762-tips]|                                                |                | [✅][762-js] |                  |
+| [766][766-question] | [Toeplitz Matrix][766-tips]                                  |                                                |                | [✅][766-js] |                  |
 | [771][771-question] | [Jewels and Stones][771-tips]                                |                                                | [✅][771-java] | [✅][771-js] | [✅][771-kotlin] |
 | [783][783-question] | [Minimum Distance Between BST Nodes][783-tips]               |                                                |                | [✅][783-js] |                  |
 | [784][784-question] | [Letter Case Permutation][784-tips]                          |                                                |                | [✅][784-js] |                  |
