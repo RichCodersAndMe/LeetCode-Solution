@@ -32,7 +32,7 @@ Assume we are dealing with an environment which could only hold integers within 
 **Tags:** Math
 
 
-## 思路
+## 思路0
 
 题意是给你一个整型数，求它的逆序整型数，而且有个小坑点，当它的逆序整型数溢出的话，那么就返回 0，用我们代码表示的话可以求得结果保存在 long 中，最后把结果和整型的两个范围比较即可。
 
@@ -47,10 +47,25 @@ class Solution {
 }
 ```
 
+## 思路1
+记录**正/负**,通过**字符串倒序**,**字符串转int**,溢出必定会进入异常,则在catch处`return 0`即可。
+```kotlin
+class Solution {
+    fun reverse(x: Int): Int {
+        val symbol = if (x > 0) 1 else -1
+        val absX = Math.abs(x)
+        return try {
+            Integer.parseInt(StringBuilder(String.format("%d", absX)).reverse().toString()) * symbol
+        }catch(e: Exception) {
+            0
+        }
+    }
+}
+```
 
 ## 结语
 
-如果你同我一样热爱数据结构、算法、LeetCode，可以关注我 GitHub 上的 LeetCode 题解：[LeetCode-Solution][ls]
+如果你同我们一样热爱数据结构、算法、LeetCode，可以关注我们 GitHub 上的 LeetCode 题解：[LeetCode-Solution][ls]
 
 
 
