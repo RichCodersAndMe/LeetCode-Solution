@@ -1,3 +1,5 @@
+[Self Dividing Numbers][title]
+
 ## Description
 
 A self-dividing number is a number that is divisible by every digit it contains.
@@ -20,12 +22,13 @@ Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 15, 22]
 
 The boundaries of each input argument are 1 <= left <= right <= 10000.
 
-## 思路
+**Tags:** Math
+
+## 思路 0
 
 算出所给范围内的符合要求（自身能被所有位数上的数字所整除，例如128能被1、2、8整除，且自身不能含有0）的数字。范围为1-10000，范围较小可先打表。
 
-### 打表（Java）
-
+java:
 ```Java
 int sum = 0;
 for (int i = left; i < right; i++) {
@@ -48,7 +51,8 @@ for (int i = left; i < right; i++) {
 }
 ```
 
-### JavaScript
+## 思路 1
+javascript:
 ```JavaScript
 var selfDividingNumbers = function(left, right) {
   var result = []
@@ -73,3 +77,9 @@ var selfDividingNumbers = function(left, right) {
   return result
 };
 ```
+## 结语
+   
+如果你同我们一样热爱数据结构、算法、LeetCode，可以关注我们 GitHub 上的 LeetCode 题解：[LeetCode-Solution][ls]
+
+[title]: https://leetcode.com/problems/self-dividing-numbers/description/
+[ls]: https://github.com/SDE603/LeetCode-Solution

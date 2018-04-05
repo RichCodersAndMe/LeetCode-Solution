@@ -21,7 +21,7 @@ return [0, 1].
 ## 思路 0
 
 题意是让你从给定的数组中找到两个元素的和为指定值的两个索引，最容易的当然是循环两次，复杂度为 `O(n^2)`，首次提交居然是 2ms，打败了 100% 的提交，谜一样的结果，之后再次提交就再也没跑到过 2ms 了。
-
+java:
 ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
@@ -36,7 +36,20 @@ class Solution {
     }
 }
 ```
-
+javascript
+```javascript
+var twoSum = function(nums, target) {
+    for (let i = 0; i < nums.length - 1; i++) {
+        res = target - nums[i]
+        for (let j = i + 1; j < nums.length; j++) {
+            if (nums[j] === res) {
+                return [i, j]
+            }
+        }
+    }
+}
+```
+kotlin:
 ```kotlin
 class Solution {
     fun twoSum(nums: IntArray, target: Int): IntArray {
