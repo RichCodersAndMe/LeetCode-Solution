@@ -12,8 +12,8 @@
 ## [Easy](https://leetcode.com/problemset/all/?difficulty=Easy)题解
 |         题目         | 题解                                   | kotlin           | JavaScript |     Java      |
 | :-----------------: | -------------------------------------- | :--------------: | :-------: | :------------: |
-| [1][1-question]     | [Two Sum][1-tips]                      | [✅][1-kotlin]   |           | [✅][1-java]   |
-| [728][728-question] | [Self Dividing Numbers][728-tips]      |                  |           | [✅][728-java] |
+| [1][1-question]     | [Two Sum][1-tips]                      | [✅][1-kotlin]  |[✅][1-JavaScript] | [✅][1-java]|
+| [728][728-question] | [Self Dividing Numbers][728-tips]      |                  |[✅][728-JavaScript] | [✅][728-java] |
 | [771][771-question] | [Jewels and Stones][771-tips]          | [✅][771-kotlin] |           | [✅][771-java] |
 | [804][804-question] | [Unique Morse Code Words][804-tips]    |                  |           | [✅][804-java] |
 
@@ -28,6 +28,7 @@
 
 ## 贡献者名单
 - 感谢[@Mukyu](https://github.com/Mukyu), 提供Java题解、文档整理。
+- 感谢[@taryn](https://github.com/taryn2016), 提供JavaScript题解、文档整理。
 - 感谢[@WangXin](https://github.com/relish-wang), 提供kotlin题解、文档整理。
 
 
@@ -48,6 +49,9 @@
 [1-kotlin]: ./src/_1/kotlin/Solution.kt
 [2-kotlin]: ./src/_2/kotlin/Solution.kt
 [771-kotlin]: ./src/_771/kotlin/Solution.kt
+
+[1-JavaScript]: ./src/_1/Solution.js
+[728-JavaScript]: ./src/_728/Solution.js
 
 [1-java]: ./src/_1/Solution.java
 [2-java]: ./src/_2/Solution.java
