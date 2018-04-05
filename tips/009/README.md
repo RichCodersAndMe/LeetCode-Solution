@@ -22,7 +22,7 @@ There is a more generic way of solving this problem.
 ## 思路 0
 
 题意是判断一个有符号整型数是否是回文，也就是逆序过来的整数和原整数相同，首先负数肯定不是，接下来我们分析一下最普通的解法，就是直接算出他的回文数，然后和给定值比较即可。
-
+java:
 ```java
 class Solution {
     public boolean isPalindrome(int x) {
@@ -36,7 +36,19 @@ class Solution {
     }
 }
 ```
-
+kotlin:
+```kotlin
+fun isPalindrome(x: Int): Boolean {
+        if (x < 0) return false
+        var x1 = x
+        var sum = 0
+        while (x1 > 0) {
+            sum = sum * 10 + x1 % 10
+            x1 /= 10
+        }
+        return x == sum
+    }
+```
 ## 思路 1
 
 好好思考下是否需要计算整个长度，比如 1234321，其实不然，我们只需要计算一半的长度即可，就是在计算过程中的那个逆序数比不断除 10 的数大就结束计算即可，但是这也带来了另一个问题，比如 10 的倍数的数 10010，它也会返回 `true`，所以我们需要对 10 的倍数的数再加个判断即可，代码如下所示。

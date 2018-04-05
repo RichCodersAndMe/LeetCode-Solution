@@ -26,7 +26,7 @@
 | :-----------------: | ------------------------------------------------------------ | :--------------------------------------------: | :------------- |:-----------: | :---------------:|
 | [001][001-question] | [Two Sum][001-tips]                                          | Array, Hash Table                              | [✅][001-java] | [✅][001-js] | [✅][001-kotlin] |   
 | [007][007-question] | [Reverse Integer][007-tips]                                  | Math                                           | [✅][007-java] |              | [✅][007-kotlin] |   
-| [009][009-question] | [Palindrome Number][009-tips]                                | Math                                           | [✅][009-java] |              |                  |   
+| [009][009-question] | [Palindrome Number][009-tips]                                | Math                                           | [✅][009-java] |              | [✅][009-kotlin] |   
 | [013][013-question] | [Roman to Integer][013-tips]                                 | Math, String                                   | [✅][013-java] |              |                  |   
 | [014][014-question] | [Longest Common Prefix][014-tips]                            | String                                         | [✅][014-java] |              |                  |   
 | [020][020-question] | [Valid Parentheses][020-tips]                                | Stack, String                                  | [✅][020-java] |              |                  |   
@@ -56,7 +56,7 @@
 | [119][119-question] | [Pascal's Triangle II][119-tips]                             | Array                                          | [✅][119-java] |              |                  |   
 | [121][121-question] | [Best Time to Buy and Sell Stock][121-tips]                  | Array, Dynamic Programmin                      | [✅][121-java] |              |                  |   
 | [122][122-question] | [Best Time to Buy and Sell Stock II][122-tips]               | Array, Greedy                                  | [✅][122-java] |              |                  |   
-| [226][226-question] | [Invert Binary Tree][226-tips]                               |                                                | [✅][226-java] | [✅][226-js] |                  | 
+| [226][226-question] | [Invert Binary Tree][226-tips]                               | Tree                                           | [✅][226-java] | [✅][226-js] |                  | 
 | [543][543-question] | [Diameter of Binary Tree][543-tips]                          | Tree                                           | [✅][543-java] |              |                  |   
 | [561][561-question] | [Array Partition I][561-tips]                                |                                                |                | [✅][561-js] |                  | 
 | [643][643-question] | [Maximum Average Subarray I][643-tips]                       |                                                |                | [✅][643-js] |                  | 
@@ -449,4 +449,5 @@
 [001-kotlin]: ./src/_001/kotlin/Solution.kt
 [002-kotlin]: ./src/_002/kotlin/Solution.kt
 [007-kotlin]: ./src/_007/kotlin/Solution.kt
+[009-kotlin]: ./src/_009/kotlin/Solution.kt
 [771-kotlin]: ./src/_771/kotlin/Solution.kt
