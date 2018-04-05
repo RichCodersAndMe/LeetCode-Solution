@@ -26,7 +26,7 @@ The boundaries of each input argument are 1 <= left <= right <= 10000.
 
 ### 打表（Java）
 
-```
+```Java
 int sum = 0;
 for (int i = left; i < right; i++) {
     int num = i;
@@ -46,4 +46,30 @@ for (int i = left; i < right; i++) {
         sum++;
     }
 }
+```
+
+### JavaScript
+```JavaScript
+var selfDividingNumbers = function(left, right) {
+  var result = []
+  for (var i = left; i <= right; i++ ) {
+    if (i < 10) {
+      result.push(i)
+    } else {
+      if (/0/.test(i.toString())) {
+        i = i + 1
+      }
+      for (var j = 0; j < i.toString().length; j++) {
+        if (i % Number(i.toString().split('')[j]) !== 0) {
+          break
+        }
+        if (i % Number(i.toString().split('')[j]) === 0 && j === i.toString().length - 1) {
+          console.log(i);
+          result.push(i)
+        }
+      }
+    }
+  }
+  return result
+};
 ```
