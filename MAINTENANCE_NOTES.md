@@ -21,13 +21,13 @@
 **此仓库**由[@Mukyu][Mukyu]、[@Taryn][Taryn]、[@WangXin][wangxin]于2018年3月31日创建，由[@Mukyu][Mukyu]提供**Java**题解，[@Taryn][Taryn]提供**JavaScript**题解，[@WangXin][wangxin]提供**kotlin**题解，属于刚刚萌生想法的而创建的新仓库。截止**本仓库**建立为止, **此仓库**已累计拥有**5**题已AC的Java代码、**2**题已AC的JavaScript代码、**3**题已AC的kotlin代码。
 
 
-## 文档编写规范    
+## 文档编写规范 
  举例说明:  
  当提交首页表格未收录的题目时:   
   - 1 需提交对应解题代码->`./src/_001/Solution.java`
   - 2 对应的题目题解markdown文件(此文件填写规范参看[题解模板][template])->`./tips/001/README.md`
   - 3 在首页`README.md`对应的位置添加记录   
-     - 3.1 根据题目难度(Easy、Medium、Hard),在对应的表格内的对应位置(根据题号排序)添加行  
+     - 3.1 根据题目难度(Easy、Medium、Hard),在对应的表格内的对应位置(根据题号排序)添加行
      - 3.2 添加原题地址（[001-question]: https://leetcode.com/problems/two-sum）
      - 3.3 添加题解地址 ([001-tips]: ./tips/001/README.md)  
      - 3.4 添加原题对应的**Tags**（就是在原题网页偏右下位置的`Related Topics`）
@@ -60,7 +60,7 @@ commit信息模板: ``feat: add solution of `Two Sum`(001) with Java``
 ### 1 同题的同种语言的代码如何处理？
 建议保留一份即可(优先保留高效代码), 如果有更好/值得一说的思路,可以在题解中体现。
 如果非要保留自己的代码, 请遵守以下规则:
-  - 首页README.md使用优先解答的代码链接；
+  - 首页README.md优先使用最优解的代码链接，认为最优解可以进一步优化或有更好的解法时，可通过提Issue的方式进行讨论和决定。
   - 如果同语言代码思路不同可以在**题解文档内**阐述思路,若思路相同，则不再赘述。
   - 文件名则改为: `Solution1.java`、`Solution2.java`、`Solution3.java`,以此类推。
 
