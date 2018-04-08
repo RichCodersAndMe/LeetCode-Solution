@@ -25,7 +25,7 @@
 | 题目                 | 题解                                                         | Java           | JavaScript   | kotlin          |
 | :-----------------: | ------------------------------------------------------------ | :------------: |:-----------: | :-------------: |
 | [001][001-question] | [Two Sum][001-tips]                                          | [✅][001-java] | [✅][001-js] | [✅][001-kotlin] |
-| [007][007-question] | [Reverse Integer][007-tips]                                  | [✅][007-java] |              | [✅][007-kotlin] |
+| [007][007-question] | [Reverse Integer][007-tips]                                  | [✅][007-java] | [✅][007-js] | [✅][007-kotlin] |
 | [009][009-question] | [Palindrome Number][009-tips]                                | [✅][009-java] |              | [✅][009-kotlin] |
 | [013][013-question] | [Roman to Integer][013-tips]                                 | [✅][013-java] |              | [✅][013-kotlin] |
 | [014][014-question] | [Longest Common Prefix][014-tips]                            | [✅][014-java] |              |                  |
@@ -118,7 +118,7 @@
 | [050][050-question] | [Pow(x, n)][050-tips]                                        | [✅][050-java] |              |                  |
 | [056][056-question] | [Merge Intervals][056-tips]                                  | [✅][056-java] |              |                  |
 | [554][554-question] | [Brick Wall][554-tips]                                       | [✅][554-java] |              |                  |
- 
+
 ## [Hard](https://leetcode.com/problemset/all/?difficulty=Hard)
 | 题目                | 题解                                                          | Java           | JavaScript   | kotlin           |
 | :-----------------: | ------------------------------------------------------------ | :------------: | :----------: | :--------------: |
@@ -343,6 +343,7 @@
 [806-tips]: ./tips/806/README.md
 
 [001-js]: ./src/_001/Solution.js
+[007-js]: ./src/_007/Solution.js
 [226-js]: ./src/_226/Solution.js
 [561-js]: ./src/_561/Solution.js
 [643-js]: ./src/_643/Solution.js

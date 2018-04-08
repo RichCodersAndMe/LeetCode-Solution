@@ -63,6 +63,22 @@ class Solution {
 }
 ```
 
+```JavaScript
+var reverse = function(x) {
+    var reverse = 0
+    var arr = String(x).split('')
+    if (x >= 0) {
+	    reverse = Number(arr.reverse().join(''))
+    } else {
+	    reverse = -Number(arr.slice(1,arr.length).reverse().join(''))
+    }
+    if ((reverse >= Math.pow(2,31) - 1) || (reverse <= -Math.pow(2,31))) {
+        reverse = 0
+    }
+    return reverse
+};
+```
+
 ## 结语
 
 如果你同我们一样热爱数据结构、算法、LeetCode，可以关注我们 GitHub 上的 LeetCode 题解：[LeetCode-Solution][ls]
