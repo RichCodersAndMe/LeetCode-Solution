@@ -21,6 +21,11 @@ Input is guaranteed to be within the range from 1 to 3999.
 
 那么我们可以利用 map 来完成罗马数字的 7 个数字符号：I、V、X、L、C、D、M 和整数的映射关系，然后根据上面的解释来模拟完成即可。
 
+由此可见, 罗马数字从右往左的单个数字是不单调的非递减的(总体递增,局部递减),大致如下图所示(以两个数字举例):
+![img][img]
+也就是说倒着遍历这个罗马数字,遇到某个罗马数字比前一个数字小的,就做减法;否则(>=)做加法。
+
+java:
 ```java
 class Solution {
     public int romanToInt(String s) {
@@ -45,6 +50,29 @@ class Solution {
     }
 }
 ```
+kotlin:
+```kotlin
+class Solution {
+    fun romanToInt(s: String): Int {
+        var sum = 0
+        val map = HashMap<Char, Int>()
+        map['I'] = 1
+        map['V'] = 5
+        map['X'] = 10
+        map['L'] = 50
+        map['C'] = 100
+        map['D'] = 500
+        map['M'] = 1000
+        var prev = 0
+        for (i in s.length - 1 downTo 0) {
+            val curr = map[s[i]]
+            sum += curr!! * (if (curr < prev) -1 else 1)
+            prev = curr
+        }
+        return sum
+    }
+}
+```
 
 
 ## 结语
@@ -55,3 +83,4 @@ class Solution {
 
 [title]: https://leetcode.com/problems/roman-to-integer
 [ls]: https://github.com/SDE603/LeetCode-Solution
+[img]: ./013.gif
