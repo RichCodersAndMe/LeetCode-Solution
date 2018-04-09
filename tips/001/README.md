@@ -36,7 +36,7 @@ class Solution {
     }
 }
 ```
-javascript
+javascript:
 ```javascript
 var twoSum = function(nums, target) {
     for (let i = 0; i < nums.length - 1; i++) {
@@ -71,7 +71,7 @@ class Solution {
 ## 思路 1
 
 利用 HashMap 作为存储，键为目标值减去当前元素值，索引为值，比如 `i = 0` 时，此时首先要判断 `nums[0] = 2` 是否在 map 中，如果不存在，那么插入键值对 `key = 9 - 2 = 7, value = 0`，之后当 `i = 1` 时，此时判断 `nums[1] = 7` 已存在于 map 中，那么取出该 `value = 0` 作为第一个返回值，当前 `i` 作为第二个返回值，具体代码如下所示。
-
+java:
 ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
@@ -88,12 +88,9 @@ class Solution {
 }
 ```
 
-
 ## 结语
 
 如果你同我们一样热爱数据结构、算法、LeetCode，可以关注我们 GitHub 上的 LeetCode 题解：[LeetCode-Solution][ls]
-
-
 
 [title]: https://leetcode.com/problems/two-sum
 [ls]: https://github.com/SDE603/LeetCode-Solution
