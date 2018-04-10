@@ -29,7 +29,7 @@
 | [009][009-question] | [Palindrome Number][009-tips]                                | [✅][009-java] | [✅][009-js] | [✅][009-kotlin] |
 | [013][013-question] | [Roman to Integer][013-tips]                                 | [✅][013-java] |              | [✅][013-kotlin] |
 | [014][014-question] | [Longest Common Prefix][014-tips]                            | [✅][014-java] |              | [✅][014-kotlin] |
-| [020][020-question] | [Valid Parentheses][020-tips]                                | [✅][020-java] |              |                  |
+| [020][020-question] | [Valid Parentheses][020-tips]                                | [✅][020-java] |              | [✅][020-kotlin] |
 | [021][021-question] | [Merge Two Sorted Lists][021-tips]                           | [✅][021-java] |              |                  |
 | [026][026-question] | [Remove Duplicates from Sorted Array][026-tips]              | [✅][026-java] |              |                  |
 | [027][027-question] | [Remove Element][027-tips]                                   | [✅][027-java] |              |                  |
@@ -455,4 +455,5 @@
 [009-kotlin]: ./src/_009/kotlin/Solution.kt
 [013-kotlin]: ./src/_013/kotlin/Solution.kt
 [014-kotlin]: ./src/_014/kotlin/Solution.kt
+[020-kotlin]: ./src/_020/kotlin/Solution.kt
 [771-kotlin]: ./src/_771/kotlin/Solution.kt
