@@ -1,4 +1,5 @@
 # <img src="./images/logo.gif" alt="LeetCode-Solution" width="80" height="80" align="bottom"/>LeetCode-Solution
+
 本仓库为LeetCode练习题题解记录，会持续更新各种语言的题解。同时也欢迎使用各种语言的同好♂们加入此项目，为开源贡献力量。
 
 > [LeetCode](https://leetcode.com/) is the best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews.
@@ -15,6 +16,7 @@
 > 科举为国取士，LeetCode 为 Google 筛码工，各取所需也。  
 
 ## 目录
+
 - [Easy](#Easy)
 - [Medium](#Medium)
 - [Hard](#Hard)
@@ -22,6 +24,7 @@
 - [贡献者名单](#贡献者名单)
 
 ## [Easy](https://leetcode.com/problemset/all/?difficulty=Easy)
+
 | 题目                 | 题解                                                         | Java           | JavaScript   | kotlin          |
 | :-----------------: | ------------------------------------------------------------ | :------------: |:-----------: | :-------------: |
 | [001][001-question] | [Two Sum][001-tips]                                          | [✅][001-java] | [✅][001-js] | [✅][001-kotlin] |
@@ -95,6 +98,7 @@
 | [806][806-question] | [Number of Lines To Write String][806-tips]                  |                | [✅][806-js] |                  |
 
 ## [Medium](https://leetcode.com/problemset/all/?difficulty=Medium)
+
 | 题目                | 题解                                                          | Java           | JavaScript   | kotlin           |
 | :-----------------: | ------------------------------------------------------------ | :------------: | :----------: | :--------------: |
 | [002][002-question] | [Add Two Numbers][002-tips]                                  | [✅][002-java] |              | [✅][002-kotlin] |
@@ -120,6 +124,7 @@
 | [554][554-question] | [Brick Wall][554-tips]                                       | [✅][554-java] |              |                  |
 
 ## [Hard](https://leetcode.com/problemset/all/?difficulty=Hard)
+
 | 题目                | 题解                                                          | Java           | JavaScript   | kotlin           |
 | :-----------------: | ------------------------------------------------------------ | :------------: | :----------: | :--------------: |
 | [004][004-question] | [Median of Two Sorted Arrays][004-tips]                      | [✅][004-java] |              |                  |
@@ -132,9 +137,11 @@
 | [068][068-question] | [Text Justification][068-tips]                               | [✅][068-java] |              |                  |
 
 ## 库维护须知
+
 [库维护须知.md](MAINTENANCE_NOTES.md)
 
 ## 贡献者名单
+
 排名不分先后
 - 感谢[@Mukyu](https://github.com/Mukyu), 提供**Java**题解。
 - 感谢[@taryn](https://github.com/taryn2016), 提供**JavaScript**题解。
