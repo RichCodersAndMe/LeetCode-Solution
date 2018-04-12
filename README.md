@@ -62,7 +62,7 @@
 | [226][226-question] | [Invert Binary Tree][226-tips]                               | [✅][226-java] | [✅][226-js] |                  |
 | [543][543-question] | [Diameter of Binary Tree][543-tips]                          | [✅][543-java] |              |                  |
 | [561][561-question] | [Array Partition I][561-tips]                                | [✅][561-java] | [✅][561-js] |                  |
-| [643][643-question] | [Maximum Average Subarray I][643-tips]                       |                | [✅][643-js] |                  |
+| [643][643-question] | [Maximum Average Subarray I][643-tips]                       | [✅][643-java] | [✅][643-js] |                  |
 | [645][645-question] | [Set Mismatch][645-tips]                                     |                | [✅][645-js] |                  |
 | [653][653-question] | [Two Sum IV - Input is a BST][653-tips]                      |                | [✅][653-js] |                  |
 | [657][657-question] | [Judge Route Circle][657-tips]                               |                | [✅][657-js] |                  |
@@ -453,6 +453,7 @@
 [543-java]: ./src/_543/Solution.java
 [554-java]: ./src/_554/Solution.java
 [561-java]: ./src/_561/Solution.java
+[643-java]: ./src/_643/Solution.java
 [728-java]: ./src/_728/Solution.java
 [771-java]: ./src/_771/Solution.java
 [804-java]: ./src/_804/Solution.java
