@@ -33,8 +33,8 @@
 | [013][013-question] | [Roman to Integer][013-tips]                                 | [✅][013-java] | [✅][013-js] | [✅][013-kotlin] |
 | [014][014-question] | [Longest Common Prefix][014-tips]                            | [✅][014-java] |              | [✅][014-kotlin] |
 | [020][020-question] | [Valid Parentheses][020-tips]                                | [✅][020-java] |              | [✅][020-kotlin] |
-| [021][021-question] | [Merge Two Sorted Lists][021-tips]                           | [✅][021-java] |              | [✅][021-kotlin]  |
-| [026][026-question] | [Remove Duplicates from Sorted Array][026-tips]              | [✅][026-java] |              |                  |
+| [021][021-question] | [Merge Two Sorted Lists][021-tips]                           | [✅][021-java] |              | [✅][021-kotlin] |
+| [026][026-question] | [Remove Duplicates from Sorted Array][026-tips]              | [✅][026-java] |              | [✅][026-kotlin] |
 | [027][027-question] | [Remove Element][027-tips]                                   | [✅][027-java] |              |                  |
 | [028][028-question] | [Implement strStr()][028-tips]                               | [✅][028-java] |              |                  |
 | [035][035-question] | [Search Insert Position][035-tips]                           | [✅][035-java] |              |                  |
@@ -465,4 +465,5 @@
 [014-kotlin]: ./src/_014/kotlin/Solution.kt
 [020-kotlin]: ./src/_020/kotlin/Solution.kt
 [021-kotlin]: ./src/_021/kotlin/Solution.kt
+[026-kotlin]: ./src/_026/kotlin/Solution.kt
 [771-kotlin]: ./src/_771/kotlin/Solution.kt
