@@ -35,7 +35,7 @@
 | [020][020-question] | [Valid Parentheses][020-tips]                                | [✅][020-java] |              | [✅][020-kotlin] |
 | [021][021-question] | [Merge Two Sorted Lists][021-tips]                           | [✅][021-java] |              | [✅][021-kotlin] |
 | [026][026-question] | [Remove Duplicates from Sorted Array][026-tips]              | [✅][026-java] |              | [✅][026-kotlin] |
-| [027][027-question] | [Remove Element][027-tips]                                   | [✅][027-java] |              |                  |
+| [027][027-question] | [Remove Element][027-tips]                                   | [✅][027-java] |              | [✅][027-kotlin] |
 | [028][028-question] | [Implement strStr()][028-tips]                               | [✅][028-java] |              |                  |
 | [035][035-question] | [Search Insert Position][035-tips]                           | [✅][035-java] |              |                  |
 | [038][038-question] | [Count and Say][038-tips]                                    | [✅][038-java] |              |                  |
@@ -467,4 +467,5 @@
 [020-kotlin]: ./src/_020/kotlin/Solution.kt
 [021-kotlin]: ./src/_021/kotlin/Solution.kt
 [026-kotlin]: ./src/_026/kotlin/Solution.kt
+[027-kotlin]: ./src/_027/kotlin/Solution.kt
 [771-kotlin]: ./src/_771/kotlin/Solution.kt
