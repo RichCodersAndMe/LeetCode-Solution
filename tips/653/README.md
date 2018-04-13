@@ -1,46 +1,91 @@
-[xxxx][title]
+[Two Sum IV - Input is a BST][title]
 
 ## Description
-// 抄题目
+Given a Binary Search Tree and a target number, return true if there exist two elements in the BST such that their sum is equal to the given target.
 
-
-**Example:**
+**Example 1:**
 
 ```
-// 抄Example
+Input: 
+    5
+   / \
+  3   6
+ / \   \
+2   4   7
+
+Target = 9
+
+Output: True
 ```
 
-**Note:**
-// Note
+**Example 2:**
 
-**Tags:** // tags
+```
+Input: 
+    5
+   / \
+  3   6
+ / \   \
+2   4   7
 
+Target = 28
 
-## 思路 1
-// 贴一些关键代码,说一些解题思路
-// (同一种语言可以写多种思路，与某种语言思路相同的另一种语言的思路无须赘述，但可以把代码贴在后面) 
+Output: False
+```
+
+**Tags:** [Tree](https://leetcode.com/tag/tree/)
+
+## 思路
+
+题目要求在搜索二叉树中找到两个数，使其和等于所给值。此题主要考验搜索二叉树的用法。先遍历二叉树，在遍历过程中利用搜索二叉树的特性，查找是否存在另一个节点的值使两个节点的和等于所给的值。例如在遍历到节点a时，查找二叉树中是否存在节点b使a+b=k成立。
+
+**Java**
+
 ```java
+class Solution {
+    public boolean findTarget(TreeNode root, int k) {
+        Stack<TreeNode> stack = new Stack<>();
+        int num;
+        TreeNode next;
+        
+        // 遍历二叉树
+        stack.push(root);
+        while (!stack.empty()) {
+            TreeNode node = stack.pop();
 
-```
-```javascript
+            // 查找二叉树
+            next = root;
+            num = k - node.val;
+            while (next != null) {
+                if (next.val == num) {
+                    if (next == node) {
+                        break;
+                    } else {
+                        return true;
+                    }
+                } else if (num > next.val) {
+                    next = next.right;
+                } else {
+                    next = next.left;
+                }
+            }
 
-```
+            if (node.left != null) {
+                stack.push(node.left);
+            }
+            if (node.right != null) {
+                stack.push(node.right);
+            }
+        }
 
-## 思路 2
-// 贴一些关键代码,说一些解题思路
-```java
-
-```
-
-## 思路 3
-// 贴一些关键代码,说一些解题思路
-```kotlin
-
+        return false;
+    }
+}
 ```
 
 ## 结语
-   
+
 如果你同我们一样热爱数据结构、算法、LeetCode，可以关注我们 GitHub 上的 LeetCode 题解：[LeetCode-Solution][ls]
 
-[title]: https://leetcode.com/problems/xxxx
+[title]: https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/
 [ls]: https://github.com/SDE603/LeetCode-Solution
