@@ -36,9 +36,9 @@
 | [021][021-question] | [Merge Two Sorted Lists][021-tips]                           | [✅][021-java] |              | [✅][021-kotlin] |
 | [026][026-question] | [Remove Duplicates from Sorted Array][026-tips]              | [✅][026-java] |              | [✅][026-kotlin] |
 | [027][027-question] | [Remove Element][027-tips]                                   | [✅][027-java] |              | [✅][027-kotlin] |
-| [028][028-question] | [Implement strStr()][028-tips]                               | [✅][028-java] |              |                  |
-| [035][035-question] | [Search Insert Position][035-tips]                           | [✅][035-java] |              |                  |
-| [038][038-question] | [Count and Say][038-tips]                                    | [✅][038-java] |              |                  |
+| [028][028-question] | [Implement strStr()][028-tips]                               | [✅][028-java] |              | [✅][028-kotlin] |
+| [035][035-question] | [Search Insert Position][035-tips]                           | [✅][035-java] |              | [✅][035-kotlin] |
+| [038][038-question] | [Count and Say][038-tips]                                    | [✅][038-java] |              | [✅][038-kotlin] |
 | [053][053-question] | [Maximum Subarray][053-tips]                                 | [✅][053-java] |              |                  |
 | [058][058-question] | [Length of Last Word][058-tips]                              | [✅][058-java] |              |                  |
 | [066][066-question] | [Plus One][066-tips]                                         | [✅][066-java] |              |                  |
@@ -471,4 +471,7 @@
 [021-kotlin]: ./src/_021/kotlin/Solution.kt
 [026-kotlin]: ./src/_026/kotlin/Solution.kt
 [027-kotlin]: ./src/_027/kotlin/Solution.kt
+[028-kotlin]: ./src/_028/kotlin/Solution.kt
+[035-kotlin]: ./src/_035/kotlin/Solution.kt
+[038-kotlin]: ./src/_038/kotlin/Solution.kt
 [771-kotlin]: ./src/_771/kotlin/Solution.kt
