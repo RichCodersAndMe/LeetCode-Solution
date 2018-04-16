@@ -66,7 +66,7 @@
 | [645][645-question] | [Set Mismatch][645-tips]                                     | [✅][645-java] | [✅][645-js] |                  |
 | [653][653-question] | [Two Sum IV - Input is a BST][653-tips]                      | [✅][653-java] | [✅][653-js] |                  |
 | [657][657-question] | [Judge Route Circle][657-tips]                               | [✅][657-java] | [✅][657-js] |                  |
-| [661][661-question] | [Image Smoother][661-tips]                                   |                | [✅][661-js] |                  |
+| [661][661-question] | [Image Smoother][661-tips]                                   | [✅][661-java] | [✅][661-js] |                  |
 | [665][665-question] | [Non-decreasing Array][665-tips]                             |                | [✅][665-js] |                  |
 | [669][669-question] | [Trim a Binary Search Tree][669-tips]                        |                | [✅][669-js] |                  |
 | [671][671-question] | [Second Minimum Node In a Binary Tree][671-tips]             |                | [✅][671-js] |                  |
@@ -457,6 +457,7 @@
 [645-java]: ./src/_645/Solution.java
 [653-java]: ./src/_653/Solution.java
 [657-java]: ./src/_657/Solution.java
+[661-java]: ./src/_661/Solution.java
 [728-java]: ./src/_728/Solution.java
 [771-java]: ./src/_771/Solution.java
 [804-java]: ./src/_804/Solution.java
