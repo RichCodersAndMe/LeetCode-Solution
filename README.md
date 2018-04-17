@@ -1,5 +1,6 @@
 # <img src="./images/logo.gif" alt="LeetCode-Solution" width="80" height="80" align="bottom"/>LeetCode-Solution
-本仓库为LeetCode练习题题解记录，会持续更新各种语言的题解。同时也欢迎使用各种语言的同好♂们加入此项目，为开源贡献力量。
+
+本仓库为LeetCode练习题题解记录，会持续更新各种语言的题解。同时也欢迎使用各种语言的同♂好们加入此项目，为开源贡献力量。
 
 > [LeetCode](https://leetcode.com/) is the best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews.
 
@@ -15,6 +16,7 @@
 > 科举为国取士，LeetCode 为 Google 筛码工，各取所需也。  
 
 ## 目录
+
 - [Easy](#Easy)
 - [Medium](#Medium)
 - [Hard](#Hard)
@@ -22,6 +24,7 @@
 - [贡献者名单](#贡献者名单)
 
 ## [Easy](https://leetcode.com/problemset/all/?difficulty=Easy)
+
 | 题目                 | 题解                                                         | Java           | JavaScript   | kotlin          |
 | :-----------------: | ------------------------------------------------------------ | :------------: |:-----------: | :-------------: |
 | [001][001-question] | [Two Sum][001-tips]                                          | [✅][001-java] | [✅][001-js] | [✅][001-kotlin] |
@@ -30,12 +33,12 @@
 | [013][013-question] | [Roman to Integer][013-tips]                                 | [✅][013-java] | [✅][013-js] | [✅][013-kotlin] |
 | [014][014-question] | [Longest Common Prefix][014-tips]                            | [✅][014-java] | [✅][014-js] | [✅][014-kotlin] |
 | [020][020-question] | [Valid Parentheses][020-tips]                                | [✅][020-java] |              | [✅][020-kotlin] |
-| [021][021-question] | [Merge Two Sorted Lists][021-tips]                           | [✅][021-java] |              |                  |
-| [026][026-question] | [Remove Duplicates from Sorted Array][026-tips]              | [✅][026-java] |              |                  |
-| [027][027-question] | [Remove Element][027-tips]                                   | [✅][027-java] |              |                  |
-| [028][028-question] | [Implement strStr()][028-tips]                               | [✅][028-java] |              |                  |
-| [035][035-question] | [Search Insert Position][035-tips]                           | [✅][035-java] |              |                  |
-| [038][038-question] | [Count and Say][038-tips]                                    | [✅][038-java] |              |                  |
+| [021][021-question] | [Merge Two Sorted Lists][021-tips]                           | [✅][021-java] |              | [✅][021-kotlin] |
+| [026][026-question] | [Remove Duplicates from Sorted Array][026-tips]              | [✅][026-java] |              | [✅][026-kotlin] |
+| [027][027-question] | [Remove Element][027-tips]                                   | [✅][027-java] |              | [✅][027-kotlin] |
+| [028][028-question] | [Implement strStr()][028-tips]                               | [✅][028-java] |              | [✅][028-kotlin] |
+| [035][035-question] | [Search Insert Position][035-tips]                           | [✅][035-java] |              | [✅][035-kotlin] |
+| [038][038-question] | [Count and Say][038-tips]                                    | [✅][038-java] |              | [✅][038-kotlin] |
 | [053][053-question] | [Maximum Subarray][053-tips]                                 | [✅][053-java] |              |                  |
 | [058][058-question] | [Length of Last Word][058-tips]                              | [✅][058-java] |              |                  |
 | [066][066-question] | [Plus One][066-tips]                                         | [✅][066-java] |              |                  |
@@ -59,11 +62,11 @@
 | [226][226-question] | [Invert Binary Tree][226-tips]                               | [✅][226-java] | [✅][226-js] |                  |
 | [543][543-question] | [Diameter of Binary Tree][543-tips]                          | [✅][543-java] |              |                  |
 | [561][561-question] | [Array Partition I][561-tips]                                | [✅][561-java] | [✅][561-js] |                  |
-| [643][643-question] | [Maximum Average Subarray I][643-tips]                       |                | [✅][643-js] |                  |
-| [645][645-question] | [Set Mismatch][645-tips]                                     |                | [✅][645-js] |                  |
-| [653][653-question] | [Two Sum IV - Input is a BST][653-tips]                      |                | [✅][653-js] |                  |
-| [657][657-question] | [Judge Route Circle][657-tips]                               |                | [✅][657-js] |                  |
-| [661][661-question] | [Image Smoother][661-tips]                                   |                | [✅][661-js] |                  |
+| [643][643-question] | [Maximum Average Subarray I][643-tips]                       | [✅][643-java] | [✅][643-js] |                  |
+| [645][645-question] | [Set Mismatch][645-tips]                                     | [✅][645-java] | [✅][645-js] |                  |
+| [653][653-question] | [Two Sum IV - Input is a BST][653-tips]                      | [✅][653-java] | [✅][653-js] |                  |
+| [657][657-question] | [Judge Route Circle][657-tips]                               | [✅][657-java] | [✅][657-js] |                  |
+| [661][661-question] | [Image Smoother][661-tips]                                   | [✅][661-java] | [✅][661-js] |                  |
 | [665][665-question] | [Non-decreasing Array][665-tips]                             |                | [✅][665-js] |                  |
 | [669][669-question] | [Trim a Binary Search Tree][669-tips]                        |                | [✅][669-js] |                  |
 | [671][671-question] | [Second Minimum Node In a Binary Tree][671-tips]             |                | [✅][671-js] |                  |
@@ -95,6 +98,7 @@
 | [806][806-question] | [Number of Lines To Write String][806-tips]                  |                | [✅][806-js] |                  |
 
 ## [Medium](https://leetcode.com/problemset/all/?difficulty=Medium)
+
 | 题目                | 题解                                                          | Java           | JavaScript   | kotlin           |
 | :-----------------: | ------------------------------------------------------------ | :------------: | :----------: | :--------------: |
 | [002][002-question] | [Add Two Numbers][002-tips]                                  | [✅][002-java] |              | [✅][002-kotlin] |
@@ -120,6 +124,7 @@
 | [554][554-question] | [Brick Wall][554-tips]                                       | [✅][554-java] |              |                  |
 
 ## [Hard](https://leetcode.com/problemset/all/?difficulty=Hard)
+
 | 题目                | 题解                                                          | Java           | JavaScript   | kotlin           |
 | :-----------------: | ------------------------------------------------------------ | :------------: | :----------: | :--------------: |
 | [004][004-question] | [Median of Two Sorted Arrays][004-tips]                      | [✅][004-java] |              |                  |
@@ -132,9 +137,11 @@
 | [068][068-question] | [Text Justification][068-tips]                               | [✅][068-java] |              |                  |
 
 ## 库维护须知
+
 [库维护须知.md](MAINTENANCE_NOTES.md)
 
 ## 贡献者名单
+
 排名不分先后
 - 感谢[@Mukyu](https://github.com/Mukyu), 提供**Java**题解。
 - 感谢[@taryn](https://github.com/taryn2016), 提供**JavaScript**题解。
@@ -447,6 +454,11 @@
 [543-java]: ./src/_543/Solution.java
 [554-java]: ./src/_554/Solution.java
 [561-java]: ./src/_561/Solution.java
+[643-java]: ./src/_643/Solution.java
+[645-java]: ./src/_645/Solution.java
+[653-java]: ./src/_653/Solution.java
+[657-java]: ./src/_657/Solution.java
+[661-java]: ./src/_661/Solution.java
 [728-java]: ./src/_728/Solution.java
 [771-java]: ./src/_771/Solution.java
 [804-java]: ./src/_804/Solution.java
@@ -458,4 +470,10 @@
 [013-kotlin]: ./src/_013/kotlin/Solution.kt
 [014-kotlin]: ./src/_014/kotlin/Solution.kt
 [020-kotlin]: ./src/_020/kotlin/Solution.kt
+[021-kotlin]: ./src/_021/kotlin/Solution.kt
+[026-kotlin]: ./src/_026/kotlin/Solution.kt
+[027-kotlin]: ./src/_027/kotlin/Solution.kt
+[028-kotlin]: ./src/_028/kotlin/Solution.kt
+[035-kotlin]: ./src/_035/kotlin/Solution.kt
+[038-kotlin]: ./src/_038/kotlin/Solution.kt
 [771-kotlin]: ./src/_771/kotlin/Solution.kt

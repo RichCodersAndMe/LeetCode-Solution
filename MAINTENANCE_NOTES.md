@@ -49,7 +49,7 @@
 
 commit前先pull, 尽量避免产生不必要的git分叉.  
 
-commit信息模板: ``feat: add solution of `Two Sum`(001) with Java``
+commit信息模板: ``feat: add the solution of `Two Sum`(001) with Java``
 
 ## 添加新语言代码
 目前已使用的代码有: `Java`、`JavaScript`、`kotlin`

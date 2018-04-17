@@ -41,6 +41,7 @@ Output: 0
 
 题意是让你从一个没有重复元素的已排序数组中找到插入位置的索引。因为数组已排序，所以我们可以想到二分查找法，因为查找到的条件是找到第一个等于或者大于 `target` 的元素的位置，所以二分法略作变动即可。
 
+Java:
 ```java
 class Solution {
     public int searchInsert(int[] nums, int target) {
@@ -51,6 +52,25 @@ class Solution {
             mid = (right + left) >> 1;
         }
         return left;
+    }
+}
+```
+
+kotlin(216ms/90.00%):
+```kotlin
+class Solution {
+    fun searchInsert(nums: IntArray, target: Int): Int {
+        var left = 0
+        var right = nums.size - 1
+        while (left <= right) {
+            val mid = (left + right) / 2
+            when {
+                nums[mid] == target -> return mid
+                nums[mid] < target -> left = mid + 1
+                else -> right = mid - 1
+            }
+        }
+        return left
     }
 }
 ```

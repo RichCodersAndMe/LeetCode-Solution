@@ -43,6 +43,7 @@ Output: "1211"
 
 题意是数和说，根据如下序列 `1, 11, 21, 1211, 111221, ...`，求第 n 个数，规则很简单,就是数和说，数就是数这个数数字有几个，说就是说这个数，所以 `1` 就是 1 个 1：`11`,`11` 就是有 2 个 1：`21`，`21` 就是 1 个 2、1 个 1：`1211`，可想而知后面就是 `111221`，思路的话就是按这个逻辑模拟出来即可。
 
+Java:
 ```java
 class Solution {
     public String countAndSay(int n) {
@@ -65,6 +66,37 @@ class Solution {
         return str;
     }
 }
+```
+
+kotlin(172ms/100.00%):
+```kotlin
+class Solution {
+    fun countAndSay(n: Int): String {
+        var say = "1"
+        for (count in 1 until n) {
+            say = say(say)
+        }
+        return say
+    }
+
+    private fun say(say: String): String {
+        val newSay = StringBuilder()
+        var prev = say[0]
+        var tCount = 0
+        for (i in say.indices) {
+            if (say[i] == prev) {
+                tCount++
+                continue
+            }
+            newSay.append(tCount).append(prev)
+            prev = say[i]
+            tCount = 1
+        }
+        newSay.append(tCount).append(prev)
+        return newSay.toString()
+    }
+}
+
 ```
 
 

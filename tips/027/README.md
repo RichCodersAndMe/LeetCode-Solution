@@ -36,6 +36,21 @@ class Solution {
     }
 }
 ```
+kotlin(220ms/92.31%):
+```kotlin
+class Solution {
+    fun removeElement(nums: IntArray, `val`: Int): Int {
+        var count = 0
+        for (index in nums.indices) {
+            val t = nums[index]
+            if (t != `val`) {
+                nums[count++] = t
+            }
+        }
+        return count
+    }
+}
+```
 
 
 ## 结语
