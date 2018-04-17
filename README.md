@@ -28,7 +28,7 @@
 | [007][007-question] | [Reverse Integer][007-tips]                                  | [✅][007-java] | [✅][007-js] | [✅][007-kotlin] |
 | [009][009-question] | [Palindrome Number][009-tips]                                | [✅][009-java] | [✅][009-js] | [✅][009-kotlin] |
 | [013][013-question] | [Roman to Integer][013-tips]                                 | [✅][013-java] | [✅][013-js] | [✅][013-kotlin] |
-| [014][014-question] | [Longest Common Prefix][014-tips]                            | [✅][014-java] |              | [✅][014-kotlin] |
+| [014][014-question] | [Longest Common Prefix][014-tips]                            | [✅][014-java] | [✅][014-js] | [✅][014-kotlin] |
 | [020][020-question] | [Valid Parentheses][020-tips]                                | [✅][020-java] |              | [✅][020-kotlin] |
 | [021][021-question] | [Merge Two Sorted Lists][021-tips]                           | [✅][021-java] |              |                  |
 | [026][026-question] | [Remove Duplicates from Sorted Array][026-tips]              | [✅][026-java] |              |                  |
@@ -346,6 +346,7 @@
 [007-js]: ./src/_007/Solution.js
 [009-js]: ./src/_009/Solution.js
 [013-js]: ./src/_013/Solution.js
+[014-js]: ./src/_014/Solution.js
 [226-js]: ./src/_226/Solution.js
 [561-js]: ./src/_561/Solution.js
 [643-js]: ./src/_643/Solution.js

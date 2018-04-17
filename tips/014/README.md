@@ -50,7 +50,34 @@ class Solution {
     }
 }
 ```
+js 的思路也是类似，用到 `every` 函数对数组进行操作，
+JavaScript
+```JavaScript
 
+var longestCommonPrefix = function(strs) {
+    if (strs.length === 0) {
+        return ''
+    } else {
+        var prefix = strs[0] // 最短的字符串
+        for (var i = 1; i < strs.length; i++) {
+            if (strs[i].length < prefix.length){
+                prefix = strs[i]
+            }
+        }
+        while(prefix) {
+            var b = strs.every(function (item) {
+                return (item.indexOf(prefix) === 0)
+            }) // 判断数组元素是否都包含最短的字符串
+            if (b) { //所以元素都包含prefix
+                return prefix
+            } else { //并不是所以元素都包含prefix，prefix截取掉最后一个字符
+                prefix = prefix.substring(0, prefix.length - 1)
+            }
+        }
+		return ''
+    }
+};
+```
 
 ## 结语
 
