@@ -39,8 +39,8 @@
 | [028][028-question] | [Implement strStr()][028-tips]                               | [✅][028-java] |              | [✅][028-kotlin] |
 | [035][035-question] | [Search Insert Position][035-tips]                           | [✅][035-java] |              | [✅][035-kotlin] |
 | [038][038-question] | [Count and Say][038-tips]                                    | [✅][038-java] |              | [✅][038-kotlin] |
-| [053][053-question] | [Maximum Subarray][053-tips]                                 | [✅][053-java] |              |                  |
-| [058][058-question] | [Length of Last Word][058-tips]                              | [✅][058-java] |              |                  |
+| [053][053-question] | [Maximum Subarray][053-tips]                                 | [✅][053-java] |              | [✅][053-kotlin] |
+| [058][058-question] | [Length of Last Word][058-tips]                              | [✅][058-java] |              | [✅][058-kotlin] |
 | [066][066-question] | [Plus One][066-tips]                                         | [✅][066-java] |              |                  |
 | [067][067-question] | [Add Binary][067-tips]                                       | [✅][067-java] |              |                  |
 | [069][069-question] | [Sqrt(x)][069-tips]                                          | [✅][069-java] |              |                  |
@@ -67,8 +67,8 @@
 | [653][653-question] | [Two Sum IV - Input is a BST][653-tips]                      | [✅][653-java] | [✅][653-js] |                  |
 | [657][657-question] | [Judge Route Circle][657-tips]                               | [✅][657-java] | [✅][657-js] |                  |
 | [661][661-question] | [Image Smoother][661-tips]                                   | [✅][661-java] | [✅][661-js] |                  |
-| [665][665-question] | [Non-decreasing Array][665-tips]                             |                | [✅][665-js] |                  |
-| [669][669-question] | [Trim a Binary Search Tree][669-tips]                        |                | [✅][669-js] |                  |
+| [665][665-question] | [Non-decreasing Array][665-tips]                             | [✅][665-java] | [✅][665-js] |                  |
+| [669][669-question] | [Trim a Binary Search Tree][669-tips]                        | [✅][669-java] | [✅][669-js] |                  |
 | [671][671-question] | [Second Minimum Node In a Binary Tree][671-tips]             |                | [✅][671-js] |                  |
 | [674][674-question] | [Longest Continuous Increasing Subsequence][674-tips]        |                | [✅][674-js] |                  |
 | [680][680-question] | [Valid Palindrome II][680-tips]                              |                | [✅][680-js] |                  |
@@ -460,6 +460,8 @@
 [653-java]: ./src/_653/Solution.java
 [657-java]: ./src/_657/Solution.java
 [661-java]: ./src/_661/Solution.java
+[665-java]: ./src/_665/Solution.java
+[669-java]: ./src/_669/Solution.java
 [728-java]: ./src/_728/Solution.java
 [771-java]: ./src/_771/Solution.java
 [804-java]: ./src/_804/Solution.java
@@ -477,4 +479,6 @@
 [028-kotlin]: ./src/_028/kotlin/Solution.kt
 [035-kotlin]: ./src/_035/kotlin/Solution.kt
 [038-kotlin]: ./src/_038/kotlin/Solution.kt
+[053-kotlin]: ./src/_053/kotlin/Solution.kt
+[058-kotlin]: ./src/_058/kotlin/Solution.kt
 [771-kotlin]: ./src/_771/kotlin/Solution.kt
