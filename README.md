@@ -41,7 +41,7 @@
 | [038][038-question] | [Count and Say][038-tips]                                    | [✅][038-java] |              | [✅][038-kotlin] |
 | [053][053-question] | [Maximum Subarray][053-tips]                                 | [✅][053-java] |              | [✅][053-kotlin] |
 | [058][058-question] | [Length of Last Word][058-tips]                              | [✅][058-java] |              | [✅][058-kotlin] |
-| [066][066-question] | [Plus One][066-tips]                                         | [✅][066-java] |              |                  |
+| [066][066-question] | [Plus One][066-tips]                                         | [✅][066-java] |              | [✅][066-kotlin] |
 | [067][067-question] | [Add Binary][067-tips]                                       | [✅][067-java] |              |                  |
 | [069][069-question] | [Sqrt(x)][069-tips]                                          | [✅][069-java] |              |                  |
 | [070][070-question] | [Climbing Stairs][070-tips]                                  | [✅][070-java] |              |                  |
@@ -481,4 +481,5 @@
 [038-kotlin]: ./src/_038/kotlin/Solution.kt
 [053-kotlin]: ./src/_053/kotlin/Solution.kt
 [058-kotlin]: ./src/_058/kotlin/Solution.kt
+[066-kotlin]: ./src/_066/kotlin/Solution.kt
 [771-kotlin]: ./src/_771/kotlin/Solution.kt

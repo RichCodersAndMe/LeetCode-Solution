@@ -15,6 +15,7 @@ The digits are stored such that the most significant digit is at the head of the
 
 题意是给你一个数字数组，高位在前，并且首位不为 0 除非这个数组就是 `[0]`，让你给该数组低位加一求其结果，那么我们就模拟小学数学那样进位去算即可，如果一直进位到首位，这种情况也就是都是由 9 组成的数组，此时我们只要 new 出一个多一个长度的数组即可，并把第 0 个元素赋 1 即可。
 
+Java:
 ```java
 class Solution {
     public int[] plusOne(int[] digits) {
@@ -37,6 +38,32 @@ class Solution {
 }
 ```
 
+kotlin(208ms/100.00%)
+```kotlin
+class Solution {
+    fun plusOne(digits: IntArray): IntArray {
+        var flag = 1
+        val len = digits.size
+        for (i in len - 1 downTo 0) {
+            digits[i] += flag
+            if (digits[i] >= 10) {
+                digits[i] %= 10
+                flag = 1
+                continue
+            }
+            flag = 0
+            break
+        }
+        if (flag == 1) {
+            return IntArray(len+1,fun(index: Int):Int{
+                if(index==0)return 1
+                return digits[index-1]
+            })
+        }
+        return digits
+    }
+}
+```
 
 ## 结语
 
