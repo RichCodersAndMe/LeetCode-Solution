@@ -1,46 +1,76 @@
-[xxxx][title]
+[Second Minimum Node In a Binary Tree][title]
 
 ## Description
-// 抄题目
+Given a non-empty special binary tree consisting of nodes with the non-negative value, where each node in this tree has exactly `two` or `zero` sub-node. If the node has two sub-nodes, then this node's value is the smaller value among its two sub-nodes.
 
+Given such a binary tree, you need to output the **second minimum** value in the set made of all the nodes' value in the whole tree.
 
-**Example:**
+If no such second minimum value exists, output -1 instead.
+
+**Example 1:**
 
 ```
-// 抄Example
+Input: 
+    2
+   / \
+  2   5
+     / \
+    5   7
+
+Output: 5
+Explanation: The smallest value is 2, the second smallest value is 5.
 ```
 
-**Note:**
-// Note
+**Example 2:**
 
-**Tags:** // tags
+```
+Input: 
+    2
+   / \
+  2   2
 
+Output: -1
+Explanation: The smallest value is 2, but there isn't any second smallest value.
+```
 
-## 思路 1
-// 贴一些关键代码,说一些解题思路
-// (同一种语言可以写多种思路，与某种语言思路相同的另一种语言的思路无须赘述，但可以把代码贴在后面) 
+**Tags:** [Tree](https://leetcode.com/tag/tree/)
+
+## 思路
+
+题目给出一个特殊的二叉树：任意节点，要么没有子节点，要么有两个子节点，且子节点的值会大于等于他们的根节点。要求找出第二小的节点值。根据此二叉树的特性，根节点的值为最小值。先对树进行先序遍历，当发现比根节点值（最小值）大的节点后，后面的子树就可以进行剪枝了，因为后面的子节点都大于或等于此节点，不会是第二小的节点（或者与第二小的节点值相等）。
+
+**Java:**
+
 ```java
+public int findSecondMinimumValue(TreeNode root) {
+    Stack<TreeNode> stack = new Stack<>();
+    int min = root.val;
+    int secMin = -1;
+    stack.push(root);
 
-```
-```javascript
+    while (!stack.empty()) {
+        TreeNode node = stack.pop();
 
-```
+        if (node.val > min) {
+             if (node.val < secMin || secMin == -1) {
+                 secMin = node.val;
+             }
+             continue;
+        }
 
-## 思路 2
-// 贴一些关键代码,说一些解题思路
-```java
+        if (node.left != null) {
+            stack.push(node.right);
+            stack.push(node.left);
+        }
+    }
 
-```
-
-## 思路 3
-// 贴一些关键代码,说一些解题思路
-```kotlin
-
+    return secMin;
+}
 ```
 
 ## 结语
-   
+
 如果你同我们一样热爱数据结构、算法、LeetCode，可以关注我们 GitHub 上的 LeetCode 题解：[LeetCode-Solution][ls]
 
-[title]: https://leetcode.com/problems/xxxx
+[title]: https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/description/
 [ls]: https://github.com/SDE603/LeetCode-Solution
