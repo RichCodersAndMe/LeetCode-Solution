@@ -70,7 +70,7 @@
 | [665][665-question] | [Non-decreasing Array][665-tips]                             | [✅][665-java] | [✅][665-js] |                  |
 | [669][669-question] | [Trim a Binary Search Tree][669-tips]                        | [✅][669-java] | [✅][669-js] |                  |
 | [671][671-question] | [Second Minimum Node In a Binary Tree][671-tips]             | [✅][671-java] | [✅][671-js] |                  |
-| [674][674-question] | [Longest Continuous Increasing Subsequence][674-tips]        |                | [✅][674-js] |                  |
+| [674][674-question] | [Longest Continuous Increasing Subsequence][674-tips]        | [✅][674-java] | [✅][674-js] |                  |
 | [680][680-question] | [Valid Palindrome II][680-tips]                              |                | [✅][680-js] |                  |
 | [682][682-question] | [Baseball Game][682-tips]                                    |                | [✅][682-js] |                  |
 | [686][686-question] | [Repeated String Match][686-tips]                            |                | [✅][686-js] |                  |
@@ -463,6 +463,7 @@
 [665-java]: ./src/_665/Solution.java
 [669-java]: ./src/_669/Solution.java
 [671-java]: ./src/_671/Solution.java
+[674-java]: ./src/_674/Solution.java
 [728-java]: ./src/_728/Solution.java
 [771-java]: ./src/_771/Solution.java
 [804-java]: ./src/_804/Solution.java
