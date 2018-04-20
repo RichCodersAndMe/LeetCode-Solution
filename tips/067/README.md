@@ -19,6 +19,7 @@ Return `"100"`.
 
 题意是给你两个二进制串，求其和的二进制串。我们就按照小学算数那么来做，用 `carry` 表示进位，从后往前算，依次往前，每算出一位就插入到最前面即可，直到把两个二进制串都遍历完即可。
 
+java:
 ```java
 class Solution {
     public String addBinary(String a, String b) {
@@ -47,6 +48,30 @@ class Solution {
     }
 }
 ```
+kotlin(232ms/92.86%):
+````kotlin
+class Solution {
+    fun addBinary(a: String, b: String): String {
+        val sb = StringBuilder()
+        var flag = 0
+        var i = a.length - 1
+        var j = b.length - 1
+        while (i >= 0 || j >= 0) {
+            val ta = if (i < 0) 0 else a[i] - '0'
+            val tb = if (j < 0) 0 else b[j] - '0'
+            val t = ta + tb + flag
+            flag = if (t > 1) 1 else 0
+            sb.append(if (t > 1) t - 2 else t)
+            i--
+            j--
+        }
+        if (flag == 1) {
+            sb.append('1')
+        }
+        return sb.reverse().toString()
+    }
+}
+````
 
 
 ## 结语
