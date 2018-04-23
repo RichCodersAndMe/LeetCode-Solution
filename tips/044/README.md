@@ -98,4 +98,4 @@ class Solution {
 
 [010]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/010/README.md
 [title]: https://leetcode.com/problems/wildcard-matching
-[ls]: https://github.com/SDE603/LeetCode-Solution
+[ls]: https://github.com/RichCodersAndMe/LeetCode-Solution

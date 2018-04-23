@@ -64,4 +64,4 @@ class Solution {
 
 
 [title]: https://leetcode.com/problems/merge-intervals
-[ls]: https://github.com/SDE603/LeetCode-Solution
+[ls]: https://github.com/RichCodersAndMe/LeetCode-Solution

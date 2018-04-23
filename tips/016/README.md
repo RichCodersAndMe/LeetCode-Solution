@@ -51,4 +51,4 @@ public class Solution {
 
 [015]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/015/README.md
 [title]: https://leetcode.com/problems/3sum-closest
-[ls]: https://github.com/SDE603/LeetCode-Solution
+[ls]: https://github.com/RichCodersAndMe/LeetCode-Solution

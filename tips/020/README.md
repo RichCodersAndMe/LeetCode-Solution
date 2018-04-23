@@ -96,4 +96,4 @@ var isValid = function(s) {
 
 
 [title]: https://leetcode.com/problems/valid-parentheses
-[ls]: https://github.com/SDE603/LeetCode-Solution
+[ls]: https://github.com/RichCodersAndMe/LeetCode-Solution

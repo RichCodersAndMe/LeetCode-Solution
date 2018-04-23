@@ -12,7 +12,7 @@
 - [其他问题](#其他问题)
 
 ## 本仓库的起源
-为避免误解，以下称[SDE603/LeetCode-Solution][lcs]为**本仓库**, 被介绍的仓库称为**此仓库**。
+为避免误解，以下称[RichCodersAndMe/LeetCode-Solution][lcs]为**本仓库**, 被介绍的仓库称为**此仓库**。
 ### 来源1: [@Blankj][blankj]的[awsome-java-leetcode][ajl]
 **此仓库**由[@Blankj][blankj]于2017年4月18日创建, 不定期更新优质**Java**代码和题解，颇受好评，至今已有star数**3521**颗(star数量以仓库原址为准)。截止**本仓库**建立为止, **此仓库**已累计拥有**63**题已AC的Java代码。
 ### 来源2: [@Wang-YS][wys]的[leetcode][lc]
@@ -72,7 +72,7 @@ commit信息模板: ``feat: add the solution of `Two Sum`(001) with Java``
 [ajl]: https://github.com/Blankj/awesome-java-leetcode
 [wys]: https://github.com/Wang-YS
 [lc]: https://github.com/Wang-YS/leetcode
-[lcs]: https://github.com/SDE603/LeetCode-Solution
+[lcs]: https://github.com/RichCodersAndMe/LeetCode-Solution
 [old-lcs]: https://github.com/CodeAntStudio/LeetCode-Solution
 [wangxin]: https://github.com/relish-wang
 [Mukyu]: https://github.com/Mukyu

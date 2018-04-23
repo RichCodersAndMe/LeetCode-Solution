@@ -34,4 +34,4 @@ You should return the indices: `[0,9]`.
 
 
 [title]: https://leetcode.com/problems/substring-with-concatenation-of-all-words
-[ls]: https://github.com/SDE603/LeetCode-Solution
+[ls]: https://github.com/RichCodersAndMe/LeetCode-Solution

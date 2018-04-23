@@ -94,4 +94,4 @@ class Solution {
 
 
 [title]: https://leetcode.com/problems/implement-strstr
-[ls]: https://github.com/SDE603/LeetCode-Solution
+[ls]: https://github.com/RichCodersAndMe/LeetCode-Solution

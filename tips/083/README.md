@@ -69,4 +69,4 @@ class Solution {
 
 
 [title]: https://leetcode.com/problems/remove-duplicates-from-sorted-list
-[ls]: https://github.com/SDE603/LeetCode-Solution
+[ls]: https://github.com/RichCodersAndMe/LeetCode-Solution

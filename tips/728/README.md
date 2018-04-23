@@ -82,4 +82,4 @@ var selfDividingNumbers = function(left, right) {
 如果你同我们一样热爱数据结构、算法、LeetCode，可以关注我们 GitHub 上的 LeetCode 题解：[LeetCode-Solution][ls]
 
 [title]: https://leetcode.com/problems/self-dividing-numbers/description/
-[ls]: https://github.com/SDE603/LeetCode-Solution
+[ls]: https://github.com/RichCodersAndMe/LeetCode-Solution

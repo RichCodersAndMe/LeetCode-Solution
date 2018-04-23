@@ -112,5 +112,5 @@ romanToInt('DCXXI')
 
 
 [title]: https://leetcode.com/problems/roman-to-integer
-[ls]: https://github.com/SDE603/LeetCode-Solution
+[ls]: https://github.com/RichCodersAndMe/LeetCode-Solution
 [img]: ./013.gif
