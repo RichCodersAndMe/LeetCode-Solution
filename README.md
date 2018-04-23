@@ -33,9 +33,9 @@
 | [013][013-question] | [Roman to Integer][013-tips]                                 | [✅][013-java] | [✅][013-js] | [✅][013-kotlin] |
 | [014][014-question] | [Longest Common Prefix][014-tips]                            | [✅][014-java] | [✅][014-js] | [✅][014-kotlin] |
 | [020][020-question] | [Valid Parentheses][020-tips]                                | [✅][020-java] | [✅][020-js] | [✅][020-kotlin] |
-| [021][021-question] | [Merge Two Sorted Lists][021-tips]                           | [✅][021-java] |              | [✅][021-kotlin] |
-| [026][026-question] | [Remove Duplicates from Sorted Array][026-tips]              | [✅][026-java] |              | [✅][026-kotlin] |
-| [027][027-question] | [Remove Element][027-tips]                                   | [✅][027-java] |              | [✅][027-kotlin] |
+| [021][021-question] | [Merge Two Sorted Lists][021-tips]                           | [✅][021-java] | [✅][021-js] | [✅][021-kotlin] |
+| [026][026-question] | [Remove Duplicates from Sorted Array][026-tips]              | [✅][026-java] | [✅][026-js] | [✅][026-kotlin] |
+| [027][027-question] | [Remove Element][027-tips]                                   | [✅][027-java] | [✅][027-js] | [✅][027-kotlin] |
 | [028][028-question] | [Implement strStr()][028-tips]                               | [✅][028-java] |              | [✅][028-kotlin] |
 | [035][035-question] | [Search Insert Position][035-tips]                           | [✅][035-java] |              | [✅][035-kotlin] |
 | [038][038-question] | [Count and Say][038-tips]                                    | [✅][038-java] |              | [✅][038-kotlin] |
@@ -355,6 +355,9 @@
 [013-js]: ./src/_013/Solution.js
 [014-js]: ./src/_014/Solution.js
 [020-js]: ./src/_020/Solution.js
+[021-js]: ./src/_021/Solution.js
+[026-js]: ./src/_026/Solution.js
+[027-js]: ./src/_027/Solution.js
 [226-js]: ./src/_226/Solution.js
 [561-js]: ./src/_561/Solution.js
 [643-js]: ./src/_643/Solution.js
