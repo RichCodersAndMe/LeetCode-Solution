@@ -39,4 +39,4 @@ The maximum depth is the number of nodes along the longest path from the root no
 
 
 [title]: https://leetcode.com/problems/maximum-depth-of-binary-tree
-[ls]: https://github.com/SDE603/LeetCode-Solution
+[ls]: https://github.com/RichCodersAndMe/LeetCode-Solution

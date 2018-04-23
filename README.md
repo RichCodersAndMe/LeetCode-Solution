@@ -41,11 +41,11 @@
 | [038][038-question] | [Count and Say][038-tips]                                    | [✅][038-java] |              | [✅][038-kotlin] |
 | [053][053-question] | [Maximum Subarray][053-tips]                                 | [✅][053-java] |              | [✅][053-kotlin] |
 | [058][058-question] | [Length of Last Word][058-tips]                              | [✅][058-java] |              | [✅][058-kotlin] |
-| [066][066-question] | [Plus One][066-tips]                                         | [✅][066-java] |              |                  |
-| [067][067-question] | [Add Binary][067-tips]                                       | [✅][067-java] |              |                  |
-| [069][069-question] | [Sqrt(x)][069-tips]                                          | [✅][069-java] |              |                  |
-| [070][070-question] | [Climbing Stairs][070-tips]                                  | [✅][070-java] |              |                  |
-| [083][083-question] | [Remove Duplicates from Sorted List][083-tips]               | [✅][083-java] |              |                  |
+| [066][066-question] | [Plus One][066-tips]                                         | [✅][066-java] |              | [✅][066-kotlin] |
+| [067][067-question] | [Add Binary][067-tips]                                       | [✅][067-java] |              | [✅][067-kotlin] |
+| [069][069-question] | [Sqrt(x)][069-tips]                                          | [✅][069-java] |              | [✅][069-kotlin] |
+| [070][070-question] | [Climbing Stairs][070-tips]                                  | [✅][070-java] |              | [✅][070-kotlin] |
+| [083][083-question] | [Remove Duplicates from Sorted List][083-tips]               | [✅][083-java] |              | [✅][083-kotlin] |
 | [088][088-question] | [Merge Sorted Array][088-tips]                               | [✅][088-java] |              |                  |
 | [100][100-question] | [Same Tree][100-tips]                                        | [✅][100-java] |              |                  |
 | [101][101-question] | [Symmetric Tree][101-tips]                                   | [✅][101-java] |              |                  |
@@ -69,10 +69,10 @@
 | [661][661-question] | [Image Smoother][661-tips]                                   | [✅][661-java] | [✅][661-js] |                  |
 | [665][665-question] | [Non-decreasing Array][665-tips]                             | [✅][665-java] | [✅][665-js] |                  |
 | [669][669-question] | [Trim a Binary Search Tree][669-tips]                        | [✅][669-java] | [✅][669-js] |                  |
-| [671][671-question] | [Second Minimum Node In a Binary Tree][671-tips]             |                | [✅][671-js] |                  |
-| [674][674-question] | [Longest Continuous Increasing Subsequence][674-tips]        |                | [✅][674-js] |                  |
-| [680][680-question] | [Valid Palindrome II][680-tips]                              |                | [✅][680-js] |                  |
-| [682][682-question] | [Baseball Game][682-tips]                                    |                | [✅][682-js] |                  |
+| [671][671-question] | [Second Minimum Node In a Binary Tree][671-tips]             | [✅][671-java] | [✅][671-js] |                  |
+| [674][674-question] | [Longest Continuous Increasing Subsequence][674-tips]        | [✅][674-java] | [✅][674-js] |                  |
+| [680][680-question] | [Valid Palindrome II][680-tips]                              | [✅][680-java] | [✅][680-js] |                  |
+| [682][682-question] | [Baseball Game][682-tips]                                    | [✅][682-java] | [✅][682-js] |                  |
 | [686][686-question] | [Repeated String Match][686-tips]                            |                | [✅][686-js] |                  |
 | [687][687-question] | [Longest Univalue Path][687-tips]                            |                | [✅][687-js] |                  |
 | [693][693-question] | [Binary Number with Alternating Bits][693-tips]              |                | [✅][693-js] |                  |
@@ -465,6 +465,10 @@
 [661-java]: ./src/_661/Solution.java
 [665-java]: ./src/_665/Solution.java
 [669-java]: ./src/_669/Solution.java
+[671-java]: ./src/_671/Solution.java
+[674-java]: ./src/_674/Solution.java
+[680-java]: ./src/_680/Solution.java
+[682-java]: ./src/_682/Solution.java
 [728-java]: ./src/_728/Solution.java
 [771-java]: ./src/_771/Solution.java
 [804-java]: ./src/_804/Solution.java
@@ -484,4 +488,9 @@
 [038-kotlin]: ./src/_038/kotlin/Solution.kt
 [053-kotlin]: ./src/_053/kotlin/Solution.kt
 [058-kotlin]: ./src/_058/kotlin/Solution.kt
+[066-kotlin]: ./src/_066/kotlin/Solution.kt
+[067-kotlin]: ./src/_067/kotlin/Solution.kt
+[069-kotlin]: ./src/_069/kotlin/Solution.kt
+[070-kotlin]: ./src/_070/kotlin/Solution.kt
+[083-kotlin]: ./src/_083/kotlin/Solution.kt
 [771-kotlin]: ./src/_771/kotlin/Solution.kt

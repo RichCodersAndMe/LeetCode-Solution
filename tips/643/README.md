@@ -55,4 +55,4 @@ public double findMaxAverage(int[] nums, int k) {
 如果你同我们一样热爱数据结构、算法、LeetCode，可以关注我们 GitHub 上的 LeetCode 题解：[LeetCode-Solution][ls]
 
 [title]: https://leetcode.com/problems/maximum-average-subarray-i/description/
-[ls]: https://github.com/SDE603/LeetCode-Solution
+[ls]: https://github.com/RichCodersAndMe/LeetCode-Solution

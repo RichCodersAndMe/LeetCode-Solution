@@ -159,4 +159,4 @@ lool -> #l#o#o#l#
 
 
 [title]: https://leetcode.com/problems/longest-palindromic-substring
-[ls]: https://github.com/SDE603/LeetCode-Solution
+[ls]: https://github.com/RichCodersAndMe/LeetCode-Solution

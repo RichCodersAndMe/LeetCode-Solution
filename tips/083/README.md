@@ -17,6 +17,7 @@ Given `1->1->2->3->3`, return `1->2->3`.
 
 题意是删除链表中重复的元素，很简单，我们只需要遍历一遍链表，遇到链表中相邻元素相同时，把当前指针指向下下个元素即可。
 
+Java:
 ```java
 /**
  * Definition for singly-linked list.
@@ -42,6 +43,24 @@ class Solution {
 }
 ```
 
+kotlin(224ms/100.00%)
+```kotlin
+class Solution {
+    fun deleteDuplicates(head: ListNode?): ListNode? {
+        if (head == null) return head
+        var cur = head
+        while (cur!!.next != null) {
+            if (cur.`val` == cur.next.`val`) {
+                cur.next = cur.next.next
+            } else {
+                cur = cur.next
+            }
+        }
+        return head
+    }
+}
+```
+
 
 ## 结语
 
@@ -50,4 +69,4 @@ class Solution {
 
 
 [title]: https://leetcode.com/problems/remove-duplicates-from-sorted-list
-[ls]: https://github.com/SDE603/LeetCode-Solution
+[ls]: https://github.com/RichCodersAndMe/LeetCode-Solution

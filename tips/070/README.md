@@ -38,6 +38,7 @@ Explanation:  There are three ways to climb to the top.
 
 题意是爬楼梯，每次你只能爬一步或者两步，问到顶层共有多少种方案。我们假设到顶层共有 `f(n)` 种，那么 `f(n) = f(n - 1) + f(n - 2)` 肯定是成立的，意思就是我们迈向顶层的最后一步是在倒数第一级台阶或者在倒数第二级台阶。算法我对空间复杂度进行了优化，因为在迭代过程中只需要两个变量即可。
 
+Java:
 ```java
 class Solution {
     public int climbStairs(int n) {
@@ -51,6 +52,26 @@ class Solution {
 }
 ```
 
+本来想用递归的, 发现超时了, 就改用循环了
+kotlin(168ms/100.00%):
+```kotlin
+class Solution {
+    fun climbStairs(n: Int): Int {
+        if (n == 1) return 1
+        if (n == 2) return 2
+
+        var a = 1
+        var b = 2
+        var c: Int
+        for (i in 2 until n) {
+            c = b
+            b += a
+            a = c
+        }
+        return b
+    }
+}
+```
 
 ## 结语
 
@@ -59,4 +80,4 @@ class Solution {
 
 
 [title]: https://leetcode.com/problems/climbing-stairs
-[ls]: https://github.com/SDE603/LeetCode-Solution
+[ls]: https://github.com/RichCodersAndMe/LeetCode-Solution

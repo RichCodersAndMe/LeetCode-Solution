@@ -73,4 +73,4 @@ class Solution {
 
 
 [title]: https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree
-[ls]: https://github.com/SDE603/LeetCode-Solution
+[ls]: https://github.com/RichCodersAndMe/LeetCode-Solution

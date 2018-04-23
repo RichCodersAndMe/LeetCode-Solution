@@ -79,4 +79,4 @@ class Solution {
 
 
 [title]: https://leetcode.com/problems/minimum-depth-of-binary-tree
-[ls]: https://github.com/SDE603/LeetCode-Solution
+[ls]: https://github.com/RichCodersAndMe/LeetCode-Solution

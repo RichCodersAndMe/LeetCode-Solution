@@ -133,4 +133,4 @@ class Solution {
 
 [044]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/044/README.md
 [title]: https://leetcode.com/problems/regular-expression-matching
-[ls]: https://github.com/SDE603/LeetCode-Solution
+[ls]: https://github.com/RichCodersAndMe/LeetCode-Solution

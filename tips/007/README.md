@@ -86,4 +86,4 @@ var reverse = function(x) {
 
 
 [title]: https://leetcode.com/problems/reverse-integer
-[ls]: https://github.com/SDE603/LeetCode-Solution
+[ls]: https://github.com/RichCodersAndMe/LeetCode-Solution

@@ -33,4 +33,4 @@ class Solution {
 
 
 [title]: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii
-[ls]: https://github.com/SDE603/LeetCode-Solution
+[ls]: https://github.com/RichCodersAndMe/LeetCode-Solution

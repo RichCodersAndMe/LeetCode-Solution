@@ -107,4 +107,4 @@ class Solution {
 
 
 [title]: https://leetcode.com/problems/count-and-say
-[ls]: https://github.com/SDE603/LeetCode-Solution
+[ls]: https://github.com/RichCodersAndMe/LeetCode-Solution

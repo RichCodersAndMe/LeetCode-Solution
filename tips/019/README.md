@@ -63,4 +63,4 @@ class Solution {
 
 
 [title]: https://leetcode.com/problems/remove-nth-node-from-end-of-list
-[ls]: https://github.com/SDE603/LeetCode-Solution
+[ls]: https://github.com/RichCodersAndMe/LeetCode-Solution

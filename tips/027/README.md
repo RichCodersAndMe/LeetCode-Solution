@@ -74,4 +74,4 @@ var removeElement = function(nums, val) {
 
 
 [title]: https://leetcode.com/problems/remove-element
-[ls]: https://github.com/SDE603/LeetCode-Solution
+[ls]: https://github.com/RichCodersAndMe/LeetCode-Solution
