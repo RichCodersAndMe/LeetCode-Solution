@@ -46,7 +46,7 @@
 | [069][069-question] | [Sqrt(x)][069-tips]                                          | [✅][069-java] |              | [✅][069-kotlin] |
 | [070][070-question] | [Climbing Stairs][070-tips]                                  | [✅][070-java] |              | [✅][070-kotlin] |
 | [083][083-question] | [Remove Duplicates from Sorted List][083-tips]               | [✅][083-java] |              | [✅][083-kotlin] |
-| [088][088-question] | [Merge Sorted Array][088-tips]                               | [✅][088-java] |              |                  |
+| [088][088-question] | [Merge Sorted Array][088-tips]                               | [✅][088-java] |              | [✅][088-kotlin] |
 | [100][100-question] | [Same Tree][100-tips]                                        | [✅][100-java] |              |                  |
 | [101][101-question] | [Symmetric Tree][101-tips]                                   | [✅][101-java] |              |                  |
 | [104][104-question] | [Maximum Depth of Binary Tree][104-tips]                     | [✅][104-java] |              |                  |
@@ -73,7 +73,7 @@
 | [674][674-question] | [Longest Continuous Increasing Subsequence][674-tips]        | [✅][674-java] | [✅][674-js] |                  |
 | [680][680-question] | [Valid Palindrome II][680-tips]                              | [✅][680-java] | [✅][680-js] |                  |
 | [682][682-question] | [Baseball Game][682-tips]                                    | [✅][682-java] | [✅][682-js] |                  |
-| [686][686-question] | [Repeated String Match][686-tips]                            |                | [✅][686-js] |                  |
+| [686][686-question] | [Repeated String Match][686-tips]                            | [✅][686-java] | [✅][686-js] |                  |
 | [687][687-question] | [Longest Univalue Path][687-tips]                            |                | [✅][687-js] |                  |
 | [693][693-question] | [Binary Number with Alternating Bits][693-tips]              |                | [✅][693-js] |                  |
 | [695][695-question] | [Max Area of Island][695-tips]                               |                | [✅][695-js] |                  |
@@ -469,6 +469,7 @@
 [671-java]: ./src/_671/Solution.java
 [674-java]: ./src/_674/Solution.java
 [680-java]: ./src/_680/Solution.java
+[686-java]: ./src/_686/Solution.java
 [682-java]: ./src/_682/Solution.java
 [728-java]: ./src/_728/Solution.java
 [771-java]: ./src/_771/Solution.java
@@ -494,4 +495,5 @@
 [069-kotlin]: ./src/_069/kotlin/Solution.kt
 [070-kotlin]: ./src/_070/kotlin/Solution.kt
 [083-kotlin]: ./src/_083/kotlin/Solution.kt
+[088-kotlin]: ./src/_088/kotlin/Solution.kt
 [771-kotlin]: ./src/_771/kotlin/Solution.kt
