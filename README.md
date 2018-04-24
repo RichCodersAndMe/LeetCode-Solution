@@ -73,7 +73,7 @@
 | [674][674-question] | [Longest Continuous Increasing Subsequence][674-tips]        | [✅][674-java] | [✅][674-js] |                  |
 | [680][680-question] | [Valid Palindrome II][680-tips]                              | [✅][680-java] | [✅][680-js] |                  |
 | [682][682-question] | [Baseball Game][682-tips]                                    | [✅][682-java] | [✅][682-js] |                  |
-| [686][686-question] | [Repeated String Match][686-tips]                            |                | [✅][686-js] |                  |
+| [686][686-question] | [Repeated String Match][686-tips]                            | [✅][686-java] | [✅][686-js] |                  |
 | [687][687-question] | [Longest Univalue Path][687-tips]                            |                | [✅][687-js] |                  |
 | [693][693-question] | [Binary Number with Alternating Bits][693-tips]              |                | [✅][693-js] |                  |
 | [695][695-question] | [Max Area of Island][695-tips]                               |                | [✅][695-js] |                  |
@@ -468,6 +468,7 @@
 [671-java]: ./src/_671/Solution.java
 [674-java]: ./src/_674/Solution.java
 [680-java]: ./src/_680/Solution.java
+[686-java]: ./src/_686/Solution.java
 [682-java]: ./src/_682/Solution.java
 [728-java]: ./src/_728/Solution.java
 [771-java]: ./src/_771/Solution.java
