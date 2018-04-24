@@ -37,7 +37,7 @@
 | [026][026-question] | [Remove Duplicates from Sorted Array][026-tips]              | [✅][026-java] | [✅][026-js] | [✅][026-kotlin] |
 | [027][027-question] | [Remove Element][027-tips]                                   | [✅][027-java] | [✅][027-js] | [✅][027-kotlin] |
 | [028][028-question] | [Implement strStr()][028-tips]                               | [✅][028-java] | [✅][027-js] | [✅][028-kotlin] |
-| [035][035-question] | [Search Insert Position][035-tips]                           | [✅][035-java] |              | [✅][035-kotlin] |
+| [035][035-question] | [Search Insert Position][035-tips]                           | [✅][035-java] | [✅][035-js] | [✅][035-kotlin] |
 | [038][038-question] | [Count and Say][038-tips]                                    | [✅][038-java] |              | [✅][038-kotlin] |
 | [053][053-question] | [Maximum Subarray][053-tips]                                 | [✅][053-java] |              | [✅][053-kotlin] |
 | [058][058-question] | [Length of Last Word][058-tips]                              | [✅][058-java] |              | [✅][058-kotlin] |
@@ -359,6 +359,7 @@
 [026-js]: ./src/_026/Solution.js
 [027-js]: ./src/_027/Solution.js
 [028-js]: ./src/_028/Solution.js
+[035-js]: ./src/_035/Solution.js
 [226-js]: ./src/_226/Solution.js
 [561-js]: ./src/_561/Solution.js
 [643-js]: ./src/_643/Solution.js
