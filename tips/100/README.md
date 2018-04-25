@@ -49,6 +49,7 @@ Output: false
 
 题意是比较两棵二叉树是否相同，那么我们就深搜比较各个节点即可。
 
+java:
 ```java
 /**
  * Definition for a binary tree node.
@@ -71,6 +72,16 @@ class Solution {
 }
 ```
 
+kotlin(184ms/100.00%):
+```kotlin
+class Solution {
+    fun isSameTree(p: TreeNode?, q: TreeNode?): Boolean {
+        if (p == null && q == null) return true
+        if (p == null || q == null) return false
+        return p.`val` == q.`val` && isSameTree(p.left, q.left) && isSameTree(p.right, q.right)
+    }
+}
+```
 
 ## 结语
 

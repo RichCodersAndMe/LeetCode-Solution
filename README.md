@@ -47,7 +47,7 @@
 | [070][070-question] | [Climbing Stairs][070-tips]                                  | [✅][070-java] |              | [✅][070-kotlin] |
 | [083][083-question] | [Remove Duplicates from Sorted List][083-tips]               | [✅][083-java] |              | [✅][083-kotlin] |
 | [088][088-question] | [Merge Sorted Array][088-tips]                               | [✅][088-java] |              | [✅][088-kotlin] |
-| [100][100-question] | [Same Tree][100-tips]                                        | [✅][100-java] |              |                  |
+| [100][100-question] | [Same Tree][100-tips]                                        | [✅][100-java] |              | [✅][100-kotlin] |
 | [101][101-question] | [Symmetric Tree][101-tips]                                   | [✅][101-java] |              |                  |
 | [104][104-question] | [Maximum Depth of Binary Tree][104-tips]                     | [✅][104-java] |              |                  |
 | [107][107-question] | [Binary Tree Level Order Traversal II][107-tips]             | [✅][107-java] |              |                  |
@@ -497,4 +497,5 @@
 [070-kotlin]: ./src/_070/kotlin/Solution.kt
 [083-kotlin]: ./src/_083/kotlin/Solution.kt
 [088-kotlin]: ./src/_088/kotlin/Solution.kt
+[100-kotlin]: ./src/_100/kotlin/Solution.kt
 [771-kotlin]: ./src/_771/kotlin/Solution.kt
