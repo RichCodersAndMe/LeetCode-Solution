@@ -35,6 +35,7 @@ Bonus points if you could solve it both recursively and iteratively.
 
 题意是判断一棵二叉树是否左右对称，首先想到的是深搜，比较根结点的左右两棵子树是否对称，如果左右子树的值相同，那么再分别对左子树的左节点和右子树的右节点，左子树的右节点和右子树的左节点做比较即可。
 
+java:
 ```java
 /**
  * Definition for a binary tree node.
@@ -54,6 +55,25 @@ class Solution {
         if (left == null || right == null) return left == right;
         if (left.val != right.val) return false;
         return helper(left.left, right.right) && helper(left.right, right.left);
+    }
+}
+```
+
+kotlin(208ms/100.00%):
+```kotlin
+class Solution {
+
+    private fun symmetric(left: TreeNode?, right: TreeNode?): Boolean {
+        if (left == null && right == null) return true
+        if (left == null || right == null) return false
+        return left.`val` == right.`val` && symmetric(left.right, right.left) && symmetric(left.left, right.right)
+    }
+
+    fun isSymmetric(root: TreeNode?): Boolean {
+        if (root == null) return true
+        if (root.left == null && root.right == null) return true
+        if (root.left == null || root.right == null) return false
+        return symmetric(root.left, root.right)
     }
 }
 ```
