@@ -1,46 +1,63 @@
-[xxxx][title]
+[Binary Number with Alternating Bits][title]
 
 ## Description
-// 抄题目
 
+Given a positive integer, check whether it has alternating bits: namely, if two adjacent bits will always have different values.
 
-**Example:**
+**Example 1:**
 
 ```
-// 抄Example
+Input: 5
+Output: True
+Explanation:
+The binary representation of 5 is: 101
 ```
 
-**Note:**
-// Note
+**Example 2:**
 
-**Tags:** // tags
+```
+Input: 7
+Output: False
+Explanation:
+The binary representation of 7 is: 111.
+```
 
+**Example 3:**
 
-## 思路 1
-// 贴一些关键代码,说一些解题思路
-// (同一种语言可以写多种思路，与某种语言思路相同的另一种语言的思路无须赘述，但可以把代码贴在后面) 
+```
+Input: 11
+Output: False
+Explanation:
+The binary representation of 11 is: 1011.
+```
+
+**Example 4:**
+
+```
+Input: 10
+Output: True
+Explanation:
+The binary representation of 10 is: 1010.
+```
+
+**Tags:** [Bit Manipulation](https://leetcode.com/tag/bit-manipulation/)
+
+## 思路
+
+判断所给数字的二进制形式是否是0、1交错的。
+
+**Java:**
+
 ```java
-
-```
-```javascript
-
-```
-
-## 思路 2
-// 贴一些关键代码,说一些解题思路
-```java
-
-```
-
-## 思路 3
-// 贴一些关键代码,说一些解题思路
-```kotlin
-
+public boolean hasAlternatingBits(int n) {
+    int op = ((n >> 1) ^ n);
+    return (op & (op + 1)) == 0;
+}
 ```
 
 ## 结语
-   
+
 如果你同我们一样热爱数据结构、算法、LeetCode，可以关注我们 GitHub 上的 LeetCode 题解：[LeetCode-Solution][ls]
 
-[title]: https://leetcode.com/problems/xxxx
+[title]: https://leetcode.com/problems/binary-number-with-alternating-bits/description/
 [ls]: https://github.com/RichCodersAndMe/LeetCode-Solution
