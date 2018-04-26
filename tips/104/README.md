@@ -13,6 +13,7 @@ The maximum depth is the number of nodes along the longest path from the root no
 
 题意是找到二叉树的最大深度，很明显，深搜即可，每深入一次节点加一即可，然后取左右子树的最大深度。
 
+Java:
 ```java
 /**
  * Definition for a binary tree node.
@@ -31,6 +32,17 @@ The maximum depth is the number of nodes along the longest path from the root no
  }
 ```
 
+kotlin(212ms/100.00%):
+```kotlin
+class Solution {
+    fun maxDepth(root: TreeNode?): Int {
+        if (root == null) return 0
+        if (root.left == null) return 1 + maxDepth(root.right)
+        if (root.right == null) return 1 + maxDepth(root.left)
+        return Math.max(1 + maxDepth(root.left), 1 + maxDepth(root.right))
+    }
+}
+```
 
 ## 结语
 
