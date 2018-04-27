@@ -98,6 +98,26 @@ class Solution {
 }
 ```
 
+kotlin(248ms/100.00%):
+```kotlin
+class Solution {
+
+    private fun turn(list: ArrayList<ArrayList<Int>>, node: TreeNode?, depth: Int) {
+        if (node == null) return
+        if (list.size <= depth) list.add(ArrayList())
+        list[depth].add(node.`val`)
+        turn(list, node.left, 1 + depth)
+        turn(list, node.right, 1 + depth)
+    }
+
+    fun levelOrderBottom(root: TreeNode?): List<List<Int>> {
+        val list = ArrayList<ArrayList<Int>>()
+        turn(list, root, 0)
+        list.reverse()
+        return list
+    }
+}
+```
 
 ## 结语
 

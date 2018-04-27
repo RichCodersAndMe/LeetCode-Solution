@@ -49,8 +49,8 @@
 | [088][088-question] | [Merge Sorted Array][088-tips]                               | [✅][088-java] |              | [✅][088-kotlin] |
 | [100][100-question] | [Same Tree][100-tips]                                        | [✅][100-java] |              | [✅][100-kotlin] |
 | [101][101-question] | [Symmetric Tree][101-tips]                                   | [✅][101-java] |              | [✅][101-kotlin] |
-| [104][104-question] | [Maximum Depth of Binary Tree][104-tips]                     | [✅][104-java] |              |                  |
-| [107][107-question] | [Binary Tree Level Order Traversal II][107-tips]             | [✅][107-java] |              |                  |
+| [104][104-question] | [Maximum Depth of Binary Tree][104-tips]                     | [✅][104-java] |              | [✅][104-kotlin] |
+| [107][107-question] | [Binary Tree Level Order Traversal II][107-tips]             | [✅][107-java] |              | [✅][107-kotlin] |
 | [108][108-question] | [Convert Sorted Array to Binary Search Tree][108-tips]       | [✅][108-java] |              |                  |
 | [110][110-question] | [Balanced Binary Tree][110-tips]                             | [✅][110-java] |              |                  |
 | [111][111-question] | [Minimum Depth of Binary Tree][111-tips]                     | [✅][111-java] |              |                  |
@@ -501,4 +501,6 @@
 [088-kotlin]: ./src/_088/kotlin/Solution.kt
 [100-kotlin]: ./src/_100/kotlin/Solution.kt
 [101-kotlin]: ./src/_101/kotlin/Solution.kt
+[104-kotlin]: ./src/_104/kotlin/Solution.kt
+[107-kotlin]: ./src/_107/kotlin/Solution.kt
 [771-kotlin]: ./src/_771/kotlin/Solution.kt
