@@ -65,6 +65,25 @@ class Solution {
 }
 ```
 
+kotlin(232ms/66.67%):
+```kotlin
+class Solution {
+    fun sortedArrayToBST(nums: IntArray): TreeNode? {
+        return balance(nums, 0, nums.size - 1)
+    }
+
+    private fun balance(nums: IntArray, start: Int, end: Int): TreeNode? {
+        if (start > end) return null
+        val midIndex = (start + end) / 2
+        val left = balance(nums, start, midIndex - 1)
+        val right = balance(nums, midIndex + 1, end)
+        val node = TreeNode(nums[midIndex])
+        node.left = left
+        node.right = right
+        return node
+    }
+}
+```
 
 ## 结语
 
