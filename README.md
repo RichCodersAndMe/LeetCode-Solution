@@ -52,7 +52,7 @@
 | [104][104-question] | [Maximum Depth of Binary Tree][104-tips]                     | [✅][104-java] |              | [✅][104-kotlin] |
 | [107][107-question] | [Binary Tree Level Order Traversal II][107-tips]             | [✅][107-java] |              | [✅][107-kotlin] |
 | [108][108-question] | [Convert Sorted Array to Binary Search Tree][108-tips]       | [✅][108-java] |              | [✅][108-kotlin] |
-| [110][110-question] | [Balanced Binary Tree][110-tips]                             | [✅][110-java] |              |                  |
+| [110][110-question] | [Balanced Binary Tree][110-tips]                             | [✅][110-java] |              | [✅][110-kotlin] |
 | [111][111-question] | [Minimum Depth of Binary Tree][111-tips]                     | [✅][111-java] |              |                  |
 | [112][112-question] | [Path Sum][112-tips]                                         | [✅][112-java] |              |                  |
 | [118][118-question] | [Pascal's Triangle][118-tips]                                | [✅][118-java] |              |                  |
@@ -504,4 +504,5 @@
 [104-kotlin]: ./src/_104/kotlin/Solution.kt
 [107-kotlin]: ./src/_107/kotlin/Solution.kt
 [108-kotlin]: ./src/_108/kotlin/Solution.kt
+[110-kotlin]: ./src/_110/kotlin/Solution.kt
 [771-kotlin]: ./src/_771/kotlin/Solution.kt
