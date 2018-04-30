@@ -13,6 +13,7 @@ The minimum depth is the number of nodes along the shortest path from the root n
 
 题意是查找二叉树的最小深度，也就是找到从根结点到叶子节点的最小深度，最容易想到的当然是深搜，如果节点的左右深度都不是 0 的话，说明该节点含有左右子树，所以它的最小高度就是 1 加上其左右子树高度较小者，否则如果左子树为空或者右子树为空或者两者都为空，那么就是 1 加上非空子树高度。
 
+Java:
 ```java
 /**
  * Definition for a binary tree node.
@@ -30,6 +31,19 @@ class Solution {
         int r = minDepth(root.right);
         if (l != 0 && r != 0) return 1 + Math.min(l, r);
         return l + r + 1;
+    }
+}
+```
+
+kotlin(232ms/83.33%):
+```kotlin
+class Solution {
+    fun minDepth(root: TreeNode?): Int {
+        if (root == null) return 0
+        if (root.left == null && root.right == null) return 1
+        if (root.left == null) return minDepth(root.right) + 1
+        if (root.right == null) return minDepth(root.left) + 1
+        return 1 + Math.min(minDepth(root.left), minDepth(root.right))
     }
 }
 ```

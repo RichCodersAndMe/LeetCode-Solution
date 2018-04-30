@@ -30,7 +30,7 @@ public class TreeNode {
         String[] split = data.split(",");
         int len = len = split.length;
         TreeNode[] treeNodes = new TreeNode[len];
-        data = data.substring(1, data.length() - 1);
+//        data = data.substring(1, data.length() - 1);
         for (int i = 0; i < len; i++) {
             if (!split[i].equals("null")) {
                 treeNodes[i] = new TreeNode(Integer.valueOf(split[i]));
