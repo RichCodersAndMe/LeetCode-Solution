@@ -76,8 +76,8 @@
 | [686][686-question] | [Repeated String Match][686-tips]                            | [✅][686-java] | [✅][686-js] |                  |
 | [687][687-question] | [Longest Univalue Path][687-tips]                            | [✅][687-java] | [✅][687-js] |                  |
 | [693][693-question] | [Binary Number with Alternating Bits][693-tips]              | [✅][693-java] | [✅][693-js] |                  |
-| [695][695-question] | [Max Area of Island][695-tips]                               | [✅][695-java]  | [✅][695-js] |                  |
-| [696][696-question] | [Count Binary Substrings][696-tips]                          |                | [✅][696-js] |                  |
+| [695][695-question] | [Max Area of Island][695-tips]                               | [✅][695-java] | [✅][695-js] |                  |
+| [696][696-question] | [Count Binary Substrings][696-tips]                          | [✅][696-java] | [✅][696-js] |                  |
 | [697][697-question] | [Degree of an Array][697-tips]                               |                | [✅][697-js] |                  |
 | [717][717-question] | [1-bit and 2-bit Characters][717-tips]                       |                | [✅][717-js] |                  |
 | [720][720-question] | [Longest Word in Dictionary][720-tips]                       |                | [✅][720-js] |                  |
@@ -475,6 +475,7 @@
 [682-java]: ./src/_682/Solution.java
 [693-java]: ./src/_693/Solution.java
 [695-java]: ./src/_695/Solution.java
+[696-java]: ./src/_696/Solution.java
 [728-java]: ./src/_728/Solution.java
 [771-java]: ./src/_771/Solution.java
 [804-java]: ./src/_804/Solution.java
