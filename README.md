@@ -54,7 +54,7 @@
 | [108][108-question] | [Convert Sorted Array to Binary Search Tree][108-tips]       | [✅][108-java] |              | [✅][108-kotlin] |
 | [110][110-question] | [Balanced Binary Tree][110-tips]                             | [✅][110-java] |              | [✅][110-kotlin] |
 | [111][111-question] | [Minimum Depth of Binary Tree][111-tips]                     | [✅][111-java] |              | [✅][111-kotlin] |
-| [112][112-question] | [Path Sum][112-tips]                                         | [✅][112-java] |              |                  |
+| [112][112-question] | [Path Sum][112-tips]                                         | [✅][112-java] |              | [✅][112-kotlin] |
 | [118][118-question] | [Pascal's Triangle][118-tips]                                | [✅][118-java] |              |                  |
 | [119][119-question] | [Pascal's Triangle II][119-tips]                             | [✅][119-java] |              |                  |
 | [121][121-question] | [Best Time to Buy and Sell Stock][121-tips]                  | [✅][121-java] |              |                  |
@@ -508,4 +508,5 @@
 [108-kotlin]: ./src/_108/kotlin/Solution.kt
 [110-kotlin]: ./src/_110/kotlin/Solution.kt
 [111-kotlin]: ./src/_111/kotlin/Solution.kt
+[112-kotlin]: ./src/_112/kotlin/Solution.kt
 [771-kotlin]: ./src/_771/kotlin/Solution.kt

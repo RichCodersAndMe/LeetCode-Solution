@@ -27,7 +27,7 @@ return true, as there exist a root-to-leaf path `5->4->11->2` which sum is 22.
 
 题意是查找二叉树中是否存在从根结点到叶子的路径和为某一值，利用深搜在遇到叶子节点时判断是否满足即可。
 
-
+Java:
 ```java
 /**
  * Definition for a binary tree node.
@@ -47,6 +47,16 @@ class Solution {
 }
 ```
 
+kotlin(216ms/100.00%):
+```kotlin
+class Solution {
+    fun hasPathSum(root: TreeNode?, sum: Int): Boolean {
+        if (root == null) return false
+        if (root.left == null && root.right == null) return sum == root.`val`
+        return hasPathSum(root.right, sum - root.`val`) || hasPathSum(root.left, sum - root.`val`)
+    }
+}
+```
 
 ## 结语
 
