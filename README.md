@@ -144,7 +144,7 @@
 
 排名不分先后
 - 感谢[@Mukyu](https://github.com/Mukyu), 提供**Java**题解。
-- 感谢[@taryn](https://github.com/taryn2016), 提供**JavaScript**题解。
+- 感谢[@Taryn](https://github.com/taryn2016), 提供**JavaScript**题解。
 - 感谢[@Wang-YS](https://github.com/Wang-YS), 提供**JavaScrip**代码。
 - 感谢[@Blankj](https://github.com/Blankj), 提供**Java**题解、**镇楼诗**及**文档编写规范**。
 - 感谢[@WangXin](https://github.com/relish-wang), 提供**kotlin**代码、**文档整理**及**库维护规范**。
