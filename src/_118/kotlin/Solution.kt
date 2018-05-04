@@ -24,5 +24,10 @@ class Solution {
 }
 
 fun main(args: Array<String>) {
-    println(Solution().generate(7))
+    val message = Solution().generate(10)
+    for(item in message){
+        println(item)
+    }
 }
+//2 3 4 5 6 7 8
+//3 6 10 15 21 28
