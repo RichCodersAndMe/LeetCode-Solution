@@ -80,7 +80,7 @@
 | [696][696-question] | [Count Binary Substrings][696-tips]                          | [✅][696-java] | [✅][696-js] |                  |
 | [697][697-question] | [Degree of an Array][697-tips]                               | [✅][697-java] | [✅][697-js] |                  |
 | [717][717-question] | [1-bit and 2-bit Characters][717-tips]                       | [✅][717-java] | [✅][717-js] |                  |
-| [720][720-question] | [Longest Word in Dictionary][720-tips]                       |                | [✅][720-js] |                  |
+| [720][720-question] | [Longest Word in Dictionary][720-tips]                       | [✅][720-java] | [✅][720-js] |                  |
 | [724][724-question] | [Find Pivot Index][724-tips]                                 |                | [✅][724-js] |                  |
 | [728][728-question] | [Self Dividing Numbers][728-tips]                            | [✅][728-java] | [✅][728-js] |                  |
 | [733][733-question] | [Flood Fill][733-tips]                                       |                | [✅][733-js] |                  |
@@ -478,6 +478,7 @@
 [696-java]: ./src/_696/Solution.java
 [697-java]: ./src/_697/Solution.java
 [717-java]: ./src/_717/Solution.java
+[720-java]: ./src/_720/Solution.java
 [728-java]: ./src/_728/Solution.java
 [771-java]: ./src/_771/Solution.java
 [804-java]: ./src/_804/Solution.java
