@@ -57,7 +57,7 @@
 | [112][112-question] | [Path Sum][112-tips]                                         | [✅][112-java] |              | [✅][112-kotlin] |
 | [118][118-question] | [Pascal's Triangle][118-tips]                                | [✅][118-java] |              | [✅][118-kotlin] |
 | [119][119-question] | [Pascal's Triangle II][119-tips]                             | [✅][119-java] |              | [✅][119-kotlin] |
-| [121][121-question] | [Best Time to Buy and Sell Stock][121-tips]                  | [✅][121-java] |              |                  |
+| [121][121-question] | [Best Time to Buy and Sell Stock][121-tips]                  | [✅][121-java] |              | [✅][121-kotlin] |
 | [122][122-question] | [Best Time to Buy and Sell Stock II][122-tips]               | [✅][122-java] |              |                  |
 | [226][226-question] | [Invert Binary Tree][226-tips]                               | [✅][226-java] | [✅][226-js] |                  |
 | [543][543-question] | [Diameter of Binary Tree][543-tips]                          | [✅][543-java] |              |                  |
@@ -516,4 +516,5 @@
 [112-kotlin]: ./src/_112/kotlin/Solution.kt
 [118-kotlin]: ./src/_118/kotlin/Solution.kt
 [119-kotlin]: ./src/_119/kotlin/Solution.kt
+[121-kotlin]: ./src/_121/kotlin/Solution.kt
 [771-kotlin]: ./src/_771/kotlin/Solution.kt

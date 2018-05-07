@@ -31,6 +31,7 @@ In this case, no transaction is done, i.e. max profit = 0.
 
 题意是给出一个数组代表每天的股票金额，让你在最多买卖一次的情况下算出最大的收益额，最简单的就是模拟即可，每次记录当前值减去最小值的差值，与上一次的进行比较然后更新最大值即可。
 
+Java:
 ```java
 class Solution {
     public int maxProfit(int[] prices) {
@@ -45,6 +46,21 @@ class Solution {
 }
 ```
 
+kotlin(204ms/100.00%):
+```kotlin
+class Solution {
+    fun maxProfit(prices: IntArray): Int {
+        if (prices.isEmpty()) return 0
+        var ret = 0
+        var min = prices[0]
+        for (i in 1 until prices.size) {
+            min = Math.min(min, prices[i])
+            ret = Math.max(prices[i] - min, ret)
+        }
+        return ret
+    }
+}
+```
 
 ## 结语
 
