@@ -83,7 +83,7 @@
 | [720][720-question] | [Longest Word in Dictionary][720-tips]                       | [✅][720-java] | [✅][720-js] |                  |
 | [724][724-question] | [Find Pivot Index][724-tips]                                 | [✅][724-java] | [✅][724-js] |                  |
 | [728][728-question] | [Self Dividing Numbers][728-tips]                            | [✅][728-java] | [✅][728-js] |                  |
-| [733][733-question] | [Flood Fill][733-tips]                                       |                | [✅][733-js] |                  |
+| [733][733-question] | [Flood Fill][733-tips]                                       | [✅][733-java] | [✅][733-js] |                  |
 | [744][744-question] | [Find Smallest Letter Greater Than Target][744-tips]         |                | [✅][744-js] |                  |
 | [746][746-question] | [Min Cost Climbing Stairs][746-tips]                         |                | [✅][746-js] |                  |
 | [747][747-question] | [Largest Number At Least Twice of Others][747-tips]          |                | [✅][747-js] |                  |
@@ -481,6 +481,7 @@
 [720-java]: ./src/_720/Solution.java
 [724-java]: ./src/_724/Solution.java
 [728-java]: ./src/_728/Solution.java
+[733-java]: ./src/_733/Solution.java
 [771-java]: ./src/_771/Solution.java
 [804-java]: ./src/_804/Solution.java
 
