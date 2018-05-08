@@ -84,7 +84,7 @@
 | [724][724-question] | [Find Pivot Index][724-tips]                                 | [✅][724-java] | [✅][724-js] |                  |
 | [728][728-question] | [Self Dividing Numbers][728-tips]                            | [✅][728-java] | [✅][728-js] |                  |
 | [733][733-question] | [Flood Fill][733-tips]                                       | [✅][733-java] | [✅][733-js] |                  |
-| [744][744-question] | [Find Smallest Letter Greater Than Target][744-tips]         |                | [✅][744-js] |                  |
+| [744][744-question] | [Find Smallest Letter Greater Than Target][744-tips]         | [✅][744-java] | [✅][744-js] |                  |
 | [746][746-question] | [Min Cost Climbing Stairs][746-tips]                         |                | [✅][746-js] |                  |
 | [747][747-question] | [Largest Number At Least Twice of Others][747-tips]          |                | [✅][747-js] |                  |
 | [762][762-question] | [Prime Number of Set Bits in Binary Representation][762-tips]|                | [✅][762-js] |                  |
@@ -482,6 +482,7 @@
 [724-java]: ./src/_724/Solution.java
 [728-java]: ./src/_728/Solution.java
 [733-java]: ./src/_733/Solution.java
+[744-java]: ./src/_744/Solution.java
 [771-java]: ./src/_771/Solution.java
 [804-java]: ./src/_804/Solution.java
 
