@@ -13,6 +13,7 @@ Design an algorithm to find the maximum profit. You may complete as many transac
 
 题意是给出一个数组代表每天的股票金额，在每天只能买或卖的情况下求出收益最高值，这...，这也太简单了吧，把所有相邻递增的值都加起来即可。
 
+java:
 ```java
 class Solution {
     public int maxProfit(int[] prices) {
@@ -25,6 +26,18 @@ class Solution {
 }
 ```
 
+kotlin(220ms/84.32%):
+```kotlin
+class Solution {
+    fun maxProfit(prices: IntArray): Int {
+        var sum = 0
+        for (i in 1 until prices.size) {
+            if (prices[i] > prices[i - 1]) sum += prices[i] - prices[i - 1]
+        }
+        return sum
+    }
+}
+```
 
 ## 结语
 
