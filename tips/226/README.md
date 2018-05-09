@@ -33,19 +33,33 @@ This problem was inspired by this original tweet by Max Howell:
 ## 思路
 反转二叉树。通过前序遍历，依次调换每个节点的两个子节点即可。
 ```java
-public TreeNode invertTree(TreeNode root) {
-	if (root == null || (root.left == null && root.right == null)) {
-		return root;
-	}
-
-	TreeNode tmpNode = root.left;
-	root.left = invertTree(root.right);
-	root.right = invertTree(tmpNode);
-
-	return root;
+class Solution {
+    public TreeNode invertTree(TreeNode root) {
+        if (root == null || (root.left == null && root.right == null)) {
+            return root;
+        }
+    
+        TreeNode tmpNode = root.left;
+        root.left = invertTree(root.right);
+        root.right = invertTree(tmpNode);
+    
+        return root;
+    }
 }
 ```
 
+kotlin(180ms/92.86%):
+```kotlin
+class Solution {
+    fun invertTree(root: TreeNode?): TreeNode? {
+        if (root == null) return null
+        val tmp = root.left
+        root.left = invertTree(root.right)
+        root.right = invertTree(tmp)
+        return root
+    }
+}
+```
 ## 结语
 
 如果你同我们一样热爱数据结构、算法、LeetCode，可以关注我们 GitHub 上的 LeetCode 题解：[LeetCode-Solution][ls]
