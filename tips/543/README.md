@@ -28,6 +28,7 @@ Return **3**, which is the length of the path [4,2,1,3] or [5,2,1,3].
 
 题意是让你算出二叉树中最远的两个节点的距离，分别计算左右子树的最大高度，然后不断迭代出其和的最大值就是最终结果。
 
+java:
 ```java
 /**
  * Definition for a binary tree node.
@@ -56,6 +57,23 @@ class Solution {
 }
 ```
 
+不用全局变量的写法(性能较差, 两重递归)
+kotlin(264ms/100.00%):
+```kotlin
+class Solution {
+
+    fun diameterOfBinaryTree(root: TreeNode?): Int {
+        if (root == null || root.left == null && root.right == null) return 0
+        val height = depth(root.left) + depth(root.right)
+        return maxOf(height, maxOf(diameterOfBinaryTree(root.left), diameterOfBinaryTree(root.right)))
+    }
+
+    fun depth(root: TreeNode?): Int {
+        if (root == null) return 0
+        return 1 + maxOf(depth(root.left), depth(root.right))
+    }
+}
+```
 
 ## 结语
 
