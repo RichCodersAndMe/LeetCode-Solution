@@ -46,15 +46,15 @@ minCost[i] = cost[i] + min(minCost[i-1], minCost[i-2])
 
 ```
 public int minCostClimbingStairs(int[] cost) {
-        int[] minCost = new int[cost.length];
-        minCost[0] = cost[0];
-        minCost[1] = cost[1];
+    int[] minCost = new int[cost.length];
+    minCost[0] = cost[0];
+    minCost[1] = cost[1];
 
-        for (int i = 2; i < cost.length; i++) {
-                minCost[i] = cost[i] + Math.min(minCost[i - 1], minCost[i - 2]);
-        }
+    for (int i = 2; i < cost.length; i++) {
+        minCost[i] = cost[i] + Math.min(minCost[i - 1], minCost[i - 2]);
+    }
 
-        return Math.min(minCost[minCost.length - 1], minCost[minCost.length - 2]);
+    return Math.min(minCost[minCost.length - 1], minCost[minCost.length - 2]);
 }
 ```
 
@@ -64,17 +64,17 @@ public int minCostClimbingStairs(int[] cost) {
 
 ```
 public int minCostClimbingStairs(int[] cost) {
-        int[] minCost = new int[cost.length];
-        int a = cost[0];
-        int b = cost[1];
+    int[] minCost = new int[cost.length];
+    int a = cost[0];
+    int b = cost[1];
 
-        for (int i = 2; i < cost.length; i++) {
-                minCost[i] = cost[i] + Math.min(a, b);
-                a = b;
-                b = minCost[i];
-        }
+    for (int i = 2; i < cost.length; i++) {
+        minCost[i] = cost[i] + Math.min(a, b);
+        a = b;
+        b = minCost[i];
+    }
 
-        return Math.min(a, b);
+    return Math.min(a, b);
 }
 ```
 
@@ -84,11 +84,11 @@ public int minCostClimbingStairs(int[] cost) {
 
 ```
 public int minCostClimbingStairs(int[] cost) {
-        for (int i = 2; i < cost.length; i++) {
-                cost[i] = cost[i] + Math.min(cost[i - 1], cost[i - 2]);
-        }
+    for (int i = 2; i < cost.length; i++) {
+        cost[i] = cost[i] + Math.min(cost[i - 1], cost[i - 2]);
+    }
 
-        return Math.min(cost[cost.length - 1], cost[cost.length - 2]);
+    return Math.min(cost[cost.length - 1], cost[cost.length - 2]);
 }
 ```
 
