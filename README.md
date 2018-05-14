@@ -88,7 +88,7 @@
 | [746][746-question] | [Min Cost Climbing Stairs][746-tips]                         | [✅][746-java] | [✅][746-js] |                  |
 | [747][747-question] | [Largest Number At Least Twice of Others][747-tips]          | [✅][747-java] | [✅][747-js] |                  |
 | [762][762-question] | [Prime Number of Set Bits in Binary Representation][762-tips]| [✅][762-java] | [✅][762-js] |                  |
-| [766][766-question] | [Toeplitz Matrix][766-tips]                                  |                | [✅][766-js] |                  |
+| [766][766-question] | [Toeplitz Matrix][766-tips]                                  | [✅][766-java] | [✅][766-js] |                  |
 | [771][771-question] | [Jewels and Stones][771-tips]                                | [✅][771-java] | [✅][771-js] | [✅][771-kotlin] |
 | [783][783-question] | [Minimum Distance Between BST Nodes][783-tips]               |                | [✅][783-js] |                  |
 | [784][784-question] | [Letter Case Permutation][784-tips]                          |                | [✅][784-js] |                  |
@@ -486,6 +486,7 @@
 [746-java]: ./src/_746/Solution.java
 [747-java]: ./src/_747/Solution.java
 [762-java]: ./src/_762/Solution.java
+[762-java]: ./src/_766/Solution.java
 [771-java]: ./src/_771/Solution.java
 [804-java]: ./src/_804/Solution.java
 
