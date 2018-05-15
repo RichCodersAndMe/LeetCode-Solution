@@ -1,5 +1,7 @@
 package _669;
 
+import structure.TreeNode;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -23,15 +25,5 @@ class Solution {
         root.left = trimBST(root.left, L, R);
         root.right = trimBST(root.right, L, R);
         return root;
-    }
-
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
     }
 }

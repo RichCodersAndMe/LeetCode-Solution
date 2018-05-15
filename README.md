@@ -90,7 +90,7 @@
 | [762][762-question] | [Prime Number of Set Bits in Binary Representation][762-tips]| [✅][762-java] | [✅][762-js] |                  |
 | [766][766-question] | [Toeplitz Matrix][766-tips]                                  | [✅][766-java] | [✅][766-js] |                  |
 | [771][771-question] | [Jewels and Stones][771-tips]                                | [✅][771-java] | [✅][771-js] | [✅][771-kotlin] |
-| [783][783-question] | [Minimum Distance Between BST Nodes][783-tips]               |                | [✅][783-js] |                  |
+| [783][783-question] | [Minimum Distance Between BST Nodes][783-tips]               | [✅][783-java] | [✅][783-js] |                  |
 | [784][784-question] | [Letter Case Permutation][784-tips]                          |                | [✅][784-js] |                  |
 | [788][788-question] | [Rotated Digits][788-tips]                                   |                | [✅][788-js] |                  |
 | [796][796-question] | [Rotate String][796-tips]                                    |                | [✅][796-js] |                  |
@@ -486,8 +486,9 @@
 [746-java]: ./src/_746/Solution.java
 [747-java]: ./src/_747/Solution.java
 [762-java]: ./src/_762/Solution.java
-[762-java]: ./src/_766/Solution.java
+[766-java]: ./src/_766/Solution.java
 [771-java]: ./src/_771/Solution.java
+[783-java]: ./src/_783/Solution.java
 [804-java]: ./src/_804/Solution.java
 
 [001-kotlin]: ./src/_001/kotlin/Solution.kt
