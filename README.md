@@ -59,8 +59,8 @@
 | [119][119-question] | [Pascal's Triangle II][119-tips]                             | [✅][119-java] |              | [✅][119-kotlin] |
 | [121][121-question] | [Best Time to Buy and Sell Stock][121-tips]                  | [✅][121-java] |              | [✅][121-kotlin] |
 | [122][122-question] | [Best Time to Buy and Sell Stock II][122-tips]               | [✅][122-java] |              | [✅][122-kotlin] |
-| [226][226-question] | [Invert Binary Tree][226-tips]                               | [✅][226-java] | [✅][226-js] |                  |
-| [543][543-question] | [Diameter of Binary Tree][543-tips]                          | [✅][543-java] |              |                  |
+| [226][226-question] | [Invert Binary Tree][226-tips]                               | [✅][226-java] | [✅][226-js] | [✅][226-kotlin] |
+| [543][543-question] | [Diameter of Binary Tree][543-tips]                          | [✅][543-java] |              | [✅][543-kotlin] |
 | [561][561-question] | [Array Partition I][561-tips]                                | [✅][561-java] | [✅][561-js] |                  |
 | [643][643-question] | [Maximum Average Subarray I][643-tips]                       | [✅][643-java] | [✅][643-js] |                  |
 | [645][645-question] | [Set Mismatch][645-tips]                                     | [✅][645-java] | [✅][645-js] |                  |
@@ -85,12 +85,12 @@
 | [728][728-question] | [Self Dividing Numbers][728-tips]                            | [✅][728-java] | [✅][728-js] |                  |
 | [733][733-question] | [Flood Fill][733-tips]                                       | [✅][733-java] | [✅][733-js] |                  |
 | [744][744-question] | [Find Smallest Letter Greater Than Target][744-tips]         | [✅][744-java] | [✅][744-js] |                  |
-| [746][746-question] | [Min Cost Climbing Stairs][746-tips]                         |                | [✅][746-js] |                  |
-| [747][747-question] | [Largest Number At Least Twice of Others][747-tips]          |                | [✅][747-js] |                  |
-| [762][762-question] | [Prime Number of Set Bits in Binary Representation][762-tips]|                | [✅][762-js] |                  |
-| [766][766-question] | [Toeplitz Matrix][766-tips]                                  |                | [✅][766-js] |                  |
+| [746][746-question] | [Min Cost Climbing Stairs][746-tips]                         | [✅][746-java] | [✅][746-js] |                  |
+| [747][747-question] | [Largest Number At Least Twice of Others][747-tips]          | [✅][747-java] | [✅][747-js] |                  |
+| [762][762-question] | [Prime Number of Set Bits in Binary Representation][762-tips]| [✅][762-java] | [✅][762-js] |                  |
+| [766][766-question] | [Toeplitz Matrix][766-tips]                                  | [✅][766-java] | [✅][766-js] |                  |
 | [771][771-question] | [Jewels and Stones][771-tips]                                | [✅][771-java] | [✅][771-js] | [✅][771-kotlin] |
-| [783][783-question] | [Minimum Distance Between BST Nodes][783-tips]               |                | [✅][783-js] |                  |
+| [783][783-question] | [Minimum Distance Between BST Nodes][783-tips]               | [✅][783-java] | [✅][783-js] |                  |
 | [784][784-question] | [Letter Case Permutation][784-tips]                          |                | [✅][784-js] |                  |
 | [788][788-question] | [Rotated Digits][788-tips]                                   |                | [✅][788-js] |                  |
 | [796][796-question] | [Rotate String][796-tips]                                    |                | [✅][796-js] |                  |
@@ -484,7 +484,12 @@
 [728-java]: ./src/_728/Solution.java
 [733-java]: ./src/_733/Solution.java
 [744-java]: ./src/_744/Solution.java
+[746-java]: ./src/_746/Solution.java
+[747-java]: ./src/_747/Solution.java
+[762-java]: ./src/_762/Solution.java
+[766-java]: ./src/_766/Solution.java
 [771-java]: ./src/_771/Solution.java
+[783-java]: ./src/_783/Solution.java
 [804-java]: ./src/_804/Solution.java
 
 [001-kotlin]: ./src/_001/kotlin/Solution.kt
@@ -520,4 +525,6 @@
 [119-kotlin]: ./src/_119/kotlin/Solution.kt
 [121-kotlin]: ./src/_121/kotlin/Solution.kt
 [122-kotlin]: ./src/_122/kotlin/Solution.kt
+[226-kotlin]: ./src/_226/kotlin/Solution.kt
+[543-kotlin]: ./src/_543/kotlin/Solution.kt
 [771-kotlin]: ./src/_771/kotlin/Solution.kt
