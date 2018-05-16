@@ -48,7 +48,23 @@ class Solution {
     }
 }
 ```
-
+JavaScript:
+```javascript
+var maxSubArray = function(nums) {
+	var max = nums[0]
+    var sum = 0
+	for (let i = 0; i < nums.length; i++) {
+		for (let j = i;j < nums.length; j++){
+			sum = sum + nums[j]
+			if (sum >= max) {
+				max = sum
+			}
+		}
+		sum = 0
+	}
+	return max
+};
+```
 ## 思路 1
 
 题目也给了我们另一种思路，就是分治，所谓分治就是把问题分割成更小的，最后再合并即可，我们把 `nums` 一分为二先，那么就有两种情况，一种最大序列包括中间的值，一种就是不包括，也就是在左边或者右边；当最大序列在中间的时候那我们就把它两侧的最大和算出即可；当在两侧的话就继续分治即可。

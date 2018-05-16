@@ -39,7 +39,7 @@
 | [028][028-question] | [Implement strStr()][028-tips]                               | [✅][028-java] | [✅][027-js] | [✅][028-kotlin] |
 | [035][035-question] | [Search Insert Position][035-tips]                           | [✅][035-java] | [✅][035-js] | [✅][035-kotlin] |
 | [038][038-question] | [Count and Say][038-tips]                                    | [✅][038-java] |              | [✅][038-kotlin] |
-| [053][053-question] | [Maximum Subarray][053-tips]                                 | [✅][053-java] |              | [✅][053-kotlin] |
+| [053][053-question] | [Maximum Subarray][053-tips]                                 | [✅][053-java] | [✅][053-js] | [✅][053-kotlin] |
 | [058][058-question] | [Length of Last Word][058-tips]                              | [✅][058-java] |              | [✅][058-kotlin] |
 | [066][066-question] | [Plus One][066-tips]                                         | [✅][066-java] |              | [✅][066-kotlin] |
 | [067][067-question] | [Add Binary][067-tips]                                       | [✅][067-java] |              | [✅][067-kotlin] |
@@ -360,6 +360,7 @@
 [027-js]: ./src/_027/Solution.js
 [028-js]: ./src/_028/Solution.js
 [035-js]: ./src/_035/Solution.js
+[053-js]: ./src/_053/Solution.js
 [226-js]: ./src/_226/Solution.js
 [561-js]: ./src/_561/Solution.js
 [643-js]: ./src/_643/Solution.js
