@@ -60,6 +60,7 @@
 | [121][121-question] | [Best Time to Buy and Sell Stock][121-tips]                  | [✅][121-java] |              | [✅][121-kotlin] |
 | [122][122-question] | [Best Time to Buy and Sell Stock II][122-tips]               | [✅][122-java] |              | [✅][122-kotlin] |
 | [226][226-question] | [Invert Binary Tree][226-tips]                               | [✅][226-java] | [✅][226-js] | [✅][226-kotlin] |
+| [504][504-question] | [Base 7][504-tips]                                           |                |              | [✅][504-kotlin] |
 | [543][543-question] | [Diameter of Binary Tree][543-tips]                          | [✅][543-java] |              | [✅][543-kotlin] |
 | [561][561-question] | [Array Partition I][561-tips]                                | [✅][561-java] | [✅][561-js] |                  |
 | [643][643-question] | [Maximum Average Subarray I][643-tips]                       | [✅][643-java] | [✅][643-js] |                  |
@@ -212,6 +213,7 @@
 [121-question]: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
 [122-question]: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/
 [226-question]: https://leetcode.com/problems/invert-binary-tree/
+[504-question]: https://leetcode.com/problems/base-7/description/
 [543-question]: https://leetcode.com/problems/diameter-of-binary-tree/
 [554-question]: https://leetcode.com/problems/brick-wall/description/
 [561-question]: https://leetcode.com/problems/array-partition-i/
@@ -522,5 +524,6 @@
 [121-kotlin]: ./src/_121/kotlin/Solution.kt
 [122-kotlin]: ./src/_122/kotlin/Solution.kt
 [226-kotlin]: ./src/_226/kotlin/Solution.kt
+[504-kotlin]: ./src/_504/kotlin/Solution.kt
 [543-kotlin]: ./src/_543/kotlin/Solution.kt
 [771-kotlin]: ./src/_771/kotlin/Solution.kt
