@@ -39,7 +39,7 @@
 | [028][028-question] | [Implement strStr()][028-tips]                               | [✅][028-java] | [✅][027-js] | [✅][028-kotlin] |
 | [035][035-question] | [Search Insert Position][035-tips]                           | [✅][035-java] | [✅][035-js] | [✅][035-kotlin] |
 | [038][038-question] | [Count and Say][038-tips]                                    | [✅][038-java] |              | [✅][038-kotlin] |
-| [053][053-question] | [Maximum Subarray][053-tips]                                 | [✅][053-java] |              | [✅][053-kotlin] |
+| [053][053-question] | [Maximum Subarray][053-tips]                                 | [✅][053-java] | [✅][053-js] | [✅][053-kotlin] |
 | [058][058-question] | [Length of Last Word][058-tips]                              | [✅][058-java] |              | [✅][058-kotlin] |
 | [066][066-question] | [Plus One][066-tips]                                         | [✅][066-java] |              | [✅][066-kotlin] |
 | [067][067-question] | [Add Binary][067-tips]                                       | [✅][067-java] |              | [✅][067-kotlin] |
@@ -88,10 +88,10 @@
 | [744][744-question] | [Find Smallest Letter Greater Than Target][744-tips]         | [✅][744-java] | [✅][744-js] |                  |
 | [746][746-question] | [Min Cost Climbing Stairs][746-tips]                         | [✅][746-java] | [✅][746-js] |                  |
 | [747][747-question] | [Largest Number At Least Twice of Others][747-tips]          | [✅][747-java] | [✅][747-js] |                  |
-| [762][762-question] | [Prime Number of Set Bits in Binary Representation][762-tips]|                | [✅][762-js] |                  |
-| [766][766-question] | [Toeplitz Matrix][766-tips]                                  |                | [✅][766-js] |                  |
+| [762][762-question] | [Prime Number of Set Bits in Binary Representation][762-tips]| [✅][762-java] | [✅][762-js] |                  |
+| [766][766-question] | [Toeplitz Matrix][766-tips]                                  | [✅][766-java] | [✅][766-js] |                  |
 | [771][771-question] | [Jewels and Stones][771-tips]                                | [✅][771-java] | [✅][771-js] | [✅][771-kotlin] |
-| [783][783-question] | [Minimum Distance Between BST Nodes][783-tips]               |                | [✅][783-js] |                  |
+| [783][783-question] | [Minimum Distance Between BST Nodes][783-tips]               | [✅][783-java] | [✅][783-js] |                  |
 | [784][784-question] | [Letter Case Permutation][784-tips]                          |                | [✅][784-js] |                  |
 | [788][788-question] | [Rotated Digits][788-tips]                                   |                | [✅][788-js] |                  |
 | [796][796-question] | [Rotate String][796-tips]                                    |                | [✅][796-js] |                  |
@@ -362,6 +362,7 @@
 [027-js]: ./src/_027/Solution.js
 [028-js]: ./src/_028/Solution.js
 [035-js]: ./src/_035/Solution.js
+[053-js]: ./src/_053/Solution.js
 [226-js]: ./src/_226/Solution.js
 [561-js]: ./src/_561/Solution.js
 [643-js]: ./src/_643/Solution.js
@@ -487,7 +488,10 @@
 [744-java]: ./src/_744/Solution.java
 [746-java]: ./src/_746/Solution.java
 [747-java]: ./src/_747/Solution.java
+[762-java]: ./src/_762/Solution.java
+[766-java]: ./src/_766/Solution.java
 [771-java]: ./src/_771/Solution.java
+[783-java]: ./src/_783/Solution.java
 [804-java]: ./src/_804/Solution.java
 
 [001-kotlin]: ./src/_001/kotlin/Solution.kt
