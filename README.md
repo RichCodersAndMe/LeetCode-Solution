@@ -313,6 +313,7 @@
 [121-tips]: ./tips/121/README.md
 [122-tips]: ./tips/122/README.md
 [226-tips]: ./tips/226/README.md
+[504-tips]: ./tips/504/README.md
 [543-tips]: ./tips/543/README.md
 [554-tips]: ./tips/554/README.md
 [561-tips]: ./tips/561/README.md
