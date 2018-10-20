@@ -28,7 +28,7 @@
 | [001][001-question] | [Two Sum][001-tips]                                          | [Easy][E]   | [✅][001-java] | [✅][001-js] | [✅][001-kotlin] |
 | [002][002-question] | [Add Two Numbers][002-tips]                                  | [Medium][M] | [✅][002-java] |              | [✅][002-kotlin] |
 | [003][003-question] | [Longest Substring Without Repeating Characters][003-tips]   | [Medium][M] | [✅][003-java] |              | [✅][003-kotlin] |
-| [004][004-question] | [Median of Two Sorted Arrays][004-tips]                      | [Hard][H]   | [✅][004-java] |              |                  |
+| [004][004-question] | [Median of Two Sorted Arrays][004-tips]                      | [Hard][H]   | [✅][004-java] |              | [✅][004-kotlin] |
 | [005][005-question] | [Longest Palindromic Substring][005-tips]                    | [Medium][M] | [✅][005-java] |              |                  |
 | [006][006-question] | [ZigZag Conversion][006-tips]                                | [Medium][M] | [✅][006-java] |              |                  |
 | [007][007-question] | [Reverse Integer][007-tips]                                  | [Easy][E]   | [✅][007-java] | [✅][007-js] | [✅][007-kotlin] |
@@ -490,6 +490,7 @@
 [001-kotlin]: ./src/_001/kotlin/Solution.kt
 [002-kotlin]: ./src/_002/kotlin/Solution.kt
 [003-kotlin]: ./src/_003/kotlin/Solution.kt
+[004-kotlin]: ./src/_004/kotlin/Solution.kt
 [007-kotlin]: ./src/_007/kotlin/Solution.kt
 [009-kotlin]: ./src/_009/kotlin/Solution.kt
 [013-kotlin]: ./src/_013/kotlin/Solution.kt
