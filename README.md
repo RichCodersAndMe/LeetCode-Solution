@@ -17,124 +17,113 @@
 
 ## 目录
 
-- [Easy](#Easy)
-- [Medium](#Medium)
-- [Hard](#Hard)
+- [题解汇总](#题解汇总)
 - [库维护须知](#库维护须知)
 - [贡献者名单](#贡献者名单)
 
-## [Easy](https://leetcode.com/problemset/all/?difficulty=Easy)
+## 题解汇总
 
-| 题目                 | 题解                                                         | Java           | JavaScript   | kotlin          |
-| :-----------------: | ------------------------------------------------------------ | :------------: |:-----------: | :-------------: |
-| [001][001-question] | [Two Sum][001-tips]                                          | [✅][001-java] | [✅][001-js] | [✅][001-kotlin] |
-| [007][007-question] | [Reverse Integer][007-tips]                                  | [✅][007-java] | [✅][007-js] | [✅][007-kotlin] |
-| [009][009-question] | [Palindrome Number][009-tips]                                | [✅][009-java] | [✅][009-js] | [✅][009-kotlin] |
-| [013][013-question] | [Roman to Integer][013-tips]                                 | [✅][013-java] | [✅][013-js] | [✅][013-kotlin] |
-| [014][014-question] | [Longest Common Prefix][014-tips]                            | [✅][014-java] | [✅][014-js] | [✅][014-kotlin] |
-| [020][020-question] | [Valid Parentheses][020-tips]                                | [✅][020-java] | [✅][020-js] | [✅][020-kotlin] |
-| [021][021-question] | [Merge Two Sorted Lists][021-tips]                           | [✅][021-java] | [✅][021-js] | [✅][021-kotlin] |
-| [026][026-question] | [Remove Duplicates from Sorted Array][026-tips]              | [✅][026-java] | [✅][026-js] | [✅][026-kotlin] |
-| [027][027-question] | [Remove Element][027-tips]                                   | [✅][027-java] | [✅][027-js] | [✅][027-kotlin] |
-| [028][028-question] | [Implement strStr()][028-tips]                               | [✅][028-java] | [✅][027-js] | [✅][028-kotlin] |
-| [035][035-question] | [Search Insert Position][035-tips]                           | [✅][035-java] | [✅][035-js] | [✅][035-kotlin] |
-| [038][038-question] | [Count and Say][038-tips]                                    | [✅][038-java] |              | [✅][038-kotlin] |
-| [053][053-question] | [Maximum Subarray][053-tips]                                 | [✅][053-java] | [✅][053-js] | [✅][053-kotlin] |
-| [058][058-question] | [Length of Last Word][058-tips]                              | [✅][058-java] |              | [✅][058-kotlin] |
-| [066][066-question] | [Plus One][066-tips]                                         | [✅][066-java] |              | [✅][066-kotlin] |
-| [067][067-question] | [Add Binary][067-tips]                                       | [✅][067-java] |              | [✅][067-kotlin] |
-| [069][069-question] | [Sqrt(x)][069-tips]                                          | [✅][069-java] |              | [✅][069-kotlin] |
-| [070][070-question] | [Climbing Stairs][070-tips]                                  | [✅][070-java] |              | [✅][070-kotlin] |
-| [083][083-question] | [Remove Duplicates from Sorted List][083-tips]               | [✅][083-java] |              | [✅][083-kotlin] |
-| [088][088-question] | [Merge Sorted Array][088-tips]                               | [✅][088-java] |              | [✅][088-kotlin] |
-| [100][100-question] | [Same Tree][100-tips]                                        | [✅][100-java] |              | [✅][100-kotlin] |
-| [101][101-question] | [Symmetric Tree][101-tips]                                   | [✅][101-java] |              | [✅][101-kotlin] |
-| [104][104-question] | [Maximum Depth of Binary Tree][104-tips]                     | [✅][104-java] |              | [✅][104-kotlin] |
-| [107][107-question] | [Binary Tree Level Order Traversal II][107-tips]             | [✅][107-java] |              | [✅][107-kotlin] |
-| [108][108-question] | [Convert Sorted Array to Binary Search Tree][108-tips]       | [✅][108-java] |              | [✅][108-kotlin] |
-| [110][110-question] | [Balanced Binary Tree][110-tips]                             | [✅][110-java] |              | [✅][110-kotlin] |
-| [111][111-question] | [Minimum Depth of Binary Tree][111-tips]                     | [✅][111-java] |              | [✅][111-kotlin] |
-| [112][112-question] | [Path Sum][112-tips]                                         | [✅][112-java] |              | [✅][112-kotlin] |
-| [118][118-question] | [Pascal's Triangle][118-tips]                                | [✅][118-java] |              | [✅][118-kotlin] |
-| [119][119-question] | [Pascal's Triangle II][119-tips]                             | [✅][119-java] |              | [✅][119-kotlin] |
-| [121][121-question] | [Best Time to Buy and Sell Stock][121-tips]                  | [✅][121-java] |              | [✅][121-kotlin] |
-| [122][122-question] | [Best Time to Buy and Sell Stock II][122-tips]               | [✅][122-java] |              | [✅][122-kotlin] |
-| [226][226-question] | [Invert Binary Tree][226-tips]                               | [✅][226-java] | [✅][226-js] | [✅][226-kotlin] |
-| [543][543-question] | [Diameter of Binary Tree][543-tips]                          | [✅][543-java] |              | [✅][543-kotlin] |
-| [561][561-question] | [Array Partition I][561-tips]                                | [✅][561-java] | [✅][561-js] |                  |
-| [643][643-question] | [Maximum Average Subarray I][643-tips]                       | [✅][643-java] | [✅][643-js] |                  |
-| [645][645-question] | [Set Mismatch][645-tips]                                     | [✅][645-java] | [✅][645-js] |                  |
-| [653][653-question] | [Two Sum IV - Input is a BST][653-tips]                      | [✅][653-java] | [✅][653-js] |                  |
-| [657][657-question] | [Judge Route Circle][657-tips]                               | [✅][657-java] | [✅][657-js] |                  |
-| [661][661-question] | [Image Smoother][661-tips]                                   | [✅][661-java] | [✅][661-js] |                  |
-| [665][665-question] | [Non-decreasing Array][665-tips]                             | [✅][665-java] | [✅][665-js] |                  |
-| [669][669-question] | [Trim a Binary Search Tree][669-tips]                        | [✅][669-java] | [✅][669-js] |                  |
-| [671][671-question] | [Second Minimum Node In a Binary Tree][671-tips]             | [✅][671-java] | [✅][671-js] |                  |
-| [674][674-question] | [Longest Continuous Increasing Subsequence][674-tips]        | [✅][674-java] | [✅][674-js] |                  |
-| [680][680-question] | [Valid Palindrome II][680-tips]                              | [✅][680-java] | [✅][680-js] |                  |
-| [682][682-question] | [Baseball Game][682-tips]                                    | [✅][682-java] | [✅][682-js] |                  |
-| [686][686-question] | [Repeated String Match][686-tips]                            | [✅][686-java] | [✅][686-js] |                  |
-| [687][687-question] | [Longest Univalue Path][687-tips]                            | [✅][687-java] | [✅][687-js] |                  |
-| [693][693-question] | [Binary Number with Alternating Bits][693-tips]              | [✅][693-java] | [✅][693-js] |                  |
-| [695][695-question] | [Max Area of Island][695-tips]                               | [✅][695-java] | [✅][695-js] |                  |
-| [696][696-question] | [Count Binary Substrings][696-tips]                          | [✅][696-java] | [✅][696-js] |                  |
-| [697][697-question] | [Degree of an Array][697-tips]                               | [✅][697-java] | [✅][697-js] |                  |
-| [717][717-question] | [1-bit and 2-bit Characters][717-tips]                       | [✅][717-java] | [✅][717-js] |                  |
-| [720][720-question] | [Longest Word in Dictionary][720-tips]                       | [✅][720-java] | [✅][720-js] |                  |
-| [724][724-question] | [Find Pivot Index][724-tips]                                 | [✅][724-java] | [✅][724-js] |                  |
-| [728][728-question] | [Self Dividing Numbers][728-tips]                            | [✅][728-java] | [✅][728-js] |                  |
-| [733][733-question] | [Flood Fill][733-tips]                                       | [✅][733-java] | [✅][733-js] |                  |
-| [744][744-question] | [Find Smallest Letter Greater Than Target][744-tips]         | [✅][744-java] | [✅][744-js] |                  |
-| [746][746-question] | [Min Cost Climbing Stairs][746-tips]                         | [✅][746-java] | [✅][746-js] |                  |
-| [747][747-question] | [Largest Number At Least Twice of Others][747-tips]          | [✅][747-java] | [✅][747-js] |                  |
-| [762][762-question] | [Prime Number of Set Bits in Binary Representation][762-tips]| [✅][762-java] | [✅][762-js] |                  |
-| [766][766-question] | [Toeplitz Matrix][766-tips]                                  | [✅][766-java] | [✅][766-js] |                  |
-| [771][771-question] | [Jewels and Stones][771-tips]                                | [✅][771-java] | [✅][771-js] | [✅][771-kotlin] |
-| [783][783-question] | [Minimum Distance Between BST Nodes][783-tips]               | [✅][783-java] | [✅][783-js] |                  |
-| [784][784-question] | [Letter Case Permutation][784-tips]                          |                | [✅][784-js] |                  |
-| [788][788-question] | [Rotated Digits][788-tips]                                   |                | [✅][788-js] |                  |
-| [796][796-question] | [Rotate String][796-tips]                                    |                | [✅][796-js] |                  |
-| [804][804-question] | [Unique Morse Code Words][804-tips]                          | [✅][804-java] |              |                  |
-| [806][806-question] | [Number of Lines To Write String][806-tips]                  |                | [✅][806-js] |                  |
-
-## [Medium](https://leetcode.com/problemset/all/?difficulty=Medium)
-
-| 题目                | 题解                                                          | Java           | JavaScript   | kotlin           |
-| :-----------------: | ------------------------------------------------------------ | :------------: | :----------: | :--------------: |
-| [002][002-question] | [Add Two Numbers][002-tips]                                  | [✅][002-java] |              | [✅][002-kotlin] |
-| [003][003-question] | [Longest Substring Without Repeating Characters][003-tips]   | [✅][003-java] |              |                  |
-| [005][005-question] | [Longest Palindromic Substring][005-tips]                    | [✅][005-java] |              |                  |
-| [006][006-question] | [ZigZag Conversion][006-tips]                                | [✅][006-java] |              |                  |
-| [008][008-question] | [String to Integer (atoi)][008-tips]                         | [✅][008-java] |              |                  |
-| [011][011-question] | [Container With Most Water][011-tips]                        | [✅][011-java] |              |                  |
-| [012][012-question] | [Integer to Roman][012-tips]                                 | [✅][012-java] |              |                  |
-| [015][015-question] | [3Sum][015-tips]                                             | [✅][015-java] |              |                  |
-| [016][016-question] | [3Sum Closest][016-tips]                                     | [✅][016-java] |              |                  |
-| [017][017-question] | [Letter Combinations of a Phone Number][017-tips]            | [✅][017-java] |              |                  |
-| [018][018-question] | [4Sum][018-tips]                                             | [✅][018-java] |              |                  |
-| [019][019-question] | [Remove Nth Node From End of List][019-tips]                 | [✅][019-java] |              |                  |
-| [022][022-question] | [Generate Parentheses][022-tips]                             | [✅][022-java] |              |                  |
-| [024][024-question] | [Swap Nodes in Pairs][024-tips]                              | [✅][024-java] |              |                  |
-| [029][029-question] | [Divide Two Integers][029-tips]                              | [✅][029-java] |              |                  |
-| [033][033-question] | [Search in Rotated Sorted Array][033-tips]                   | [✅][033-java] |              |                  |
-| [043][043-question] | [Multiply Strings][043-tips]                                 | [✅][043-java] |              |                  |
-| [049][049-question] | [Group Anagrams][049-tips]                                   | [✅][049-java] |              |                  |
-| [050][050-question] | [Pow(x, n)][050-tips]                                        | [✅][050-java] |              |                  |
-| [056][056-question] | [Merge Intervals][056-tips]                                  | [✅][056-java] |              |                  |
-| [554][554-question] | [Brick Wall][554-tips]                                       | [✅][554-java] |              |                  |
-
-## [Hard](https://leetcode.com/problemset/all/?difficulty=Hard)
-
-| 题目                | 题解                                                          | Java           | JavaScript   | kotlin           |
-| :-----------------: | ------------------------------------------------------------ | :------------: | :----------: | :--------------: |
-| [004][004-question] | [Median of Two Sorted Arrays][004-tips]                      | [✅][004-java] |              |                  |
-| [010][010-question] | [Regular Expression Matching][010-tips]                      | [✅][010-java] |              |                  |
-| [023][023-question] | [Merge k Sorted Lists][023-tips]                             | [✅][023-java] |              |                  |
-| [025][025-question] | [Reverse Nodes in k-Group][025-tips]                         | [✅][025-java] |              |                  |
-| [030][030-question] | [Substring with Concatenation of All Words][030-tips]        | [✅][030-java] |              |                  |
-| [044][044-question] | [Wildcard Matching][044-tips]                                | [✅][044-java] |              |                  |
-| [057][057-question] | [Insert Interval][057-tips]                                  | [✅][057-java] |              |                  |
-| [068][068-question] | [Text Justification][068-tips]                               | [✅][068-java] |              |                  |
+| 题目                 | 题解                                                         | 难度         | Java           | JavaScript   | kotlin          |
+| :-----------------: | ------------------------------------------------------------ | :---------: | :------------: |:-----------: | :-------------: |
+| [001][001-question] | [Two Sum][001-tips]                                          | [Easy][E]   | [✅][001-java] | [✅][001-js] | [✅][001-kotlin] |
+| [002][002-question] | [Add Two Numbers][002-tips]                                  | [Medium][M] | [✅][002-java] |              | [✅][002-kotlin] |
+| [003][003-question] | [Longest Substring Without Repeating Characters][003-tips]   | [Medium][M] | [✅][003-java] |              | [✅][003-kotlin] |
+| [004][004-question] | [Median of Two Sorted Arrays][004-tips]                      | [Hard][H]   | [✅][004-java] |              | [✅][004-kotlin] |
+| [005][005-question] | [Longest Palindromic Substring][005-tips]                    | [Medium][M] | [✅][005-java] |              |                  |
+| [006][006-question] | [ZigZag Conversion][006-tips]                                | [Medium][M] | [✅][006-java] |              |                  |
+| [007][007-question] | [Reverse Integer][007-tips]                                  | [Easy][E]   | [✅][007-java] | [✅][007-js] | [✅][007-kotlin] |
+| [008][008-question] | [String to Integer (atoi)][008-tips]                         | [Medium][M] | [✅][008-java] |              |                  |
+| [009][009-question] | [Palindrome Number][009-tips]                                | [Easy][E]   | [✅][009-java] | [✅][009-js] | [✅][009-kotlin] |
+| [010][010-question] | [Regular Expression Matching][010-tips]                      | [Hard][H]   | [✅][010-java] |              |                  |
+| [011][011-question] | [Container With Most Water][011-tips]                        | [Medium][M] | [✅][011-java] |              |                  |
+| [012][012-question] | [Integer to Roman][012-tips]                                 | [Medium][M] | [✅][012-java] |              |                  |
+| [013][013-question] | [Roman to Integer][013-tips]                                 | [Easy][E]   | [✅][013-java] | [✅][013-js] | [✅][013-kotlin] |
+| [014][014-question] | [Longest Common Prefix][014-tips]                            | [Easy][E]   | [✅][014-java] | [✅][014-js] | [✅][014-kotlin] |
+| [015][015-question] | [3Sum][015-tips]                                             | [Medium][M] | [✅][015-java] |              |                  |
+| [016][016-question] | [3Sum Closest][016-tips]                                     | [Medium][M] | [✅][016-java] |              |                  |
+| [017][017-question] | [Letter Combinations of a Phone Number][017-tips]            | [Medium][M] | [✅][017-java] |              |                  |
+| [018][018-question] | [4Sum][018-tips]                                             | [Medium][M] | [✅][018-java] |              |                  |
+| [019][019-question] | [Remove Nth Node From End of List][019-tips]                 | [Medium][M] | [✅][019-java] |              |                  |
+| [020][020-question] | [Valid Parentheses][020-tips]                                | [Easy][E]   | [✅][020-java] | [✅][020-js] | [✅][020-kotlin] |
+| [021][021-question] | [Merge Two Sorted Lists][021-tips]                           | [Easy][E]   | [✅][021-java] | [✅][021-js] | [✅][021-kotlin] |
+| [022][022-question] | [Generate Parentheses][022-tips]                             | [Medium][M] | [✅][022-java] |              |                  |
+| [023][023-question] | [Merge k Sorted Lists][023-tips]                             | [Hard][H]   | [✅][023-java] |              |                  |
+| [024][024-question] | [Swap Nodes in Pairs][024-tips]                              | [Medium][M] | [✅][024-java] |              |                  |
+| [025][025-question] | [Reverse Nodes in k-Group][025-tips]                         | [Hard][H]   | [✅][025-java] |              |                  |
+| [026][026-question] | [Remove Duplicates from Sorted Array][026-tips]              | [Easy][E]   | [✅][026-java] | [✅][026-js] | [✅][026-kotlin] |
+| [027][027-question] | [Remove Element][027-tips]                                   | [Easy][E]   | [✅][027-java] | [✅][027-js] | [✅][027-kotlin] |
+| [028][028-question] | [Implement strStr()][028-tips]                               | [Easy][E]   | [✅][028-java] | [✅][027-js] | [✅][028-kotlin] |
+| [029][029-question] | [Divide Two Integers][029-tips]                              | [Medium][M] | [✅][029-java] |              |                  |
+| [030][030-question] | [Substring with Concatenation of All Words][030-tips]        | [Hard][H]   | [✅][030-java] |              |                  |
+| [033][033-question] | [Search in Rotated Sorted Array][033-tips]                   | [Medium][M] | [✅][033-java] |              |                  |
+| [035][035-question] | [Search Insert Position][035-tips]                           | [Easy][E]   | [✅][035-java] | [✅][035-js] | [✅][035-kotlin] |
+| [038][038-question] | [Count and Say][038-tips]                                    | [Easy][E]   | [✅][038-java] |              | [✅][038-kotlin] |
+| [043][043-question] | [Multiply Strings][043-tips]                                 | [Medium][M] | [✅][043-java] |              |                  |
+| [044][044-question] | [Wildcard Matching][044-tips]                                | [Hard][H]   | [✅][044-java] |              |                  |
+| [049][049-question] | [Group Anagrams][049-tips]                                   | [Medium][M] | [✅][049-java] |              |                  |
+| [050][050-question] | [Pow(x, n)][050-tips]                                        | [Medium][M] | [✅][050-java] |              |                  |
+| [053][053-question] | [Maximum Subarray][053-tips]                                 | [Easy][E]   | [✅][053-java] | [✅][053-js] | [✅][053-kotlin] |
+| [056][056-question] | [Merge Intervals][056-tips]                                  | [Medium][M] | [✅][056-java] |              |                  |
+| [057][057-question] | [Insert Interval][057-tips]                                  | [Hard][H]   | [✅][057-java] |              |                  |
+| [058][058-question] | [Length of Last Word][058-tips]                              | [Easy][E]   | [✅][058-java] |              | [✅][058-kotlin] |
+| [066][066-question] | [Plus One][066-tips]                                         | [Easy][E]   | [✅][066-java] |              | [✅][066-kotlin] |
+| [067][067-question] | [Add Binary][067-tips]                                       | [Easy][E]   | [✅][067-java] |              | [✅][067-kotlin] |
+| [068][068-question] | [Text Justification][068-tips]                               | [Hard][H]   | [✅][068-java] |              |                  |
+| [069][069-question] | [Sqrt(x)][069-tips]                                          | [Easy][E]   | [✅][069-java] |              | [✅][069-kotlin] |
+| [070][070-question] | [Climbing Stairs][070-tips]                                  | [Easy][E]   | [✅][070-java] |              | [✅][070-kotlin] |
+| [083][083-question] | [Remove Duplicates from Sorted List][083-tips]               | [Easy][E]   | [✅][083-java] |              | [✅][083-kotlin] |
+| [088][088-question] | [Merge Sorted Array][088-tips]                               | [Easy][E]   | [✅][088-java] |              | [✅][088-kotlin] |
+| [100][100-question] | [Same Tree][100-tips]                                        | [Easy][E]   | [✅][100-java] |              | [✅][100-kotlin] |
+| [101][101-question] | [Symmetric Tree][101-tips]                                   | [Easy][E]   | [✅][101-java] |              | [✅][101-kotlin] |
+| [104][104-question] | [Maximum Depth of Binary Tree][104-tips]                     | [Easy][E]   | [✅][104-java] |              | [✅][104-kotlin] |
+| [107][107-question] | [Binary Tree Level Order Traversal II][107-tips]             | [Easy][E]   | [✅][107-java] |              | [✅][107-kotlin] |
+| [108][108-question] | [Convert Sorted Array to Binary Search Tree][108-tips]       | [Easy][E]   | [✅][108-java] |              | [✅][108-kotlin] |
+| [110][110-question] | [Balanced Binary Tree][110-tips]                             | [Easy][E]   | [✅][110-java] |              | [✅][110-kotlin] |
+| [111][111-question] | [Minimum Depth of Binary Tree][111-tips]                     | [Easy][E]   | [✅][111-java] |              | [✅][111-kotlin] |
+| [112][112-question] | [Path Sum][112-tips]                                         | [Easy][E]   | [✅][112-java] |              | [✅][112-kotlin] |
+| [118][118-question] | [Pascal's Triangle][118-tips]                                | [Easy][E]   | [✅][118-java] |              | [✅][118-kotlin] |
+| [119][119-question] | [Pascal's Triangle II][119-tips]                             | [Easy][E]   | [✅][119-java] |              | [✅][119-kotlin] |
+| [121][121-question] | [Best Time to Buy and Sell Stock][121-tips]                  | [Easy][E]   | [✅][121-java] |              | [✅][121-kotlin] |
+| [122][122-question] | [Best Time to Buy and Sell Stock II][122-tips]               | [Easy][E]   | [✅][122-java] |              | [✅][122-kotlin] |
+| [226][226-question] | [Invert Binary Tree][226-tips]                               | [Easy][E]   | [✅][226-java] | [✅][226-js] | [✅][226-kotlin] |
+| [504][504-question] | [Base 7][504-tips]                                           | [Easy][E]   |                |              | [✅][504-kotlin] |
+| [543][543-question] | [Diameter of Binary Tree][543-tips]                          | [Easy][E]   | [✅][543-java] |              | [✅][543-kotlin] |
+| [554][554-question] | [Brick Wall][554-tips]                                       | [Medium][M] | [✅][554-java] |              |                  |
+| [561][561-question] | [Array Partition I][561-tips]                                | [Easy][E]   | [✅][561-java] | [✅][561-js] |                  |
+| [643][643-question] | [Maximum Average Subarray I][643-tips]                       | [Easy][E]   | [✅][643-java] | [✅][643-js] |                  |
+| [645][645-question] | [Set Mismatch][645-tips]                                     | [Easy][E]   | [✅][645-java] | [✅][645-js] |                  |
+| [653][653-question] | [Two Sum IV - Input is a BST][653-tips]                      | [Easy][E]   | [✅][653-java] | [✅][653-js] |                  |
+| [657][657-question] | [Judge Route Circle][657-tips]                               | [Easy][E]   | [✅][657-java] | [✅][657-js] |                  |
+| [661][661-question] | [Image Smoother][661-tips]                                   | [Easy][E]   | [✅][661-java] | [✅][661-js] |                  |
+| [665][665-question] | [Non-decreasing Array][665-tips]                             | [Easy][E]   | [✅][665-java] | [✅][665-js] |                  |
+| [669][669-question] | [Trim a Binary Search Tree][669-tips]                        | [Easy][E]   | [✅][669-java] | [✅][669-js] |                  |
+| [671][671-question] | [Second Minimum Node In a Binary Tree][671-tips]             | [Easy][E]   | [✅][671-java] | [✅][671-js] |                  |
+| [674][674-question] | [Longest Continuous Increasing Subsequence][674-tips]        | [Easy][E]   | [✅][674-java] | [✅][674-js] |                  |
+| [680][680-question] | [Valid Palindrome II][680-tips]                              | [Easy][E]   | [✅][680-java] | [✅][680-js] |                  |
+| [682][682-question] | [Baseball Game][682-tips]                                    | [Easy][E]   | [✅][682-java] | [✅][682-js] |                  |
+| [686][686-question] | [Repeated String Match][686-tips]                            | [Easy][E]   | [✅][686-java] | [✅][686-js] |                  |
+| [687][687-question] | [Longest Univalue Path][687-tips]                            | [Easy][E]   | [✅][687-java] | [✅][687-js] |                  |
+| [693][693-question] | [Binary Number with Alternating Bits][693-tips]              | [Easy][E]   | [✅][693-java] | [✅][693-js] |                  |
+| [695][695-question] | [Max Area of Island][695-tips]                               | [Easy][E]   | [✅][695-java] | [✅][695-js] |                  |
+| [696][696-question] | [Count Binary Substrings][696-tips]                          | [Easy][E]   | [✅][696-java] | [✅][696-js] |                  |
+| [697][697-question] | [Degree of an Array][697-tips]                               | [Easy][E]   | [✅][697-java] | [✅][697-js] |                  |
+| [717][717-question] | [1-bit and 2-bit Characters][717-tips]                       | [Easy][E]   | [✅][717-java] | [✅][717-js] |                  |
+| [720][720-question] | [Longest Word in Dictionary][720-tips]                       | [Easy][E]   | [✅][720-java] | [✅][720-js] |                  |
+| [724][724-question] | [Find Pivot Index][724-tips]                                 | [Easy][E]   | [✅][724-java] | [✅][724-js] |                  |
+| [728][728-question] | [Self Dividing Numbers][728-tips]                            | [Easy][E]   | [✅][728-java] | [✅][728-js] |                  |
+| [733][733-question] | [Flood Fill][733-tips]                                       | [Easy][E]   | [✅][733-java] | [✅][733-js] |                  |
+| [744][744-question] | [Find Smallest Letter Greater Than Target][744-tips]         | [Easy][E]   | [✅][744-java] | [✅][744-js] |                  |
+| [746][746-question] | [Min Cost Climbing Stairs][746-tips]                         | [Easy][E]   | [✅][746-java] | [✅][746-js] |                  |
+| [747][747-question] | [Largest Number At Least Twice of Others][747-tips]          | [Easy][E]   | [✅][747-java] | [✅][747-js] |                  |
+| [762][762-question] | [Prime Number of Set Bits in Binary Representation][762-tips]| [Easy][E]   | [✅][762-java] | [✅][762-js] |                  |
+| [766][766-question] | [Toeplitz Matrix][766-tips]                                  | [Easy][E]   | [✅][766-java] | [✅][766-js] |                  |
+| [771][771-question] | [Jewels and Stones][771-tips]                                | [Easy][E]   | [✅][771-java] | [✅][771-js] | [✅][771-kotlin] |
+| [783][783-question] | [Minimum Distance Between BST Nodes][783-tips]               | [Easy][E]   | [✅][783-java] | [✅][783-js] |                  |
+| [784][784-question] | [Letter Case Permutation][784-tips]                          | [Easy][E]   |                | [✅][784-js] |                  |
+| [788][788-question] | [Rotated Digits][788-tips]                                   | [Easy][E]   |                | [✅][788-js] |                  |
+| [796][796-question] | [Rotate String][796-tips]                                    | [Easy][E]   |                | [✅][796-js] |                  |
+| [804][804-question] | [Unique Morse Code Words][804-tips]                          | [Easy][E]   | [✅][804-java] |              |                  |
+| [806][806-question] | [Number of Lines To Write String][806-tips]                  | [Easy][E]   |                | [✅][806-js] |                  |
 
 ## 库维护须知
 
@@ -150,6 +139,10 @@
 - 感谢[@WangXin](https://github.com/relish-wang), 提供**kotlin**代码、**文档整理**及**库维护规范**。
 
 [companies]: ./Companies.md
+
+[E]: https://leetcode.com/problemset/all/?difficulty=Easy
+[M]: https://leetcode.com/problemset/all/?difficulty=Medium
+[H]: https://leetcode.com/problemset/all/?difficulty=Hard
 
 [001-question]: https://leetcode.com/problems/two-sum/description/
 [002-question]: https://leetcode.com/problems/add-two-numbers/description/
@@ -212,6 +205,7 @@
 [121-question]: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
 [122-question]: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/
 [226-question]: https://leetcode.com/problems/invert-binary-tree/
+[504-question]: https://leetcode.com/problems/base-7/description/
 [543-question]: https://leetcode.com/problems/diameter-of-binary-tree/
 [554-question]: https://leetcode.com/problems/brick-wall/description/
 [561-question]: https://leetcode.com/problems/array-partition-i/
@@ -311,6 +305,7 @@
 [121-tips]: ./tips/121/README.md
 [122-tips]: ./tips/122/README.md
 [226-tips]: ./tips/226/README.md
+[504-tips]: ./tips/504/README.md
 [543-tips]: ./tips/543/README.md
 [554-tips]: ./tips/554/README.md
 [561-tips]: ./tips/561/README.md
@@ -494,6 +489,8 @@
 
 [001-kotlin]: ./src/_001/kotlin/Solution.kt
 [002-kotlin]: ./src/_002/kotlin/Solution.kt
+[003-kotlin]: ./src/_003/kotlin/Solution.kt
+[004-kotlin]: ./src/_004/kotlin/Solution.kt
 [007-kotlin]: ./src/_007/kotlin/Solution.kt
 [009-kotlin]: ./src/_009/kotlin/Solution.kt
 [013-kotlin]: ./src/_013/kotlin/Solution.kt
@@ -526,5 +523,6 @@
 [121-kotlin]: ./src/_121/kotlin/Solution.kt
 [122-kotlin]: ./src/_122/kotlin/Solution.kt
 [226-kotlin]: ./src/_226/kotlin/Solution.kt
+[504-kotlin]: ./src/_504/kotlin/Solution.kt
 [543-kotlin]: ./src/_543/kotlin/Solution.kt
 [771-kotlin]: ./src/_771/kotlin/Solution.kt
