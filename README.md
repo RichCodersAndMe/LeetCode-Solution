@@ -57,7 +57,7 @@
 | [030][030-question] | [Substring with Concatenation of All Words][030-tips]        | [Hard][H]   | [✅][030-java] |              |                  |
 | [033][033-question] | [Search in Rotated Sorted Array][033-tips]                   | [Medium][M] | [✅][033-java] |              |                  |
 | [035][035-question] | [Search Insert Position][035-tips]                           | [Easy][E]   | [✅][035-java] | [✅][035-js] | [✅][035-kotlin] |
-| [038][038-question] | [Count and Say][038-tips]                                    | [Easy][E]   | [✅][038-java] |              | [✅][038-kotlin] |
+| [038][038-question] | [Count and Say][038-tips]                                    | [Easy][E]   | [✅][038-java] | [✅][038-js] | [✅][038-kotlin] |
 | [043][043-question] | [Multiply Strings][043-tips]                                 | [Medium][M] | [✅][043-java] |              |                  |
 | [044][044-question] | [Wildcard Matching][044-tips]                                | [Hard][H]   | [✅][044-java] |              |                  |
 | [049][049-question] | [Group Anagrams][049-tips]                                   | [Medium][M] | [✅][049-java] |              |                  |
@@ -355,6 +355,7 @@
 [027-js]: ./src/_027/Solution.js
 [028-js]: ./src/_028/Solution.js
 [035-js]: ./src/_035/Solution.js
+[038-js]: ./src/_038/Solution.js
 [053-js]: ./src/_053/Solution.js
 [226-js]: ./src/_226/Solution.js
 [561-js]: ./src/_561/Solution.js
