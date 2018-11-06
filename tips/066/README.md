@@ -65,6 +65,26 @@ class Solution {
 }
 ```
 
+```javaScript
+var plusOne = function(digits) {
+	len  = digits.length - 1
+    if(digits[len] < 9) {
+        digits[len] = digits[len] + 1
+    } else {
+        while(len > 0 && digits[len] === 9) {
+			digits[len] = 0
+			len--
+		}
+		if(digits[len] === 9) {
+			digits[len] = 0
+			digits.unshift(1)
+		} else {
+			digits[len] = digits[len] + 1
+		}
+    }
+	return digits
+};
+```
 ## 结语
 
 如果你同我们一样热爱数据结构、算法、LeetCode，可以关注我们 GitHub 上的 LeetCode 题解：[LeetCode-Solution][ls]
