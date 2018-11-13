@@ -85,6 +85,7 @@
 | [119][119-question] | [Pascal's Triangle II][119-tips]                             | [Easy][E]   | [✅][119-java] |              | [✅][119-kotlin] |
 | [121][121-question] | [Best Time to Buy and Sell Stock][121-tips]                  | [Easy][E]   | [✅][121-java] |              | [✅][121-kotlin] |
 | [122][122-question] | [Best Time to Buy and Sell Stock II][122-tips]               | [Easy][E]   | [✅][122-java] |              | [✅][122-kotlin] |
+| [125][125-question] | [Valid Palindrome][125-tips]                                 | [Easy][E]   |                |              | [✅][125-kotlin] |
 | [226][226-question] | [Invert Binary Tree][226-tips]                               | [Easy][E]   | [✅][226-java] | [✅][226-js] | [✅][226-kotlin] |
 | [504][504-question] | [Base 7][504-tips]                                           | [Easy][E]   |                |              | [✅][504-kotlin] |
 | [543][543-question] | [Diameter of Binary Tree][543-tips]                          | [Easy][E]   | [✅][543-java] |              | [✅][543-kotlin] |
@@ -204,6 +205,7 @@
 [119-question]: https://leetcode.com/problems/pascals-triangle-ii/
 [121-question]: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
 [122-question]: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/
+[125-question]: https://leetcode.com/problems/valid-palindrome/
 [226-question]: https://leetcode.com/problems/invert-binary-tree/
 [504-question]: https://leetcode.com/problems/base-7/description/
 [543-question]: https://leetcode.com/problems/diameter-of-binary-tree/
@@ -304,6 +306,7 @@
 [119-tips]: ./tips/119/README.md
 [121-tips]: ./tips/121/README.md
 [122-tips]: ./tips/122/README.md
+[125-tips]: ./tips/125/README.md
 [226-tips]: ./tips/226/README.md
 [504-tips]: ./tips/504/README.md
 [543-tips]: ./tips/543/README.md
@@ -525,6 +528,7 @@
 [119-kotlin]: ./src/_119/kotlin/Solution.kt
 [121-kotlin]: ./src/_121/kotlin/Solution.kt
 [122-kotlin]: ./src/_122/kotlin/Solution.kt
+[125-kotlin]: ./src/_125/kotlin/Solution.kt
 [226-kotlin]: ./src/_226/kotlin/Solution.kt
 [504-kotlin]: ./src/_504/kotlin/Solution.kt
 [543-kotlin]: ./src/_543/kotlin/Solution.kt
