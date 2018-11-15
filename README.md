@@ -87,6 +87,7 @@
 | [122][122-question] | [Best Time to Buy and Sell Stock II][122-tips]               | [Easy][E]   | [✅][122-java] |              | [✅][122-kotlin] |
 | [125][125-question] | [Valid Palindrome][125-tips]                                 | [Easy][E]   |                |              | [✅][125-kotlin] |
 | [136][136-question] | [Single Number][136-tips]                                    | [Easy][E]   |                |              | [✅][136-kotlin] |
+| [141][141-question] | [Linked List Cycle][141-tips]                                | [Easy][E]   | [✅][141-java] |              |                  |
 | [226][226-question] | [Invert Binary Tree][226-tips]                               | [Easy][E]   | [✅][226-java] | [✅][226-js] | [✅][226-kotlin] |
 | [504][504-question] | [Base 7][504-tips]                                           | [Easy][E]   |                |              | [✅][504-kotlin] |
 | [543][543-question] | [Diameter of Binary Tree][543-tips]                          | [Easy][E]   | [✅][543-java] |              | [✅][543-kotlin] |
@@ -310,6 +311,7 @@
 [122-tips]: ./tips/122/README.md
 [125-tips]: ./tips/125/README.md
 [136-tips]: ./tips/136/README.md
+[141-tips]: ./tips/141/README.md
 [226-tips]: ./tips/226/README.md
 [504-tips]: ./tips/504/README.md
 [543-tips]: ./tips/543/README.md
@@ -461,6 +463,7 @@
 [119-java]: ./src/_119/Solution.java
 [121-java]: ./src/_121/Solution.java
 [122-java]: ./src/_122/Solution.java
+[141-java]: ./src/_141/Solution.java
 [226-java]: ./src/_226/Solution.java
 [543-java]: ./src/_543/Solution.java
 [554-java]: ./src/_554/Solution.java
