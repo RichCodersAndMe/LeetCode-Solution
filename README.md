@@ -87,8 +87,9 @@
 | [122][122-question] | [Best Time to Buy and Sell Stock II][122-tips]               | [Easy][E]   | [✅][122-java] |              | [✅][122-kotlin] |
 | [125][125-question] | [Valid Palindrome][125-tips]                                 | [Easy][E]   |                |              | [✅][125-kotlin] |
 | [136][136-question] | [Single Number][136-tips]                                    | [Easy][E]   |                |              | [✅][136-kotlin] |
-| [141][141-question] | [Linked List Cycle][141-tips]                                | [Easy][E]   | [✅][141-java] |              |                  |
+| [141][141-question] | [Linked List Cycle][141-tips]                                | [Easy][E]   | [✅][141-java] |              |        -         |
 | [155][155-question] | [Min Stack][155-tips]                                        | [Easy][E]   | [✅][155-java] |              | [✅][155-kotlin] |
+| [160][160-question] | [Intersection of Two Linked Lists][160-tips]                 | [Easy][E]   | [✅][160-java] |              |        -         |
 | [226][226-question] | [Invert Binary Tree][226-tips]                               | [Easy][E]   | [✅][226-java] | [✅][226-js] | [✅][226-kotlin] |
 | [504][504-question] | [Base 7][504-tips]                                           | [Easy][E]   |                |              | [✅][504-kotlin] |
 | [543][543-question] | [Diameter of Binary Tree][543-tips]                          | [Easy][E]   | [✅][543-java] |              | [✅][543-kotlin] |
@@ -212,6 +213,7 @@
 [136-question]: https://leetcode.com/problems/single-number/
 [141-question]: https://leetcode.com/problems/linked-list-cycle/
 [155-question]: https://leetcode.com/problems/min-stack/
+[160-question]: https://leetcode.com/problems/intersection-of-two-linked-lists/
 [226-question]: https://leetcode.com/problems/invert-binary-tree/
 [504-question]: https://leetcode.com/problems/base-7/description/
 [543-question]: https://leetcode.com/problems/diameter-of-binary-tree/
@@ -316,6 +318,7 @@
 [136-tips]: ./tips/136/README.md
 [141-tips]: ./tips/141/README.md
 [155-tips]: ./tips/155/README.md
+[160-tips]: ./tips/160/README.md
 [226-tips]: ./tips/226/README.md
 [504-tips]: ./tips/504/README.md
 [543-tips]: ./tips/543/README.md
@@ -469,6 +472,7 @@
 [122-java]: ./src/_122/Solution.java
 [141-java]: ./src/_141/Solution.java
 [155-java]: ./src/_155/MinStack.java
+[160-java]: ./src/_160/Solution.java
 [226-java]: ./src/_226/Solution.java
 [543-java]: ./src/_543/Solution.java
 [554-java]: ./src/_554/Solution.java
