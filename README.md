@@ -67,7 +67,7 @@
 | [057][057-question] | [Insert Interval][057-tips]                                  | [Hard][H]   | [✅][057-java] |              |                  |
 | [058][058-question] | [Length of Last Word][058-tips]                              | [Easy][E]   | [✅][058-java] | [✅][058-js] | [✅][058-kotlin] |
 | [066][066-question] | [Plus One][066-tips]                                         | [Easy][E]   | [✅][066-java] | [✅][066-js] | [✅][066-kotlin] |
-| [067][067-question] | [Add Binary][067-tips]                                       | [Easy][E]   | [✅][067-java] | [✅][066-js] | [✅][067-kotlin] |
+| [067][067-question] | [Add Binary][067-tips]                                       | [Easy][E]   | [✅][067-java] | [✅][067-js] | [✅][067-kotlin] |
 | [068][068-question] | [Text Justification][068-tips]                               | [Hard][H]   | [✅][068-java] |              |                  |
 | [069][069-question] | [Sqrt(x)][069-tips]                                          | [Easy][E]   | [✅][069-java] |              | [✅][069-kotlin] |
 | [070][070-question] | [Climbing Stairs][070-tips]                                  | [Easy][E]   | [✅][070-java] |              | [✅][070-kotlin] |
