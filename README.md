@@ -69,7 +69,7 @@
 | [066][066-question] | [Plus One][066-tips]                                         | [Easy][E]   | [✅][066-java] | [✅][066-js] | [✅][066-kotlin] |
 | [067][067-question] | [Add Binary][067-tips]                                       | [Easy][E]   | [✅][067-java] | [✅][067-js] | [✅][067-kotlin] |
 | [068][068-question] | [Text Justification][068-tips]                               | [Hard][H]   | [✅][068-java] |              |                  |
-| [069][069-question] | [Sqrt(x)][069-tips]                                          | [Easy][E]   | [✅][069-java] |              | [✅][069-kotlin] |
+| [069][069-question] | [Sqrt(x)][069-tips]                                          | [Easy][E]   | [✅][069-java] | [✅][069-js] | [✅][069-kotlin] |
 | [070][070-question] | [Climbing Stairs][070-tips]                                  | [Easy][E]   | [✅][070-java] |              | [✅][070-kotlin] |
 | [083][083-question] | [Remove Duplicates from Sorted List][083-tips]               | [Easy][E]   | [✅][083-java] |              | [✅][083-kotlin] |
 | [088][088-question] | [Merge Sorted Array][088-tips]                               | [Easy][E]   | [✅][088-java] |              | [✅][088-kotlin] |
@@ -375,6 +375,7 @@
 [058-js]: ./src/_058/Solution.js
 [066-js]: ./src/_066/Solution.js
 [067-js]: ./src/_067/Solution.js
+[069-js]: ./src/_069/Solution.js
 [226-js]: ./src/_226/Solution.js
 [561-js]: ./src/_561/Solution.js
 [643-js]: ./src/_643/Solution.js
