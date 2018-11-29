@@ -71,7 +71,7 @@
 | [068][068-question] | [Text Justification][068-tips]                               | [Hard][H]   | [✅][068-java] |              |                  |
 | [069][069-question] | [Sqrt(x)][069-tips]                                          | [Easy][E]   | [✅][069-java] | [✅][069-js] | [✅][069-kotlin] |
 | [070][070-question] | [Climbing Stairs][070-tips]                                  | [Easy][E]   | [✅][070-java] | [✅][070-js] | [✅][070-kotlin] |
-| [083][083-question] | [Remove Duplicates from Sorted List][083-tips]               | [Easy][E]   | [✅][083-java] |              | [✅][083-kotlin] |
+| [083][083-question] | [Remove Duplicates from Sorted List][083-tips]               | [Easy][E]   | [✅][083-java] | [✅][083-js] | [✅][083-kotlin] |
 | [088][088-question] | [Merge Sorted Array][088-tips]                               | [Easy][E]   | [✅][088-java] |              | [✅][088-kotlin] |
 | [100][100-question] | [Same Tree][100-tips]                                        | [Easy][E]   | [✅][100-java] |              | [✅][100-kotlin] |
 | [101][101-question] | [Symmetric Tree][101-tips]                                   | [Easy][E]   | [✅][101-java] |              | [✅][101-kotlin] |
@@ -377,6 +377,7 @@
 [067-js]: ./src/_067/Solution.js
 [069-js]: ./src/_069/Solution.js
 [070-js]: ./src/_070/Solution.js
+[083-js]: ./src/_083/Solution.js
 [226-js]: ./src/_226/Solution.js
 [561-js]: ./src/_561/Solution.js
 [643-js]: ./src/_643/Solution.js
