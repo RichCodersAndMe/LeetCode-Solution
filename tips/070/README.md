@@ -73,6 +73,24 @@ class Solution {
 }
 ```
 
+```JavaScript
+/**
+ * @param {number} n
+ * @return {number}
+ */
+var climbStairs = function(n) {
+    if(n == 1) {return 1}
+    if(n == 2) {return 2}
+    
+    var step1 = 1, step2 = 2, x;
+    for(var i = 2 ; i < n; i++) {
+        x = step2
+        step2 += step1
+        step1 = x
+    }
+    return step2
+};
+```
 ## 结语
 
 如果你同我们一样热爱数据结构、算法、LeetCode，可以关注我们 GitHub 上的 LeetCode 题解：[LeetCode-Solution][ls]
