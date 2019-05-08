@@ -136,19 +136,14 @@
 
 注: 为方便阐述规范，以下内容以“使用**Java**语言解答**第001题**-**Two Sum**”为例进行说明。
 
-### 目录
-- [本仓库的起源](#本仓库的起源)
-- [文档编写规范](#文档编写规范)
-- [commit信息提交规范](#commit信息提交规范)
-- [添加新语言代码](#添加新语言代码)
-- [其他问题](#其他问题)
-
 ### 本仓库的起源
 为避免误解，以下称[RichCodersAndMe/LeetCode-Solution][lcs]为**本仓库**, 被介绍的仓库称为**此仓库**。
 #### 来源1: [@Blankj][blankj]的[awsome-java-leetcode][ajl]
 **此仓库**由[@Blankj][blankj]于2017年4月18日创建, 不定期更新优质**Java**代码和题解，颇受好评，至今已有star数**3521**颗(star数量以仓库原址为准)。截止**本仓库**建立为止, **此仓库**已累计拥有**63**题已AC的Java代码。
+
 #### 来源2: [@Wang-YS][wys]的[leetcode][lc]
 **此仓库**由[@Wang-YS][wys]于2018年2月28日创建，不定期更新优质**JavaScript**代码，属于个人练习项目。截止**本仓库**建立为止, **此仓库**已累计拥有**33**题已AC的JavaScript代码。
+
 #### 来源3 [@CodeAntStudio][cas]的[LeetCode-Solution][old-lcs]
 **此仓库**由[@Mukyu][Mukyu]、[@Taryn][Taryn]、[@WangXin][wangxin]于2018年3月31日创建，由[@Mukyu][Mukyu]提供**Java**题解，[@Taryn][Taryn]提供**JavaScript**题解，[@WangXin][wangxin]提供**kotlin**题解，属于刚刚萌生想法的而创建的新仓库。截止**本仓库**建立为止, **此仓库**已累计拥有**5**题已AC的Java代码、**2**题已AC的JavaScript代码、**3**题已AC的kotlin代码。
 
