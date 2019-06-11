@@ -74,7 +74,7 @@
 | [083][083-question] | [Remove Duplicates from Sorted List][083-tips]               | [Easy][E]   | [✅][083-java] | [✅][083-js] | [✅][083-kotlin] |
 | [088][088-question] | [Merge Sorted Array][088-tips]                               | [Easy][E]   | [✅][088-java] | [✅][088-js] | [✅][088-kotlin] |
 | [100][100-question] | [Same Tree][100-tips]                                        | [Easy][E]   | [✅][100-java] | [✅][100-js] | [✅][100-kotlin] |
-| [101][101-question] | [Symmetric Tree][101-tips]                                   | [Easy][E]   | [✅][101-java] |              | [✅][101-kotlin] |
+| [101][101-question] | [Symmetric Tree][101-tips]                                   | [Easy][E]   | [✅][101-java] | [✅][101-js] | [✅][101-kotlin] |
 | [104][104-question] | [Maximum Depth of Binary Tree][104-tips]                     | [Easy][E]   | [✅][104-java] |              | [✅][104-kotlin] |
 | [107][107-question] | [Binary Tree Level Order Traversal II][107-tips]             | [Easy][E]   | [✅][107-java] |              | [✅][107-kotlin] |
 | [108][108-question] | [Convert Sorted Array to Binary Search Tree][108-tips]       | [Easy][E]   | [✅][108-java] |              | [✅][108-kotlin] |
@@ -454,6 +454,7 @@ commit信息模板: ``feat: add the solution of `Two Sum`(001) with Java``
 [083-js]: ./src/_083/Solution.js
 [088-js]: ./src/_088/Solution.js
 [100-js]: ./src/_100/Solution.js
+[101-js]: ./src/_101/Solution.js
 [226-js]: ./src/_226/Solution.js
 [561-js]: ./src/_561/Solution.js
 [643-js]: ./src/_643/Solution.js
