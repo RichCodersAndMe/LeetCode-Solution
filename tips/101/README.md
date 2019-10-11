@@ -78,6 +78,19 @@ class Solution {
 }
 ```
 
+
+```javascript
+var isSymmetric = function(root) {
+    if(root == null) return true
+    var x = function(left, right) {
+        if(left == null && right == null) return true
+        if(left == null || right == null) return false
+        if (left.val !== right.val) return false;
+        return x(left.left, right.right) && x(left.right, right.left) 
+    }
+    return x(root.left, root.right)
+};
+```
 ## 思路 1
 
 第二种思路就是宽搜了，宽搜肯定要用到队列，Java 中可用 `LinkedList` 替代，也是要做到左子树的左节点和右子树的右节点，左子树的右节点和右子树的左节点做比较即可。

@@ -119,6 +119,25 @@ class Solution {
 }
 ```
 
+```javascript
+var levelOrderBottom = function(root) {
+    if (root === null) { return []; }
+    let result = [];
+    let queue = [root];
+    while(queue.length > 0) {
+        let size = queue.length;
+        let current = [];
+        for (let i = 0; i < size; i++) {
+            let head = queue.shift();
+            current.push(head.val);
+            if(head.left !== null) { queue.push(head.left); }
+            if(head.right !== null) { queue.push(head.right); }
+        }
+        result.unshift(current);
+    }
+    return result;
+};
+```
 ## 结语
 
 如果你同我们一样热爱数据结构、算法、LeetCode，可以关注我们 GitHub 上的 LeetCode 题解：[LeetCode-Solution][ls]

@@ -44,6 +44,12 @@ class Solution {
 }
 ```
 
+```javascript
+var maxDepth = function(root) {
+    if (root == null) return 0;
+     return 1 + Math.max(maxDepth(root.left), maxDepth(root.right));
+};
+```
 ## 结语
 
 如果你同我们一样热爱数据结构、算法、LeetCode，可以关注我们 GitHub 上的 LeetCode 题解：[LeetCode-Solution][ls]

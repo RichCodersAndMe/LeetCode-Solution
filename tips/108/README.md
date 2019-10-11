@@ -85,6 +85,18 @@ class Solution {
 }
 ```
 
+```javascript
+var sortedArrayToBST = function(nums) {
+  if (nums == null || !nums.length) {
+      return null;
+  }
+  let mid = Math.floor(nums.length / 2)
+  let rootNode = new TreeNode(nums[mid])
+  rootNode.left = sortedArrayToBST(nums.slice(0, mid))
+  rootNode.right = sortedArrayToBST(nums.slice(mid+1))
+  return rootNode
+};
+```
 ## 结语
 
 如果你同我们一样热爱数据结构、算法、LeetCode，可以关注我们 GitHub 上的 LeetCode 题解：[LeetCode-Solution][ls]
