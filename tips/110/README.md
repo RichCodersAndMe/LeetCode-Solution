@@ -59,6 +59,21 @@ class Solution {
 ```
 
 
+```
+var isBalanced = function(root) {
+  if(root == null) return true
+  var treeDeep = function(root) {
+      if(root == null) return 0
+      return 1 + Math.max(treeDeep(root.left),treeDeep(root.right))
+  }
+  leftDeep = treeDeep(root.left)
+  rightDeep = treeDeep(root.right)
+  if(Math.abs(leftDeep - rightDeep) > 1) {
+      return false   
+  }
+  return isBalanced(root.left) && isBalanced(root.right)
+};
+```
 ## 结语
 
 如果你同我们一样热爱数据结构、算法、LeetCode，可以关注我们 GitHub 上的 LeetCode 题解：[LeetCode-Solution][ls]

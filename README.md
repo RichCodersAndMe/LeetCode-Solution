@@ -78,7 +78,7 @@
 | [104][104-question] | [Maximum Depth of Binary Tree][104-tips]                     | [Easy][E]   | [✅][104-java] | [✅][104-js] | [✅][104-kotlin] |
 | [107][107-question] | [Binary Tree Level Order Traversal II][107-tips]             | [Easy][E]   | [✅][107-java] | [✅][107-js] | [✅][107-kotlin] |
 | [108][108-question] | [Convert Sorted Array to Binary Search Tree][108-tips]       | [Easy][E]   | [✅][108-java] | [✅][108-js] | [✅][108-kotlin] |
-| [110][110-question] | [Balanced Binary Tree][110-tips]                             | [Easy][E]   | [✅][110-java] |              | [✅][110-kotlin] |
+| [110][110-question] | [Balanced Binary Tree][110-tips]                             | [Easy][E]   | [✅][110-java] | [✅][110-js] | [✅][110-kotlin] |
 | [111][111-question] | [Minimum Depth of Binary Tree][111-tips]                     | [Easy][E]   | [✅][111-java] |              | [✅][111-kotlin] |
 | [112][112-question] | [Path Sum][112-tips]                                         | [Easy][E]   | [✅][112-java] |              | [✅][112-kotlin] |
 | [118][118-question] | [Pascal's Triangle][118-tips]                                | [Easy][E]   | [✅][118-java] |              | [✅][118-kotlin] |
@@ -458,6 +458,7 @@ commit信息模板: ``feat: add the solution of `Two Sum`(001) with Java``
 [104-js]: ./src/_104/Solution.js
 [107-js]: ./src/_107/Solution.js
 [108-js]: ./src/_108/Solution.js
+[110-js]: ./src/_110/Solution.js
 [226-js]: ./src/_226/Solution.js
 [561-js]: ./src/_561/Solution.js
 [643-js]: ./src/_643/Solution.js
