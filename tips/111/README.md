@@ -48,6 +48,15 @@ class Solution {
 }
 ```
 
+```JavaScript
+var minDepth = function(root) {
+  if(root == null) return 0
+  if(root.left === null && root.right === null) {return 1}
+  if(root.left === null && root.right !== null) {return 1 + minDepth(root.right)}
+  if(root.left !== null && root.right === null) {return 1 + minDepth(root.left)}
+  return 1 + Math.min(minDepth(root.left),minDepth(root.right))
+};
+```
 ## 思路 1
 
 第二种思路就是利用宽搜了，搜索到该层有叶子节点，那就返回该层宽度即可。
