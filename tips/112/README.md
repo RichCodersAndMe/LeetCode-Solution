@@ -58,6 +58,18 @@ class Solution {
 }
 ```
 
+```JavaScript
+var hasPathSum = function(root, sum) {
+  if(root == null) {
+      return false   
+  }
+  if(root.val === sum  && root.left === null && root.right === null) {
+      return true
+  }
+  let sumNext = sum - root.val
+  return hasPathSum(root.left, sumNext) || hasPathSum(root.right, sumNext)
+};
+```
 ## 结语
 
 如果你同我们一样热爱数据结构、算法、LeetCode，可以关注我们 GitHub 上的 LeetCode 题解：[LeetCode-Solution][ls]

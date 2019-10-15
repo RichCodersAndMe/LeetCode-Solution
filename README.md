@@ -80,7 +80,7 @@
 | [108][108-question] | [Convert Sorted Array to Binary Search Tree][108-tips]       | [Easy][E]   | [✅][108-java] | [✅][108-js] | [✅][108-kotlin] |
 | [110][110-question] | [Balanced Binary Tree][110-tips]                             | [Easy][E]   | [✅][110-java] | [✅][110-js] | [✅][110-kotlin] |
 | [111][111-question] | [Minimum Depth of Binary Tree][111-tips]                     | [Easy][E]   | [✅][111-java] | [✅][111-js] | [✅][111-kotlin] |
-| [112][112-question] | [Path Sum][112-tips]                                         | [Easy][E]   | [✅][112-java] |              | [✅][112-kotlin] |
+| [112][112-question] | [Path Sum][112-tips]                                         | [Easy][E]   | [✅][112-java] | [✅][112-js] | [✅][112-kotlin] |
 | [118][118-question] | [Pascal's Triangle][118-tips]                                | [Easy][E]   | [✅][118-java] |              | [✅][118-kotlin] |
 | [119][119-question] | [Pascal's Triangle II][119-tips]                             | [Easy][E]   | [✅][119-java] |              | [✅][119-kotlin] |
 | [121][121-question] | [Best Time to Buy and Sell Stock][121-tips]                  | [Easy][E]   | [✅][121-java] |              | [✅][121-kotlin] |
@@ -460,6 +460,7 @@ commit信息模板: ``feat: add the solution of `Two Sum`(001) with Java``
 [108-js]: ./src/_108/Solution.js
 [110-js]: ./src/_110/Solution.js
 [111-js]: ./src/_111/Solution.js
+[112-js]: ./src/_112/Solution.js
 [226-js]: ./src/_226/Solution.js
 [561-js]: ./src/_561/Solution.js
 [643-js]: ./src/_643/Solution.js
