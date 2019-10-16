@@ -69,6 +69,28 @@ class Solution {
 }
 ```
 
+```JavaScript
+var generate = function(numRows) {
+  let arr = []
+  for(var i = 1; i <= numRows; i++) {
+      if(i === 1) {
+          arr.push([1])
+          continue
+      }
+      if(i === 2) {
+          arr.push([1, 1])
+          continue
+      }
+      let innerArr = [1]
+      for(var j = 2; j < i; j++) {
+          innerArr.push(arr[i-2][j-2] + arr[i-2][j-1])
+      }
+      innerArr.push(1)
+      arr.push(innerArr)
+  }
+  return arr
+};
+```
 ## 结语
 
 如果你同我们一样热爱数据结构、算法、LeetCode，可以关注我们 GitHub 上的 LeetCode 题解：[LeetCode-Solution][ls]
