@@ -59,7 +59,8 @@ class Solution {
 ```
 
 
-```
+JavaScript：
+```JavaScript
 var isBalanced = function(root) {
   if(root == null) return true
   var treeDeep = function(root) {

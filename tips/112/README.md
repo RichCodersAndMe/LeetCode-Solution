@@ -58,6 +58,7 @@ class Solution {
 }
 ```
 
+JavaScript：
 ```JavaScript
 var hasPathSum = function(root, sum) {
   if(root == null) {

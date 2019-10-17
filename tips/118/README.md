@@ -69,6 +69,7 @@ class Solution {
 }
 ```
 
+JavaScript：
 ```JavaScript
 var generate = function(numRows) {
   let arr = []

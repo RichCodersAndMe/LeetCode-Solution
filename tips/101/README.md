@@ -78,7 +78,7 @@ class Solution {
 }
 ```
 
-
+JavaScript：
 ```javascript
 var isSymmetric = function(root) {
     if(root == null) return true

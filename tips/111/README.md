@@ -48,6 +48,7 @@ class Solution {
 }
 ```
 
+JavaScript：
 ```JavaScript
 var minDepth = function(root) {
   if(root == null) return 0

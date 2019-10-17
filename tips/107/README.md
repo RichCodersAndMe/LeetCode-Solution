@@ -119,6 +119,7 @@ class Solution {
 }
 ```
 
+JavaScript：
 ```javascript
 var levelOrderBottom = function(root) {
     if (root === null) { return []; }

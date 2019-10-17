@@ -44,6 +44,7 @@ class Solution {
 }
 ```
 
+JavaScript：
 ```javascript
 var maxDepth = function(root) {
     if (root == null) return 0;
