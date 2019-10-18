@@ -62,6 +62,20 @@ class Solution {
 }
 ```
 
+```JavaScript
+var maxProfit = function(prices) {
+  let finalProfit = 0
+  for(var i = 0; i < prices.length; i++) {
+      for(var j = 0; j < i; j++) {
+          let profit = prices[i] - prices[j]
+          if(profit > finalProfit) {
+              finalProfit = profit
+          }
+      }
+  }
+  return finalProfit
+};
+```
 ## 结语
 
 如果你同我们一样热爱数据结构、算法、LeetCode，可以关注我们 GitHub 上的 LeetCode 题解：[LeetCode-Solution][ls]
