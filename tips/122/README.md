@@ -39,6 +39,17 @@ class Solution {
 }
 ```
 
+JavaScript
+```JavaScript
+var maxProfit = function(prices) {
+    let profit = 0;
+    for (let i = 0; i < prices.length - 1; i++) {
+        const possibleProfit = prices[i + 1] - prices[i];
+        profit = Math.max(profit + possibleProfit, profit);
+    }
+    return profit;
+};
+```
 ## 结语
 
 如果你同我们一样热爱数据结构、算法、LeetCode，可以关注我们 GitHub 上的 LeetCode 题解：[LeetCode-Solution][ls]
