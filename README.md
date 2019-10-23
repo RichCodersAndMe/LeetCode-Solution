@@ -85,7 +85,7 @@
 | [119][119-question] | [Pascal's Triangle II][119-tips]                             | [Easy][E]   | [✅][119-java] | [✅][119-js] | [✅][119-kotlin] |
 | [121][121-question] | [Best Time to Buy and Sell Stock][121-tips]                  | [Easy][E]   | [✅][121-java] | [✅][121-js] | [✅][121-kotlin] |
 | [122][122-question] | [Best Time to Buy and Sell Stock II][122-tips]               | [Easy][E]   | [✅][122-java] | [✅][122-js] | [✅][122-kotlin] |
-| [125][125-question] | [Valid Palindrome][125-tips]                                 | [Easy][E]   |                |              | [✅][125-kotlin] |
+| [125][125-question] | [Valid Palindrome][125-tips]                                 | [Easy][E]   |                | [✅][125-js] | [✅][125-kotlin] |
 | [136][136-question] | [Single Number][136-tips]                                    | [Easy][E]   |                |              | [✅][136-kotlin] |
 | [141][141-question] | [Linked List Cycle][141-tips]                                | [Easy][E]   | [✅][141-java] |              |        -         |
 | [155][155-question] | [Min Stack][155-tips]                                        | [Easy][E]   | [✅][155-java] |              | [✅][155-kotlin] |
@@ -465,6 +465,7 @@ commit信息模板: ``feat: add the solution of `Two Sum`(001) with Java``
 [119-js]: ./src/_119/Solution.js
 [121-js]: ./src/_121/Solution.js
 [122-js]: ./src/_122/Solution.js
+[125-js]: ./src/_125/Solution.js
 [226-js]: ./src/_226/Solution.js
 [561-js]: ./src/_561/Solution.js
 [643-js]: ./src/_643/Solution.js

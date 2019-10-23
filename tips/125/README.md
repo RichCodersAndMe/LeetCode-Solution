@@ -56,6 +56,19 @@ class Solution {
 }
 ```
 
+JavaScript： 
+```JavaScript
+var isPalindrome = function(s) {
+  var str = s.toLowerCase()
+  let str1 = []
+  for(var i = 0; i < str.length; i++) {
+    if(/[a-z0-9]/ig.test(str[i])) {
+        str1.push(str[i])
+    }
+  }
+  return str1.join('') === str1.reverse().join('')
+};
+```
 ## 结语
    
 如果你同我们一样热爱数据结构、算法、LeetCode，可以关注我们 GitHub 上的 LeetCode 题解：[LeetCode-Solution][ls]
