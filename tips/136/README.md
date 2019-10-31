@@ -63,6 +63,19 @@ fun singleNumber(nums: IntArray): Int {
 }
 ```
 
+```JavaScript
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var singleNumber = function(nums) {
+    var x = 0
+    for(let i = 0; i < nums.length; i++) {
+        x = x^nums[i]
+    }
+    return x
+};
+```
 ## 结语
    
 如果你同我们一样热爱数据结构、算法、LeetCode，可以关注我们 GitHub 上的 LeetCode 题解：[LeetCode-Solution][ls]
