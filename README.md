@@ -88,7 +88,7 @@
 | [125][125-question] | [Valid Palindrome][125-tips]                                 | [Easy][E]   |                | [✅][125-js] | [✅][125-kotlin] |
 | [136][136-question] | [Single Number][136-tips]                                    | [Easy][E]   |                | [✅][136-js]  | [✅][136-kotlin] |
 | [141][141-question] | [Linked List Cycle][141-tips]                                | [Easy][E]   | [✅][141-java] |              |        -         |
-| [155][155-question] | [Min Stack][155-tips]                                        | [Easy][E]   | [✅][155-java] |              | [✅][155-kotlin] |
+| [155][155-question] | [Min Stack][155-tips]                                        | [Easy][E]   | [✅][155-java] | [✅][155-js] | [✅][155-kotlin] |
 | [160][160-question] | [Intersection of Two Linked Lists][160-tips]                 | [Easy][E]   | [✅][160-java] |              |        -         |
 | [226][226-question] | [Invert Binary Tree][226-tips]                               | [Easy][E]   | [✅][226-java] | [✅][226-js] | [✅][226-kotlin] |
 | [504][504-question] | [Base 7][504-tips]                                           | [Easy][E]   |                |              | [✅][504-kotlin] |
@@ -467,6 +467,7 @@ commit信息模板: ``feat: add the solution of `Two Sum`(001) with Java``
 [122-js]: ./src/_122/Solution.js
 [125-js]: ./src/_125/Solution.js
 [136-js]: ./src/_136/Solution.js
+[155-js]: ./src/_155/Solution.js
 [226-js]: ./src/_226/Solution.js
 [561-js]: ./src/_561/Solution.js
 [643-js]: ./src/_643/Solution.js
