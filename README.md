@@ -90,6 +90,7 @@
 | [141][141-question] | [Linked List Cycle][141-tips]                                | [Easy][E]   | [✅][141-java] |              |        -         |
 | [155][155-question] | [Min Stack][155-tips]                                        | [Easy][E]   | [✅][155-java] | [✅][155-js] | [✅][155-kotlin] |
 | [160][160-question] | [Intersection of Two Linked Lists][160-tips]                 | [Easy][E]   | [✅][160-java] |              |        -         |
+| [167][167-question] | [Two Sum II - Input array is sorted][167-tips]               | [Easy][E]   |                | [✅][167-js] |        -         |
 | [226][226-question] | [Invert Binary Tree][226-tips]                               | [Easy][E]   | [✅][226-java] | [✅][226-js] | [✅][226-kotlin] |
 | [504][504-question] | [Base 7][504-tips]                                           | [Easy][E]   |                |              | [✅][504-kotlin] |
 | [543][543-question] | [Diameter of Binary Tree][543-tips]                          | [Easy][E]   | [✅][543-java] |              | [✅][543-kotlin] |
@@ -288,6 +289,7 @@ commit信息模板: ``feat: add the solution of `Two Sum`(001) with Java``
 [141-question]: https://leetcode.com/problems/linked-list-cycle/
 [155-question]: https://leetcode.com/problems/min-stack/
 [160-question]: https://leetcode.com/problems/intersection-of-two-linked-lists/
+[167-question]: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 [226-question]: https://leetcode.com/problems/invert-binary-tree/
 [504-question]: https://leetcode.com/problems/base-7/description/
 [543-question]: https://leetcode.com/problems/diameter-of-binary-tree/
@@ -393,6 +395,7 @@ commit信息模板: ``feat: add the solution of `Two Sum`(001) with Java``
 [141-tips]: ./tips/141/README.md
 [155-tips]: ./tips/155/README.md
 [160-tips]: ./tips/160/README.md
+[167-tips]: ./tips/167/README.md
 [226-tips]: ./tips/226/README.md
 [504-tips]: ./tips/504/README.md
 [543-tips]: ./tips/543/README.md
@@ -468,6 +471,7 @@ commit信息模板: ``feat: add the solution of `Two Sum`(001) with Java``
 [125-js]: ./src/_125/Solution.js
 [136-js]: ./src/_136/Solution.js
 [155-js]: ./src/_155/Solution.js
+[167-js]: ./src/_167/Solution.js
 [226-js]: ./src/_226/Solution.js
 [561-js]: ./src/_561/Solution.js
 [643-js]: ./src/_643/Solution.js
