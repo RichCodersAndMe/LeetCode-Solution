@@ -93,6 +93,7 @@
 | [167][167-question] | [Two Sum II - Input array is sorted][167-tips]               | [Easy][E]   |                | [✅][167-js] |        -         |
 | [168][168-question] | [Excel Sheet Column Title][168-tips]                         | [Easy][E]   |                | [✅][168-js] |        -         |
 | [169][169-question] | [Majority Element][169-tips]                                 | [Easy][E]   |                | [✅][169-js] |        -         |
+| [171][171-question] | [excel-sheet-column-number][171-tips]                        | [Easy][E]   |                | [✅][171-js] |        -         |
 | [226][226-question] | [Invert Binary Tree][226-tips]                               | [Easy][E]   | [✅][226-java] | [✅][226-js] | [✅][226-kotlin] |
 | [504][504-question] | [Base 7][504-tips]                                           | [Easy][E]   |                |              | [✅][504-kotlin] |
 | [543][543-question] | [Diameter of Binary Tree][543-tips]                          | [Easy][E]   | [✅][543-java] |              | [✅][543-kotlin] |
@@ -294,6 +295,7 @@ commit信息模板: ``feat: add the solution of `Two Sum`(001) with Java``
 [167-question]: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 [168-question]: https://leetcode.com/problems/excel-sheet-column-title/
 [169-question]: https://leetcode.com/problems/majority-element/
+[171-question]: https://leetcode.com/problems/excel-sheet-column-number/
 [226-question]: https://leetcode.com/problems/invert-binary-tree/
 [504-question]: https://leetcode.com/problems/base-7/description/
 [543-question]: https://leetcode.com/problems/diameter-of-binary-tree/
@@ -402,6 +404,7 @@ commit信息模板: ``feat: add the solution of `Two Sum`(001) with Java``
 [167-tips]: ./tips/167/README.md
 [168-tips]: ./tips/168/README.md
 [169-tips]: ./tips/169/README.md
+[171-tips]: ./tips/171/README.md
 [226-tips]: ./tips/226/README.md
 [504-tips]: ./tips/504/README.md
 [543-tips]: ./tips/543/README.md
@@ -480,6 +483,7 @@ commit信息模板: ``feat: add the solution of `Two Sum`(001) with Java``
 [167-js]: ./src/_167/Solution.js
 [168-js]: ./src/_168/Solution.js
 [169-js]: ./src/_169/Solution.js
+[171-js]: ./src/_171/Solution.js
 [226-js]: ./src/_226/Solution.js
 [561-js]: ./src/_561/Solution.js
 [643-js]: ./src/_643/Solution.js
