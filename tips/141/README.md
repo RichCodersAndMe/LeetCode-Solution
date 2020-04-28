@@ -34,6 +34,23 @@ public class Solution {
 }
 ```
 
+kotlin(168ms/94.74%)
+```kotlin
+class Solution {
+    fun hasCycle(head: ListNode?): Boolean {
+        var slow = head
+        var fast = head
+        while (slow != null && fast!!.next != null) {
+            slow = slow.next
+            fast = fast.next?.next
+            if (fast == null) return false
+            if (slow == fast) return true
+        }
+        return false
+    }
+}
+```
+
 ## 结语
    
 如果你同我们一样热爱数据结构、算法、LeetCode，可以关注我们 GitHub 上的 LeetCode 题解：[LeetCode-Solution][ls]
